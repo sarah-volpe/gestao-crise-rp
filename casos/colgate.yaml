@@ -1,0 +1,80 @@
+# =============================================================================
+# FICHA DO CASO: Colgate Total Clean Mint (2025)
+# Único lugar onde o caso é configurado. Os prompts de coleta e de análise
+# (metodologia/prompts_gerados/) são gerados a partir desta ficha.
+# Datas em horário de Brasília; o `fim` de cada fase É INCLUÍDO.
+# Fases com `opcional: true` só entram com --incluir-opcionais.
+# =============================================================================
+
+caso: colgate
+nome: Colgate Total Clean Mint
+ano: 2025
+prefixo_id: CG
+
+contexto: >-
+  O creme dental Colgate Total Prevenção Ativa Clean Mint substituiu a linha
+  Total 12 em julho de 2024 e passou a acumular relatos de reações adversas
+  (ardência, aftas, inchaço). A Anvisa interditou a venda em março de 2025; a
+  Colgate recorreu, afirmou que não faria recolhimento e manteve o produto à
+  venda enquanto o recurso valia. Depois retirou o recurso, o produto voltou a
+  ser interditado e, em junho, a empresa anunciou o fim da fabricação.
+
+marcos:
+  - {data: "2025-03-27", evento: "Anvisa interdita cautelarmente venda e consumo", fonte: "Mercado & Consumo, 01/05/2025"}
+  - {data: "2025-04-01", evento: "Colgate recorre; interdição fica suspensa durante o recurso; empresa diz que não fará recolhimento", fonte: "Mercado & Consumo, 01/05/2025; Diario de Pernambuco, mar/2025"}
+  - {data: "2025-04-30", evento: "Colgate retira o recurso e a Anvisa volta a interditar o produto", fonte: "Mercado & Consumo, 01/05/2025"}
+  - {data: "2025-06-25", evento: "Colgate anuncia que vai parar de fabricar o Clean Mint", fonte: "Super Varejo, 27/06/2025 (data exata do anúncio a confirmar)"}
+
+fases:
+  - {nome: pre_crise,    inicio: "2025-03-06", fim: "2025-03-19"}
+  - {nome: crise,        inicio: "2025-03-20", fim: "2025-04-10"}
+  - {nome: pos_crise,    inicio: "2025-04-11", fim: "2025-04-24"}
+  - {nome: reinterdicao, inicio: "2025-04-25", fim: "2025-05-08", opcional: true}
+  - {nome: segunda_onda, inicio: "2025-06-18", fim: "2025-07-09", opcional: true}
+
+nota_linha_de_base: >-
+  Atenção: as reclamações sobre o produto começaram em 2024, então a
+  pré-crise (06 a 19/03) não é um período "normal": ela registra os sinais
+  anteriores à decisão da Anvisa. Os relatos de reação adversa desse período
+  devem ser coletados normalmente. Na pós-crise (11 a 24/04) o produto estava
+  à venda por causa do recurso.
+
+busca_principal: >-
+  (Colgate OR @ColgateBrasil) ("creme dental" OR "pasta de dente" OR "pasta de dentes" OR "Clean Mint" OR "Total 12" OR Anvisa OR alergia OR alérgica OR afta OR aftas OR ardência OR boca OR língua OR lábio OR lábios OR gengiva OR inchaço OR interditada OR proibida OR recolhimento) lang:pt -filter:retweets
+
+busca_complementar:
+  query: >-
+    ("Clean Mint" OR "fluoreto estanoso" OR "Colgate Total" OR "Total Prevenção Ativa") lang:pt -filter:retweets
+  fases: [crise, reinterdicao, segunda_onda]
+
+coleta:
+  max_por_dia: 15
+  limite_bruto_por_busca: 300
+  scrolls_por_query: 40
+  scrolls_sem_novidade_max: 4
+  delay_entre_queries: 8.0
+  storage_state_path: "storage_state.json"
+  seed: 2025
+
+classificacao:
+  prompt: "metodologia/prompts_gerados/colgate_analise.md"
+  lote: 50
+  alvo: "à Colgate (marca, produto ou empresa)"
+  sentimentos:
+    negativo: "relata reação ao produto, critica, acusa, expressa medo, decepção ou desconfiança, anuncia troca de marca ou critica a postura da empresa."
+    positivo: "defende ou elogia a marca, diz que usa sem problemas e vai continuar, ou avalia bem alguma atitude da empresa."
+    neutro: "informa sem opinar (compartilha notícia da Anvisa, pergunta qual lote foi afetado) ou menciona de passagem."
+    fora_do_tema: "não fala da marca: spam, promoção, sorteio."
+  eixos:
+    reacao_adversa_saude: "sintomas, alergia, aftas, ardência, inchaço, ida ao médico."
+    anvisa_regulacao: "decisões da Anvisa, interdição, proibição, fiscalização."
+    resposta_da_empresa: "notas, recurso, recusa em recolher, comunicados da Colgate."
+    mudanca_de_formula: "troca da Total 12 pela Clean Mint, ingredientes, fluoreto estanoso."
+    confianca_troca_de_marca: "desconfiança, 'nunca mais compro', mudança para outra marca."
+    atendimento_reembolso: "SAC, troca, reembolso, devolução."
+    humor_meme: "piada ou meme sem assunto identificável entre os demais eixos."
+    outro: "nenhum dos anteriores."
+  exemplo_ironia: '"que delícia escovar os dentes e ganhar três aftas de brinde" é negativo, eixo reacao_adversa_saude, ironia sim'
+  regras_especificas:
+    - "Relato de sintoma em primeira pessoa é negativo, mesmo sem palavras de crítica."
+    - 'Pergunta com tom preocupado ("será que minha afta é da Colgate?") é negativo com confiança "media"; pergunta puramente informativa é neutro.'

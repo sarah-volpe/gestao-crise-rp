@@ -1,0 +1,117 @@
+# ---------------------------------------------------------------------------
+# Tópico: campanha American Eagle com Sydney Sweeney ("Sydney Sweeney Has
+# Great Jeans"), lançada em 23/07/2025 — trocadilho jeans/genes lido por
+# críticos como subtexto eugenista/supremacista, viralizou como controvérsia
+# política depois que Trump elogiou o anúncio (~04/08), ação da AEO subiu
+# 23% no dia, e a marca "dobrou a aposta" mantendo a campanha (~07/08).
+#
+# Datas e fatos abaixo verificados via busca (Britannica, NBC News, Forbes,
+# Axios, Fox Business — set/2026). Ainda assim, revise os termos de busca
+# antes de uma coleta grande: eu não testei se essas queries de fato trazem
+# volume bom no X/Reddit, só desenhei com base na cobertura jornalística.
+# ---------------------------------------------------------------------------
+
+topico: "american_eagle_sydney_sweeney"
+idioma_predominante: "en"    # conteúdo majoritariamente em inglês; pouca discussão em pt-br
+descricao: >
+  American Eagle ad campaign starring actress Sydney Sweeney ("Sydney
+  Sweeney Has Great Jeans"), launched July 23, 2025. The ad's genes/jeans
+  wordplay ("Genes are passed down from parents to offspring... my jeans
+  are blue") drew accusations of eugenics-adjacent and white-supremacy
+  undertones. Went fully political after Donald Trump praised the ad on
+  Truth Social (~Aug 4), AEO stock jumping 23% that day; the White House
+  called the backlash "cancel culture run amok." American Eagle kept the
+  campaign running and issued a statement that it was "always about the
+  jeans." Longer term, foot traffic and stock underperformed despite the
+  initial bump.
+
+periodo:
+  since: "2025-07-20"      # inclusivo — poucos dias antes do lançamento (23/07), pega teasers
+  until: "2025-11-15"      # EXCLUSIVO — cobre a fala pública da Sweeney sobre o caso em nov/2025
+  # janela grande (~4 meses): ok pro Reddit (não sofre o mesmo custo), mas no X com
+  # fatiar_por_dia isso gera muitas queries. Se for rodar twitter, considere
+  # estreitar pra 2025-07-20..2025-08-20 primeiro (lançamento + pico Trump/ação).
+
+fontes:
+  twitter:
+    ativo: false            # revise as queries abaixo antes de ligar
+    metodo: "scrape"
+    product: "Latest"
+    lang: null              # sem filtro: conteúdo é majoritariamente inglês, mas sem travar nisso
+    limit_por_query: 200
+    fatiar_por_dia: true
+    delay_entre_queries: 7.0
+    scrolls_por_query: 12
+    scrolls_sem_novidade_max: 4
+    storage_state_path: "storage_state.json"
+
+    marca:
+      termos:
+        - '"sydney sweeney" "american eagle"'
+        - '"has great jeans"'
+        - '"great jeans" sweeney'
+        - '"good genes" sweeney'
+        - "#SydneySweeney american eagle"
+
+    modificadores:
+      - '"eugenics" OR "eugenia"'
+      - '"nazi" OR "white supremacy" OR "supremacia branca"'
+      - '"genes" OR "genetics" OR "genética" OR "dna"'
+      - '"trump" OR "white house" OR "casa branca" OR "cheung"'
+      - '"boycott" OR "boicote" OR "cancel culture"'
+      - '"stock" OR "shares" OR "AEO" OR "ações"'
+      - '"statement" OR "always about the jeans" OR "nota oficial"'
+
+    queries_livres:
+      - '"sydney sweeney has great jeans"'
+      - '"great jeans" OR "good genes"'
+      - '"hottest ad" sweeney'
+
+  reddit:
+    ativo: true              # só falta REDDIT_CLIENT_ID/SECRET no ambiente — ver README
+    subreddits: ["all", "marketing", "advertising", "brasil"]
+    ordenacao: "new"
+    janela_top: "all"
+    limit_por_busca: 300
+    comentarios_por_post: 20
+    user_agent: "tcc-crise-monitor/0.1 (american_eagle_sydney_sweeney)"
+    termos_busca:
+      - '"sydney sweeney" "american eagle"'
+      - '"has great jeans"'
+      - '"good genes" sweeney'
+      - "american eagle eugenics"
+
+analise:
+  marca_regex: '(sydney\s*sweeney|american\s*eagle|\baeo\b|great\s*jeans|good\s*genes|has great jeans)'
+  # eixos temáticos, na ordem em que o primeiro que casar vira o principal.
+  eixos:
+    - [eugenia_genetica, 'eugenic|eugenia|genetic|\bgenes\b|\bdna\b']
+    - [padrao_beleza_racial, 'white heritage|supremacia branca|white supremacy|thin physique|blonde|loira|blue eyes|olhos azuis|beauty standard|padrao de beleza']
+    - [nazismo_extremismo, 'nazi|nazista|hitler|aryan|arian|fascis']
+    - [marketing_publicidade, 'ad campaign|campanha|propaganda|advertis|marketing|slogan|tagline|commercial']
+    - [politica, 'trump|white house|casa branca|maga|cheung|political|politic']
+    - [boicote_cancelamento, 'boycott|boicot|cancel|nunca mais|never buying|stop buying|deixei de comprar']
+    - [resposta_marca, 'statement|nota oficial|pronunciament|always about the jeans|response|responded|spokesperson|\bceo\b']
+    - [acoes_mercado, 'stock|shares|a[cç][oõ]es|\baeo\b|nyse|nasdaq|market cap|investor|wall street|23%|foot traffic']
+
+relevancia:
+  exigir_marca: false
+  descartar_retweets: true
+
+sentimento:
+  # o léxico em src/sentiment.py é PT-BR e não cobre inglês — use llm para
+  # este tópico. "lexicon"/"transformer" aqui vão classificar mal os posts
+  # em inglês. Ver src/sentiment_llm.py.
+  metodo: "llm"
+  llm_provider: "zai"        # "zai" (grátis, GLM, rate-limited) ou "anthropic" (pago, mais preciso)
+  modelo_llm: "glm-4.5-flash" # null = usa o padrão do provider (glm-4.5-flash / claude-opus-5)
+  lote_llm: 50               # testado: o free tier do zai rejeita (HTTP 429) qualquer chamada
+                              # concorrente — é rate limit por CONTA, não por latência/token.
+                              # único jeito de reduzir tempo total é diminuir o Nº de chamadas
+                              # sequenciais aumentando o lote (203 chamadas com lote=15 -> ~61
+                              # com lote=50)
+  concorrencia_llm: 1        # NÃO subir — testado com 4 e 100% dos lotes caíram em 429
+  limiar: 0.12
+
+saida:
+  basename: "american_eagle_sydney_sweeney"

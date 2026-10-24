@@ -1,0 +1,25 @@
+data/raw/
+data/processed/
+accounts.txt
+accounts.db
+*.db
+__pycache__/
+.venv/
+storage_state.json
+manual_posts.csv
+debug/
+credentials.local.json
+data/privado/
+
+
+# --- TCC: o que NÃO vai para o repositório público ---
+# textos integrais permitem reidentificar autores por busca no X
+dados/*/*_posts.csv
+dados/*/classificacao/
+dados/*/validacao/*.xlsx
+dados/*/validacao/*_divergencias.csv
+
+# --- local, não versionar ---
+_to_delete/
+.claude/
+logs_*.txt

@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------------------
+# Coleta de dados - Crise da xícara | Tânia Bulhões
+# ---------------------------------------------------------------------------
+
+periodo:
+  since: "2025-01-01"      # inclusivo
+  until: "2025-05-01"      # EXCLUSIVO (o operador until: do X não inclui o dia)
+
+coleta:
+  metodo: "scrape"          # "scrape" (Playwright na busca pública, sem violar ToS) ou "twscrape" (contas logadas, viola ToS)
+  product: "Latest"        # "Latest" (cronológico, melhor recall) ou "Top" — só usado pelo twscrape
+  lang: null               # null = sem filtro. "pt" reduz ruído mas descarta posts sem lang detectado
+  limit_por_query: 200     # teto de posts por query. twscrape aguenta milhares; scrape realista fica na casa das centenas
+  fatiar_por_dia: true     # 1 busca por dia por grupo -> recall muito maior em dados históricos
+  delay_entre_queries: 7.0 # segundos entre queries (scrape: evita bloqueio; twscrape: evita queimar as contas)
+  raw_dir: "data/raw"
+
+  # --- só para metodo: scrape ---
+  scrolls_por_query: 12          # tentativas de scroll por query antes de desistir
+  scrolls_sem_novidade_max: 4    # para de rolar se N scrolls seguidos não trouxerem post novo
+  storage_state_path: "storage_state.json" # gerado por create_session.py com a conta descartável
+
+# Grupos de busca. Cada grupo vira uma query do X.
+# `brand` = termos da marca (usados sozinhos e combinados com os modificadores).
+marca:
+  termos:
+    - '"tania bulhoes"'
+    - '"tânia bulhões"'
+    - '"tania bulhões"'
+    - '"tânia bulhoes"'
+    - "taniabulhoes"
+    - "@taniabulhoes"
+
+# Combinados com a marca: (marca) AND (modificador)
+# Servem para garantir recall em threads longas e para achar posts que o
+# fatiamento por dia da query ampla eventualmente perca.
+modificadores:
+  - '"tailândia" OR "tailandia" OR "made in thailand"'
+  - '"terceirização" OR "terceirizado" OR "terceirizada" OR "fabricante"'
+  - '"porcelana" OR "xícara" OR "xicara" OR "louça" OR "louca"'
+  - '"propaganda enganosa" OR "mentira" OR "fake" OR "enganação"'
+  - '"boicote" OR "cancelada" OR "procon" OR "processo"'
+  - '"preço" OR "caro" OR "superfaturado" OR "markup"'
+
+# Queries que rodam soltas, sem exigir o nome da marca no mesmo post
+queries_livres:
+  - '"crise da xicara" OR "crise da xícara"'
+  - '"xicara de 1500" OR "xícara de 1500" OR "xicara 1.500"'
+
+relevancia:
+  # Se true, descarta posts das queries_livres que não citem a marca em lugar
+  # nenhum. Deixe false na primeira rodada para inspecionar o que vem.
+  exigir_marca: false
+  descartar_retweets: true   # RT puro duplica texto e distorce a contagem de sentimento
+
+sentimento:
+  metodo: "lexicon"          # auto | lexicon | transformer | llm — fixado em lexicon (ver validação em data/processed/*_amostra_validacao.csv)
+  modelo_llm: "claude-opus-5"
+  lote_llm: 15               # posts por chamada de API
+  limiar: 0.12               # |score| abaixo disso -> neutro (só para o lexicon)
+
+saida:
+  dir: "data/processed"
+  basename: "tb_crise_xicara_fev2025"

@@ -1,0 +1,94 @@
+# ---------------------------------------------------------------------------
+# Tópico: crise da xícara — Tânia Bulhões (fev/2025)
+# Porcelana vendida a preço de luxo, fabricada por terceiros na Tailândia;
+# repercussão sobre preço, origem de fabricação e comunicação da marca.
+# ---------------------------------------------------------------------------
+
+topico: "tania_bulhoes"
+idioma_predominante: "pt"
+descricao: >
+  Crise da xícara — Tânia Bulhões (fev/2025): marca brasileira de casa e
+  beleza acusada de vender porcelana a preço de luxo fabricada por
+  terceiros na Tailândia, gerando acusações de propaganda enganosa e
+  superfaturamento.
+
+periodo:
+  since: "2025-01-01"      # inclusivo
+  until: "2025-05-01"      # EXCLUSIVO
+
+fontes:
+  twitter:
+    ativo: true
+    metodo: "scrape"          # "scrape" (Playwright na busca pública, sem violar ToS) ou "twscrape" (contas logadas, viola ToS)
+    product: "Latest"
+    lang: null
+    limit_por_query: 200
+    fatiar_por_dia: true
+    delay_entre_queries: 7.0
+    scrolls_por_query: 12
+    scrolls_sem_novidade_max: 4
+    storage_state_path: "storage_state.json"
+
+    marca:
+      termos:
+        - '"tania bulhoes"'
+        - '"tânia bulhões"'
+        - '"tania bulhões"'
+        - '"tânia bulhoes"'
+        - "taniabulhoes"
+        - "@taniabulhoes"
+
+    modificadores:
+      - '"tailândia" OR "tailandia" OR "made in thailand"'
+      - '"terceirização" OR "terceirizado" OR "terceirizada" OR "fabricante"'
+      - '"porcelana" OR "xícara" OR "xicara" OR "louça" OR "louca"'
+      - '"propaganda enganosa" OR "mentira" OR "fake" OR "enganação"'
+      - '"boicote" OR "cancelada" OR "procon" OR "processo"'
+      - '"preço" OR "caro" OR "superfaturado" OR "markup"'
+
+    queries_livres:
+      - '"crise da xicara" OR "crise da xícara"'
+      - '"xicara de 1500" OR "xícara de 1500" OR "xicara 1.500"'
+
+  reddit:
+    ativo: false             # ligue depois de configurar REDDIT_CLIENT_ID/SECRET — ver README
+    subreddits: ["brasil", "desabafos", "all"]
+    ordenacao: "new"         # new | relevance | top | comments
+    janela_top: "all"        # só usado se ordenacao=top: hour|day|week|month|year|all
+    limit_por_busca: 300
+    comentarios_por_post: 20 # top N comentários por post encontrado, por score
+    user_agent: "tcc-crise-monitor/0.1 (tania_bulhoes)"
+    termos_busca:
+      - '"tania bulhoes"'
+      - '"tânia bulhões"'
+      - '"crise da xicara"'
+      - '"crise da xícara"'
+
+analise:
+  # regex usada para a coluna cita_marca (menção explícita à marca no texto,
+  # já sem acento/minúsculo — ver strip_accents em sentiment.py)
+  marca_regex: '(tania\s*bulhoes|taniabulhoes|t\.?\s*bulhoes|\btb\b\s*(cosmet|casa|beauty))'
+  # eixos temáticos da crise. Ordem importa: o primeiro que casar no texto
+  # (já normalizado) vira o eixo_principal do post.
+  eixos:
+    - [origem_fabricacao, 'tailand|made in|china|importad|fabricad|fabricant|terceiriz|produzid|oem|nacional|brasileir|origem']
+    - [preco_valor, '\bpreco\b|\bcaro\b|carissim|superfatur|markup|mil reais|r\$|1\.?500|custa|valor|margem']
+    - [comunicacao_marca, 'nota oficial|se pronunci|pronunciament|posicionament|apagou|deletou|comentario|resposta da marca|assessoria|propaganda engan|publicidade']
+    - [qualidade_produto, 'porcelana|xicara|louca|prato|qualidade|defeito|quebr|acabamento']
+    - [legal_consumidor, 'procon|cdc|codigo de defesa|processo|acao judicial|denunci|ministerio publico|justica']
+    - [boicote_cancelamento, 'boicot|cancel|nunca mais|deixei de comprar|desisti']
+
+relevancia:
+  # Se true, descarta posts das queries_livres que não citem a marca em lugar
+  # nenhum. Deixe false na primeira rodada para inspecionar o que vem.
+  exigir_marca: false
+  descartar_retweets: true   # RT puro duplica texto e distorce a contagem de sentimento
+
+sentimento:
+  metodo: "lexicon"          # léxico PT-BR já validado (63,3% de acerto, ver data/processed/twitter/tania_bulhoes)
+  modelo_llm: "claude-opus-5"
+  lote_llm: 15
+  limiar: 0.12
+
+saida:
+  basename: "tania_bulhoes"

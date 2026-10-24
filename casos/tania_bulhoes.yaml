@@ -1,0 +1,70 @@
+# =============================================================================
+# FICHA DO CASO: Tânia Bulhões (2025)
+# Único lugar onde o caso é configurado. Os prompts de coleta e de análise
+# (metodologia/prompts_gerados/) são gerados a partir desta ficha.
+# Datas em horário de Brasília; o `fim` de cada fase É INCLUÍDO.
+# =============================================================================
+
+caso: tania_bulhoes
+nome: Tânia Bulhões
+ano: 2025
+prefixo_id: TB
+
+contexto: >-
+  Uma influenciadora mostrou no TikTok uma xícara idêntica à da coleção
+  Marquesa, da Tânia Bulhões, sendo usada num café simples na Tailândia. O
+  vídeo gerou questionamentos sobre a origem de fabricação, o preço e a
+  autenticidade das porcelanas da marca. A marca se pronunciou, descontinuou
+  coleções e ofereceu troca ou devolução aos clientes.
+
+marcos:
+  - {data: "2025-02-04", evento: "Marca fala em medidas jurídicas", fonte: "A CONFIRMAR: localizar nota ou matéria com a data"}
+  - {data: "2025-02-07", evento: "Marca anuncia no Instagram a descontinuação de coleções", fonte: "O Povo, 12/02/2025"}
+  - {data: "2025-02-12", evento: "Imprensa noticia oferta de troca ou devolução das porcelanas", fonte: "O Povo, 12/02/2025"}
+
+fases:
+  - {nome: pre_crise, inicio: "2025-01-15", fim: "2025-01-28"}
+  - {nome: crise,     inicio: "2025-01-29", fim: "2025-02-14"}
+  - {nome: pos_crise, inicio: "2025-02-15", fim: "2025-02-28"}
+
+nota_linha_de_base: >-
+  A pré-crise (15 a 28/01) é a linha de base: mostra como se falava da marca
+  antes da repercussão do vídeo.
+
+busca_principal: >-
+  ("Tânia Bulhões" OR "Tania Bulhões" OR "Tânia Bulhoes" OR "Tania Bulhoes" OR taniabulhoes OR @taniabulhoes) lang:pt -filter:retweets
+
+busca_complementar:
+  query: >-
+    ("xícara Marquesa" OR "xicara marquesa" OR "xícara da Tailândia" OR "xicara da tailandia" OR "crise da xícara" OR "crise da xicara" OR "porcelana Tânia") lang:pt -filter:retweets
+  fases: [crise]
+
+coleta:
+  max_por_dia: 15
+  limite_bruto_por_busca: 300
+  scrolls_por_query: 40
+  scrolls_sem_novidade_max: 4
+  delay_entre_queries: 8.0
+  storage_state_path: "storage_state.json"
+  seed: 2025
+
+classificacao:
+  prompt: "metodologia/prompts_gerados/tania_bulhoes_analise.md"
+  lote: 50
+  alvo: "à marca Tânia Bulhões (empresa, produtos, preços, respostas oficiais e a fundadora enquanto representante da marca)"
+  sentimentos:
+    negativo: "critica, ironiza, ridiculariza, acusa ou expressa decepção com a marca, os produtos, os preços ou a resposta dela. Memes que zombam da marca são negativos."
+    positivo: "defende ou elogia a marca, declara intenção de continuar comprando ou avalia bem a resposta da marca."
+    neutro: "informa sem opinar (compartilha notícia, pergunta, descreve o caso) ou menciona a marca de passagem."
+    fora_do_tema: "não fala da marca: spam, homônimo, propaganda ou loja revendendo produto sem opinião."
+  eixos:
+    origem_fabricacao: "onde e por quem as peças são fabricadas (Tailândia, China, terceirização, 'made in')."
+    preco_valor: "preço, margem, se vale ou não o que custa."
+    autenticidade_fraude: "se a marca enganou, se o produto é 'original', propaganda enganosa, cópia."
+    resposta_da_marca: "notas, posicionamentos, medidas jurídicas, descontinuação, troca ou devolução."
+    historico_da_fundadora: "trajetória da fundadora ou da empresa."
+    humor_meme: "piada ou meme sem assunto identificável entre os demais eixos."
+    luxo_e_classe_social: "status, ostentação, consumo de luxo, 'rico pagando caro'."
+    outro: "nenhum dos anteriores."
+  exemplo_ironia: '"amei pagar R$ 200 numa xícara da Tailândia" é negativo, eixo preco_valor, ironia sim'
+  regras_especificas: []

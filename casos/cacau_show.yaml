@@ -1,0 +1,75 @@
+# =============================================================================
+# FICHA DO CASO: Cacau Show (2025)
+# Único lugar onde o caso é configurado. Os prompts de coleta e de análise
+# (metodologia/prompts_gerados/) são gerados a partir desta ficha.
+# Datas em horário de Brasília; o `fim` de cada fase É INCLUÍDO.
+# =============================================================================
+
+caso: cacau_show
+nome: Cacau Show
+ano: 2025
+prefixo_id: CS
+
+contexto: >-
+  Franqueados e ex-funcionários fizeram denúncias contra a Cacau Show
+  (assédio, pressão sobre franqueados e "rituais" corporativos apelidados de
+  "seita da Cacau Show"), reunidas pelo perfil "A Doce Amargura" e publicadas
+  pelo Metrópoles. A marca divulgou comunicado, o CEO Alê Costa apareceu no
+  MasterChef no dia seguinte e o caso chegou ao Ministério Público do
+  Trabalho.
+
+marcos:
+  - {data: "2025-05-29", evento: "Metrópoles publica as denúncias reunidas pelo perfil A Doce Amargura", fonte: "A CONFIRMAR: link da reportagem"}
+  - {data: "2025-06-02", evento: "Cacau Show divulga comunicado e explica os 'rituais'", fonte: "IstoÉ Dinheiro, 02/06/2025"}
+  - {data: "2025-06-03", evento: "CEO Alê Costa aparece no MasterChef", fonte: "Diário do Pará, jun/2025"}
+  - {data: "", evento: "Caso chega ao Ministério Público do Trabalho", fonte: "A CONFIRMAR: data e fonte"}
+
+fases:
+  - {nome: pre_crise, inicio: "2025-05-12", fim: "2025-05-25"}
+  - {nome: crise,     inicio: "2025-05-26", fim: "2025-06-12"}
+  - {nome: pos_crise, inicio: "2025-06-13", fim: "2025-06-26"}
+
+nota_linha_de_base: >-
+  A pré-crise (12 a 25/05) é a linha de base. Atenção à sazonalidade: ela
+  começa no dia seguinte ao Dia das Mães (11/05/2025), data forte para
+  chocolates; promoções e sorteios do período tendem a cair em fora_do_tema.
+
+busca_principal: >-
+  ("Cacau Show" OR cacaushow OR @cacaushow OR "Alê Costa" OR "Ale Costa") lang:pt -filter:retweets
+
+busca_complementar:
+  query: >-
+    ("Doce Amargura" OR "seita da Cacau" OR "ritual do cacau" OR "rituais da Cacau" OR "franqueados Cacau" OR "boicote Cacau") lang:pt -filter:retweets
+  fases: [crise]
+
+coleta:
+  max_por_dia: 15
+  limite_bruto_por_busca: 300
+  scrolls_por_query: 40
+  scrolls_sem_novidade_max: 4
+  delay_entre_queries: 8.0
+  storage_state_path: "storage_state.json"
+  seed: 2025
+
+classificacao:
+  prompt: "metodologia/prompts_gerados/cacau_show_analise.md"
+  lote: 50
+  alvo: "à Cacau Show (marca, empresa ou o CEO Alê Costa enquanto representante da empresa)"
+  sentimentos:
+    negativo: "critica, acusa, ironiza, chama de 'seita', anuncia boicote, expressa indignação ou decepção com a empresa ou com a resposta dela."
+    positivo: "defende a empresa, desacredita as denúncias, elogia produtos ou o CEO, ou declara que vai continuar comprando."
+    neutro: "informa sem opinar (compartilha notícia, pergunta o que aconteceu) ou menciona de passagem."
+    fora_do_tema: "não fala da marca: spam, promoção, sorteio, golpe de 'promoção falsa'."
+  eixos:
+    condicoes_de_trabalho_assedio: "assédio, jornada, tratamento de funcionários."
+    relacao_com_franqueados: "pressão comercial, metas, prejuízo e contratos de franqueados."
+    seita_rituais: "'seita', 'rituais', práticas motivacionais da empresa."
+    resposta_da_empresa_ceo: "comunicado da marca, falas e postura do CEO sobre o caso."
+    boicote_consumo: "parar ou continuar comprando, boicote."
+    exposicao_midiatica_masterchef: "participação do CEO no MasterChef e outras aparições na mídia."
+    defesa_da_marca: "críticas a quem denunciou, sem crítica à marca."
+    humor_meme: "piada ou meme sem assunto identificável entre os demais eixos."
+    outro: "nenhum dos anteriores."
+  exemplo_ironia: '"vou ali comprar um ovo abençoado" é negativo, eixo seita_rituais, ironia sim'
+  regras_especificas:
+    - "Críticas a quem fez as denúncias, sem crítica à marca, são positivas para a marca (eixo defesa_da_marca)."

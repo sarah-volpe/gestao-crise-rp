@@ -1,0 +1,23 @@
+# --- núcleo (obrigatório) ---
+playwright>=1.44.0        # coleta padrão no X: scraping da busca pública (sem violar ToS)
+praw>=7.7.0                # coleta no Reddit: API oficial, gratuita, sem risco de ToS
+pandas>=2.2.0
+PyYAML>=6.0
+openpyxl>=3.1.0           # export .xlsx
+matplotlib>=3.8.0         # gráfico da 1a entrega (exportar_entrega.py)
+
+# depois de instalar, baixe o navegador do Playwright:
+#   python -m playwright install chromium
+
+# --- opcional: coleta alternativa via twscrape (contas logadas, viola ToS do X) ---
+# só necessário se fontes.twitter.metodo: "twscrape" no config do tópico. Ver README.
+# twscrape>=0.13.0
+
+# --- opcional: sentimento com transformer PT-BR (mais preciso em PT, ~2GB de download) ---
+# pysentimiento>=0.7.3
+# torch>=2.2.0
+
+# --- sentimento via LLM (necessário para tópicos majoritariamente em inglês, ---
+# --- como american_eagle_sydney_sweeney — o léxico é só PT-BR). Escolha um: ---
+# openai>=1.0.0             # sentimento.llm_provider: "zai" — grátis (GLM), rate-limited
+# anthropic>=1.0.0          # sentimento.llm_provider: "anthropic" — pago, mais preciso

@@ -1,0 +1,34 @@
+# Config de demonstração: roda a etapa `process` sobre posts sintéticos em
+# demo/raw/, sem precisar de contas do X. Serve para validar o formato da tabela.
+periodo:
+  since: "2025-02-01"
+  until: "2025-03-01"
+
+coleta:
+  metodo: "scrape"
+  raw_dir: "demo/raw"
+  product: "Latest"
+  lang: null
+  limit_por_query: 100
+  fatiar_por_dia: false
+  delay_entre_queries: 1.0
+  scrolls_por_query: 12
+  scrolls_sem_novidade_max: 4
+  storage_state_path: null
+
+marca:
+  termos: ['"tania bulhoes"', '"tânia bulhões"']
+modificadores: []
+queries_livres: []
+
+relevancia:
+  exigir_marca: false
+  descartar_retweets: true
+
+sentimento:
+  metodo: "lexicon"
+  limiar: 0.12
+
+saida:
+  dir: "demo/processed"
+  basename: "demo_tb_crise"
