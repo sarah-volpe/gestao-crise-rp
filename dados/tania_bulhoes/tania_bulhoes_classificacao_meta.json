@@ -1,0 +1,69 @@
+{
+  "caso": "tania_bulhoes",
+  "provider": "manual",
+  "modelo": "claude-opus-5-5_provisorio",
+  "prompt": "metodologia/prompts_gerados/tania_bulhoes_analise.md",
+  "prompt_sha256": "e8c772416b6ea0ea2905ac3b64b11145ee6fae41b9ee222dac209314541e58f7",
+  "tamanho_lote": 50,
+  "semente_embaralhamento": 2025,
+  "posts": 214,
+  "classificados": 214,
+  "sem_classificacao": 0,
+  "classificados_em_retentativa": 0,
+  "justificativas_acima_de_15_palavras": 0,
+  "distribuicao_sentimento": {
+    "neutro": 109,
+    "negativo": 83,
+    "positivo": 20,
+    "fora_do_tema": 2
+  },
+  "distribuicao_eixo": {
+    "outro": 69,
+    "preco_valor": 35,
+    "luxo_e_classe_social": 32,
+    "humor_meme": 31,
+    "autenticidade_fraude": 20,
+    "origem_fabricacao": 12,
+    "resposta_da_marca": 10,
+    "historico_da_fundadora": 5
+  },
+  "primeira_classificacao": "2026-10-24T17:34:20+00:00",
+  "ultima_classificacao": "2026-10-24T17:34:20+00:00",
+  "lotes_desta_execucao": [
+    {
+      "lote": "t0_lote001",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote002",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote003",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote004",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote005",
+      "posts": 14,
+      "validos": 14,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    }
+  ]
+}

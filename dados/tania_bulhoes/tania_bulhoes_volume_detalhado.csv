@@ -1,0 +1,46 @@
+﻿data;fase;volume_principal;volume_complementar;amostra_principal;amostra_complementar;limite_atingido;buscas_feitas
+2025-01-15;pre_crise;0;;0;;False;principal:2/2
+2025-01-16;pre_crise;21;;15;;False;principal:2/2
+2025-01-17;pre_crise;12;;12;;False;principal:2/2
+2025-01-18;pre_crise;3;;3;;False;principal:2/2
+2025-01-19;pre_crise;1;;1;;False;principal:2/2
+2025-01-20;pre_crise;1;;1;;False;principal:2/2
+2025-01-21;pre_crise;2;;2;;False;principal:2/2
+2025-01-22;pre_crise;3;;3;;False;principal:2/2
+2025-01-23;pre_crise;0;;0;;False;principal:2/2
+2025-01-24;pre_crise;0;;0;;False;principal:2/2
+2025-01-25;pre_crise;0;;0;;False;principal:2/2
+2025-01-26;pre_crise;2;;2;;False;principal:2/2
+2025-01-27;pre_crise;0;;0;;False;principal:2/2
+2025-01-28;pre_crise;6;;6;;False;principal:2/2
+2025-01-29;crise;4;0;4;0;False;principal:2/2 complementar:0/2
+2025-01-30;crise;1;0;1;0;False;principal:2/2 complementar:0/2
+2025-01-31;crise;0;0;0;0;False;principal:2/2 complementar:0/2
+2025-02-01;crise;1;0;1;0;False;principal:2/2 complementar:0/2
+2025-02-02;crise;3;0;3;0;False;principal:2/2 complementar:0/2
+2025-02-03;crise;3;0;3;0;False;principal:2/2 complementar:0/2
+2025-02-04;crise;6;0;6;0;False;principal:2/2 complementar:0/2
+2025-02-05;crise;13;0;13;0;False;principal:2/2 complementar:0/2
+2025-02-06;crise;9;0;9;0;False;principal:2/2 complementar:0/2
+2025-02-07;crise;18;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-08;crise;40;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-09;crise;48;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-10;crise;20;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-11;crise;93;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-12;crise;74;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-13;crise;46;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-14;crise;29;0;15;0;False;principal:2/2 complementar:0/2
+2025-02-15;pos_crise;9;;9;;False;principal:2/2
+2025-02-16;pos_crise;0;;0;;False;principal:2/2
+2025-02-17;pos_crise;0;;0;;False;principal:2/2
+2025-02-18;pos_crise;0;;0;;False;principal:2/2
+2025-02-19;pos_crise;0;;0;;False;principal:2/2
+2025-02-20;pos_crise;0;;0;;False;principal:2/2
+2025-02-21;pos_crise;0;;0;;False;principal:2/2
+2025-02-22;pos_crise;0;;0;;False;principal:2/2
+2025-02-23;pos_crise;0;;0;;False;principal:2/2
+2025-02-24;pos_crise;0;;0;;False;principal:2/2
+2025-02-25;pos_crise;0;;0;;False;principal:2/2
+2025-02-26;pos_crise;0;;0;;False;principal:2/2
+2025-02-27;pos_crise;0;;0;;False;principal:2/2
+2025-02-28;pos_crise;0;;0;;False;principal:2/2

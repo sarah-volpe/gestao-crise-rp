@@ -1,0 +1,34 @@
+{
+  "caso": "tania_bulhoes",
+  "fases": [
+    "pre_crise",
+    "crise",
+    "pos_crise"
+  ],
+  "max_por_dia_por_origem": 15,
+  "semente_sorteio": 2025,
+  "mascarar_mencoes": false,
+  "coleta_de": "legado",
+  "coleta_ate": "legado",
+  "linhas_brutas": 651,
+  "excluido_fora_das_fases": 181,
+  "excluido_anuncio": 0,
+  "excluido_retuite": 0,
+  "excluido_conta_oficial_da_marca": 0,
+  "excluido_idioma_nao_pt": 2,
+  "excluido_texto_vazio": 0,
+  "excluido_complementar_fora_da_fase": 0,
+  "duplicados_entre_buscas": 0,
+  "posts_validos": 468,
+  "posts_na_amostra": 214,
+  "autores_distintos": 207,
+  "amostra_por_fase": {
+    "crise": 160,
+    "pre_crise": 45,
+    "pos_crise": 9
+  },
+  "amostra_por_origem": {
+    "principal": 214
+  },
+  "dias_com_limite_atingido": 0
+}

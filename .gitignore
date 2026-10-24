@@ -23,3 +23,4 @@ dados/*/validacao/*_divergencias.csv
 _to_delete/
 .claude/
 logs_*.txt
+.sessao_x/

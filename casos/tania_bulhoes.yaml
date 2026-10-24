@@ -31,6 +31,9 @@ nota_linha_de_base: >-
   A pré-crise (15 a 28/01) é a linha de base: mostra como se falava da marca
   antes da repercussão do vídeo.
 
+# Perfis da própria marca: as publicações deles saem do corpus (não são opinião do público).
+contas_oficiais: [taniabulhoes]
+
 busca_principal: >-
   ("Tânia Bulhões" OR "Tania Bulhões" OR "Tânia Bulhoes" OR "Tania Bulhoes" OR taniabulhoes OR @taniabulhoes) lang:pt -filter:retweets
 

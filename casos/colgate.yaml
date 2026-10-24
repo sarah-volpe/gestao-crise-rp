@@ -39,6 +39,9 @@ nota_linha_de_base: >-
   devem ser coletados normalmente. Na pós-crise (11 a 24/04) o produto estava
   à venda por causa do recurso.
 
+# Perfis da própria marca: as publicações deles saem do corpus (não são opinião do público).
+contas_oficiais: [ColgateBrasil]
+
 busca_principal: >-
   (Colgate OR @ColgateBrasil) ("creme dental" OR "pasta de dente" OR "pasta de dentes" OR "Clean Mint" OR "Total 12" OR Anvisa OR alergia OR alérgica OR afta OR aftas OR ardência OR boca OR língua OR lábio OR lábios OR gengiva OR inchaço OR interditada OR proibida OR recolhimento) lang:pt -filter:retweets
 

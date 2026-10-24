@@ -151,3 +151,37 @@ Ele tem uma aba por caso e uma de comparação, tabela equivalente para cada
 gráfico, tema claro e escuro, e não exibe o texto das publicações. As cores
 de sentimento (vermelho, cinza e azul) foram conferidas quanto à
 distinguibilidade para daltonismo.
+
+## Etapa 7 — Login no X automatizado (24/10/2026)
+
+**Pedido:**
+
+> consegue automatizar a coleta do [passo de copiar os cookies auth_token e
+> ct0 pelo F12] como uma automação pra simplificar
+
+**Resultado:** `src/login_x.py` abre o Chrome ou o Edge instalado num perfil
+separado, espera o login manual sem se conectar à página e, quando a página
+inicial carrega, lê os cookies e grava a sessão. Login feito dentro do
+navegador do Playwright é bloqueado pelo X; este caminho evita o problema.
+Com o perfil salvo, a renovação da sessão é automática.
+
+## Etapa 8 — Usar os dados já coletados (24/10/2026)
+
+**Pedido:**
+
+> a pipeline está muito custosa, por favor, use os dados que já tenho em
+> data, transforme eles para o padrão esperado para usarmos por hora
+
+**Resultado:**
+- **Tânia Bulhões:** a coleta antiga (busca só pela marca, 01/01 a 30/04/2025) foi convertida para o protocolo
+  (`tcc_importar_legado.py` + `tcc_montar.py`): 468 publicações válidas e 214 na amostra.
+- **Cacau Show:** aproveitados os 8 dias coletados com a sessão válida. Os 7 dias em que a sessão do X
+  estava expirada voltaram como "0 posts" e foram separados para nova coleta; o coletor passou a recusar
+  zero resultados sem a mensagem "Nenhum resultado" do X.
+- **Nova exclusão objetiva:** publicações dos perfis da própria marca (`contas_oficiais` na ficha). No
+  Cacau Show eram 80 respostas do SAC da @cacaushow.
+- **Classificação provisória:** os lotes do modo manual foram respondidos pela IA dentro da própria sessão
+  de desenvolvimento (modelo registrado como `claude-opus-5-5_provisorio`). Por não ser uma conversa nova
+  a cada lote, essa classificação serve para testar o método e o painel, não como resultado final.
+- **Achado de método:** na Tânia Bulhões, a repercussão da xícara da Tailândia já aparece entre 13 e
+  17/01/2025, dentro da fase chamada de pré-crise. Por isso a "linha de base" tem 40% de negativas.

@@ -94,7 +94,10 @@ perfeita.
 - Curtidas, respostas e reposts são os do dia da coleta, não os de 2025.
 - Posts longos podem aparecer cortados na busca ("Mostrar mais"); ficam
   marcados em `dados/<caso>/<caso>_auditoria.csv`.
-- A IA classifica só o texto: imagens e vídeos dos posts não são lidos.
+- A IA classifica só o texto: imagens e vídeos dos posts não são lidos. Respostas a outras publicações
+  ("Poxa mãe!") aparecem sem o post original e tendem a cair em `fora_do_tema` ou `neutro`.
+- Publicações dos perfis da própria marca (`contas_oficiais` na ficha) são excluídas: são comunicação da
+  empresa, não opinião do público.
 - Se a coleta antiga for reaproveitada (`src/tcc_importar_legado.py`), ela não
   tinha os filtros `lang:pt` e `-filter:retweets` na busca (aplicados depois),
   perdeu emojis e tinha limite de 200 posts por dia. Esses registros ficam
@@ -102,22 +105,8 @@ perfeita.
 
 ## 7. Como executar
 
-Requisitos: Python 3.11 ou mais recente, `pip install -r requirements.txt`,
-`python -m playwright install chromium` e uma sessão do X de uma conta
-descartável (`python src/session_from_cookies.py --auth-token ... --ct0 ...`).
-
-```powershell
-python src\tcc_prompts.py                                   # gera os prompts a partir das fichas
-python src\tcc_coletar.py --caso tania_bulhoes --so-dia 2025-02-04 --headed   # teste de um dia
-python src\tcc_coletar.py --caso tania_bulhoes              # coleta completa (retoma se cair)
-python src\tcc_coletar.py --caso colgate --incluir-opcionais
-python src\tcc_montar.py  --caso tania_bulhoes              # tabelas do protocolo
-python src\tcc_classificar.py --caso tania_bulhoes --provider manual      # sem custo de API
-python src\tcc_classificar.py --caso tania_bulhoes --provider anthropic   # via API
-python src\tcc_validar.py gerar --caso tania_bulhoes        # planilha cega
-python src\tcc_validar.py medir --caso tania_bulhoes        # kappa
-python src\tcc_painel.py                                    # atualiza o painel com o que houver em dados/
-```
+O passo a passo de execução (login no X, coleta, classificação, validação,
+painel e envio ao GitHub) está em [`COMO_USAR.md`](../COMO_USAR.md).
 
 ### Painel
 

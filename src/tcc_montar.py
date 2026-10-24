@@ -3,7 +3,7 @@
 Passos, na ordem:
   1. data e fase de cada post pela hora real de publicação em Brasília;
   2. exclusões objetivas: fora das fases, anúncio (promovido), retuíte,
-     idioma diferente de pt, texto vazio, complementar fora das fases dela;
+     publicação da própria marca (contas_oficiais da ficha), idioma diferente de pt, texto vazio, complementar fora das fases dela;
   3. deduplicação por id do post (se veio nas duas buscas, fica "principal");
   4. volume do dia = posts únicos válidos que a busca retornou;
   5. amostra: até `max_por_dia` posts por dia e por origem, sorteados com
@@ -100,6 +100,8 @@ def montar(caso: str, incluir_opcionais: bool, mascarar_mencoes: bool) -> None:
     excluir(df["fase"].isna(), "fora_das_fases")
     excluir(df.get("promovido", pd.Series(False, index=df.index)).fillna(False).astype(bool), "anuncio")
     excluir(df["is_retweet"].fillna(False).astype(bool), "retuite")
+    oficiais = {h.lower().lstrip("@") for h in cfg.get("contas_oficiais") or []}
+    excluir(df["author_handle"].fillna("").str.lower().isin(oficiais), "conta_oficial_da_marca")
     excluir(~df["lang"].fillna("").isin(["pt"]), "idioma_nao_pt")
     df["text"] = df["text"].fillna("").astype(str).map(_limpar_texto)
     excluir(df["text"].str.len() == 0, "texto_vazio")
@@ -161,7 +163,8 @@ def montar(caso: str, incluir_opcionais: bool, mascarar_mencoes: bool) -> None:
             total_vol, total_amo = sum(vol.values()), sum(amo.values())
             completo = all(x.endswith("2/2") for x in feitas)
             if not completo:
-                estimado = "nao_coletado" if all(x.split(":")[1].startswith("0") for x in feitas) else f"parcial ({total_vol})"
+                nada_feito = all(x.split(":")[1].startswith("0") for x in feitas)
+                estimado = "nao_coletado" if nada_feito and total_vol == 0 else f"parcial ({total_vol})"
             else:
                 estimado = f"mais de {total_vol}" if lim else str(total_vol)
             linhas_vol.append({"data": d.isoformat(), "fase": f.nome, "posts_coletados": total_amo,

@@ -1,0 +1,215 @@
+﻿id;sentimento;eixo_tematico;ironia;confianca;justificativa
+TB-001;neutro;outro;nao;baixa;Mostra surpresa com produto que traz o nome da marca
+TB-002;negativo;preco_valor;nao;baixa;Relata que produto barato no pote da marca engana todos
+TB-003;neutro;outro;nao;media;Compara essência de outra marca à da Tânia Bulhões sem julgar
+TB-004;neutro;outro;nao;media;Questiona influenciadora que divulgou link da marca
+TB-005;neutro;outro;nao;media;Cita a marca ao falar de outra influenciadora
+TB-006;negativo;autenticidade_fraude;nao;alta;Inclui a marca entre as que plagiam
+TB-007;neutro;outro;nao;alta;Estranha ver a marca em todos os lugares
+TB-008;negativo;origem_fabricacao;nao;alta;Diz que nada da marca a surpreende após xícaras da Tailândia
+TB-009;neutro;outro;nao;alta;Pergunta quem é a marca
+TB-010;neutro;outro;nao;alta;Estranha ouvir falar da marca de repente
+TB-011;neutro;outro;nao;media;Explica a origem da essência chá branco sem julgar
+TB-012;negativo;resposta_da_marca;nao;media;Comemora o golpe sofrido pela marca e o jurídico
+TB-013;neutro;outro;nao;alta;Diz estar fascinado com o escândalo
+TB-014;negativo;luxo_e_classe_social;nao;alta;Ofende a marca por explorar pobre metido a rico
+TB-015;neutro;outro;nao;alta;Estranha que todos falem da marca
+TB-016;neutro;outro;nao;alta;Diz nunca ter ouvido falar da marca
+TB-017;positivo;preco_valor;nao;media;Critica quem imita o cheiro em vez de defender ataques à marca
+TB-018;negativo;preco_valor;nao;alta;Diz que a marca se aproveita de consumidores pagando 200 reais
+TB-019;positivo;outro;nao;media;Diz que a alternativa não se compara à marca
+TB-020;negativo;preco_valor;nao;alta;Chama a marca de trambiqueira que compra barato e vende caro
+TB-021;negativo;luxo_e_classe_social;nao;alta;Chama produtos da marca de bugigangas
+TB-022;negativo;outro;nao;baixa;Lamenta ter conhecido a marca pela polêmica
+TB-023;negativo;preco_valor;nao;alta;Chama de otário quem gasta com a marca
+TB-024;negativo;humor_meme;nao;media;Zomba do nome da marca como sátira
+TB-025;negativo;preco_valor;nao;media;Elogia quem engana com sabonete barato no frasco da marca
+TB-026;negativo;humor_meme;nao;media;Zomba do nome da marca
+TB-027;fora_do_tema;outro;nao;alta;Fala de outra loja sem mencionar a marca
+TB-028;negativo;autenticidade_fraude;nao;alta;Chama a fundadora de trambiqueira
+TB-029;neutro;preco_valor;nao;media;Comprou alternativa influenciada pelo TikTok
+TB-030;negativo;luxo_e_classe_social;nao;media;Elogia peças mas diz ser fácil fazer rico de otário
+TB-031;negativo;luxo_e_classe_social;nao;baixa;Usa a marca como exemplo pejorativo
+TB-032;fora_do_tema;outro;nao;alta;Fala de outro assunto sem relação com a marca
+TB-033;neutro;humor_meme;nao;baixa;Piada sem conteúdo avaliável sobre a marca
+TB-034;neutro;humor_meme;nao;baixa;Referência jocosa sem conteúdo avaliável
+TB-035;neutro;humor_meme;nao;baixa;Referência jocosa sem conteúdo avaliável
+TB-036;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro sobre a marca
+TB-037;negativo;preco_valor;sim;alta;Ironiza quem paga 300 reais em xícara de 10 reais
+TB-038;neutro;outro;nao;media;Critica influenciadora que fez propaganda da marca
+TB-039;neutro;preco_valor;nao;baixa;Aponta alternativa com cheiro idêntico e mais barata
+TB-040;neutro;preco_valor;nao;media;Indica produto barato com cheiro igual ao da marca
+TB-041;positivo;outro;nao;media;Diz que o cheiro da marca a conquista
+TB-042;neutro;origem_fabricacao;nao;media;Lembra a história da xícara da Tailândia
+TB-043;neutro;outro;nao;media;Lamenta ter perdido o exposed sem opinar sobre a marca
+TB-044;neutro;preco_valor;nao;media;Indica alternativa barata com o cheiro da marca
+TB-045;positivo;preco_valor;nao;baixa;Diz que a alternativa barata não se compara à marca
+TB-046;neutro;preco_valor;nao;baixa;Elogia produto de outra marca sem avaliar a Tânia Bulhões
+TB-047;negativo;preco_valor;nao;media;Diz que há alternativa idêntica bem mais barata para tudo
+TB-048;positivo;outro;nao;alta;Diz estar apaixonado pelo difusor da marca
+TB-049;neutro;historico_da_fundadora;nao;alta;Compartilha notícia sobre homenagem da fundadora
+TB-050;negativo;preco_valor;nao;baixa;Brinca com frasco da marca cheio de sabonete barato
+TB-051;neutro;preco_valor;nao;baixa;Vai testar alternativa ao produto da marca
+TB-052;negativo;preco_valor;nao;alta;Chama de otário quem compra na marca após o caso
+TB-053;negativo;origem_fabricacao;nao;alta;Ri da marca pega fazendo white label
+TB-054;negativo;autenticidade_fraude;nao;media;Comemora nova evidência contra a exclusividade da xícara
+TB-055;neutro;luxo_e_classe_social;nao;baixa;Irrita-se com uma cliente sem avaliar a marca
+TB-056;neutro;resposta_da_marca;nao;alta;Compartilha notícia sobre manifestação da marca
+TB-057;neutro;preco_valor;nao;media;Comprou alternativa com cheiro parecido ao da marca
+TB-058;negativo;autenticidade_fraude;nao;alta;Ri da xícara que já aparecia em novela de 2011
+TB-059;negativo;preco_valor;nao;alta;Chama de otário quem paga 200 reais numa xícara
+TB-060;negativo;luxo_e_classe_social;nao;alta;Diz que a marca deu golpe em pobre que se acha burguês
+TB-061;neutro;luxo_e_classe_social;nao;baixa;Descreve a polêmica na classe média sem opinar
+TB-062;negativo;autenticidade_fraude;nao;alta;Apoia quem está desmascarando a marca
+TB-063;neutro;origem_fabricacao;nao;alta;Notícia sobre a xícara encontrada na Tailândia
+TB-064;neutro;luxo_e_classe_social;nao;media;Critica a polêmica como coisa de classe média sem julgar a marca
+TB-065;neutro;outro;nao;media;Diz se divertir com a fofoca das xícaras
+TB-066;positivo;outro;nao;media;Expressa vontade de comprar xícara da marca
+TB-067;negativo;luxo_e_classe_social;nao;media;Usa o caso para chamar a classe média alta de otária
+TB-068;negativo;outro;nao;media;Chama a si de trouxa por já ter sonhado comprar na marca
+TB-069;negativo;outro;nao;media;Diz que jamais compraria na loja da marca
+TB-070;neutro;luxo_e_classe_social;nao;media;Diz não conhecer a marca por ser pobre
+TB-071;neutro;humor_meme;nao;baixa;Associação jocosa sem avaliar a marca
+TB-072;negativo;luxo_e_classe_social;nao;baixa;Usa o caso para dizer que consumidores se apegam à marca
+TB-073;neutro;autenticidade_fraude;nao;alta;Compartilha notícia sobre quebra de exclusividade
+TB-074;negativo;humor_meme;nao;media;Achava que o nome da marca era piada
+TB-075;negativo;outro;nao;media;Lamenta ter comprado na marca chamando-se de trouxa
+TB-076;neutro;resposta_da_marca;nao;alta;Notícia sobre notificação da marca à influenciadora
+TB-077;negativo;autenticidade_fraude;nao;media;Chama a marca de malandra e quem compra de otário
+TB-078;negativo;luxo_e_classe_social;nao;alta;Chama de otário quem acredita na exclusividade da marca
+TB-079;negativo;autenticidade_fraude;nao;alta;Afirma que outra coleção da marca também é cópia barata
+TB-080;negativo;luxo_e_classe_social;nao;baixa;Agrupa a marca a modismos de consumo
+TB-081;neutro;outro;nao;alta;Diz ter caído em vídeos sobre a treta
+TB-082;negativo;origem_fabricacao;sim;media;Ironiza se a louça é da marca ou da Tailândia
+TB-083;negativo;preco_valor;nao;media;Fala na queda do império da marca após descobertas
+TB-084;neutro;outro;nao;alta;Diz assistir aos vídeos da fofoca sem opinar
+TB-085;negativo;preco_valor;nao;media;Ri porque a mesma essência é usada no lixo
+TB-086;neutro;outro;nao;alta;Menciona ter contado a história da marca a alguém
+TB-087;neutro;outro;nao;alta;Comenta a fofoca sem saber quem é a marca
+TB-088;neutro;outro;nao;alta;Diz acompanhar o caso por curiosidade
+TB-089;neutro;outro;nao;baixa;Confundiu um prato com o da marca
+TB-090;negativo;luxo_e_classe_social;nao;media;Chama as louças da marca de cafonas
+TB-091;negativo;preco_valor;sim;media;Ironiza preço absurdo de produtos da marca
+TB-092;neutro;humor_meme;nao;baixa;Piada sem conteúdo avaliável sobre a marca
+TB-093;neutro;outro;nao;baixa;Inclui a marca numa lista sem contexto
+TB-094;neutro;outro;nao;alta;Diz acompanhar a polêmica com interesse
+TB-095;neutro;resposta_da_marca;nao;alta;Relata o pronunciamento e a oferta de troca
+TB-096;negativo;autenticidade_fraude;sim;baixa;Ironiza como os produtos da marca são feitos
+TB-097;negativo;autenticidade_fraude;sim;baixa;Ironiza potes comuns como nova coleção exclusiva da marca
+TB-098;positivo;preco_valor;nao;baixa;Admira embalagem e experiência mesmo reconhecendo o preço alto
+TB-099;neutro;luxo_e_classe_social;nao;media;Associa a estética da amiga à marca sem avaliar a marca
+TB-100;neutro;outro;nao;baixa;Diz acompanhar a polêmica sem opinar sobre a marca
+TB-101;negativo;luxo_e_classe_social;nao;media;Acha as xícaras feias e iguais às da Havan
+TB-102;neutro;outro;nao;baixa;Diz gostar de acompanhar a polêmica
+TB-103;neutro;outro;nao;alta;Pede explicação sobre a polêmica
+TB-104;neutro;outro;nao;baixa;Diz gostar de acompanhar a polêmica
+TB-105;positivo;origem_fabricacao;nao;baixa;Sugere esquema de importação mas diz não julgar a marca errada
+TB-106;neutro;preco_valor;nao;media;Recomenda alternativa com cheiro idêntico ao da marca
+TB-107;neutro;preco_valor;nao;media;Quer comprar alternativa barata com cheiro idêntico
+TB-108;neutro;preco_valor;nao;baixa;Mãe procura alternativa mais barata ao difusor da marca
+TB-109;neutro;outro;nao;alta;Diz acompanhar a trend sobre a marca
+TB-110;negativo;humor_meme;nao;media;Diz que não confiaria na marca e zomba do nome
+TB-111;negativo;luxo_e_classe_social;nao;alta;Chama as louças de feias e cafonas
+TB-112;neutro;outro;nao;alta;Quer saber da história sem opinar
+TB-113;neutro;historico_da_fundadora;nao;alta;Compartilha notícia sobre o passado da fundadora
+TB-114;neutro;humor_meme;nao;baixa;Referência jocosa sem conteúdo avaliável
+TB-115;neutro;origem_fabricacao;nao;media;Descreve o vídeo do produto igual achado na Tailândia
+TB-116;negativo;luxo_e_classe_social;sim;media;Defesa irônica dizendo que a marca extorquiu ricos
+TB-117;neutro;preco_valor;nao;baixa;Comprou odorizante com cheiro associado à marca sem julgá-la
+TB-118;neutro;humor_meme;nao;baixa;Referência jocosa sem conteúdo avaliável
+TB-119;neutro;preco_valor;nao;media;Recomenda alternativa com cheiro idêntico ao da marca
+TB-120;neutro;luxo_e_classe_social;nao;media;Diz que a polêmica não o afeta por ser pobre
+TB-121;positivo;outro;nao;alta;Afirma que vai continuar comprando as louças
+TB-122;negativo;autenticidade_fraude;nao;media;Chama a marca de safada
+TB-123;neutro;outro;nao;alta;Diz não saber quem é a marca
+TB-124;neutro;outro;nao;alta;Pergunta quem é a marca
+TB-125;negativo;historico_da_fundadora;nao;alta;Chama a fundadora de picareta após notícia de condenação
+TB-126;negativo;luxo_e_classe_social;nao;alta;Acusa a marca de iludir a classe média
+TB-127;neutro;preco_valor;nao;baixa;Cliente dos difusores torce por alternativa mais barata
+TB-128;neutro;outro;nao;alta;Diz não saber quem é a marca
+TB-129;neutro;autenticidade_fraude;nao;media;Pergunta surpresa se a marca é fraude
+TB-130;neutro;outro;nao;alta;Pergunta quem é a marca
+TB-131;negativo;luxo_e_classe_social;nao;alta;Acha os produtos horrorosos e prefere marcas de preço justo
+TB-132;negativo;preco_valor;nao;media;Lamenta quem gastou muito na marca após o exposed
+TB-133;negativo;autenticidade_fraude;nao;media;Compara a prática da marca à da Daslu
+TB-134;negativo;autenticidade_fraude;nao;alta;Compara a marca a caso conhecido de fraude
+TB-135;negativo;preco_valor;nao;media;Piada culpando a marca pelos preços altos
+TB-136;positivo;outro;nao;baixa;Diz amar o nome da marca
+TB-137;negativo;historico_da_fundadora;nao;alta;Relaciona a fundadora à Daslu e a condenação judicial
+TB-138;negativo;luxo_e_classe_social;nao;alta;Diz que rico merece ser feito de trouxa pela marca
+TB-139;neutro;preco_valor;nao;media;Lembra alternativa com cheiro idêntico
+TB-140;positivo;outro;nao;baixa;Relata intenção de comprar louças da marca
+TB-141;positivo;outro;nao;alta;Expressa desejo de ter peças da marca
+TB-142;neutro;outro;nao;baixa;Comenta que a marca está sendo muito criticada
+TB-143;neutro;humor_meme;nao;baixa;Comparação jocosa sem avaliação clara
+TB-144;negativo;humor_meme;nao;media;Piada colocando a marca como eliminada por rejeição
+TB-145;negativo;autenticidade_fraude;nao;alta;Chama a prática da marca de golpe
+TB-146;neutro;preco_valor;nao;baixa;Compara o preço da xícara ao de um vestido
+TB-147;neutro;humor_meme;nao;baixa;Usa a louça da marca como gíria entre amigas
+TB-148;negativo;luxo_e_classe_social;nao;media;Diz que a marca arranca dinheiro de rico
+TB-149;negativo;luxo_e_classe_social;nao;alta;Diz que a marca sempre teve cara de AliExpress
+TB-150;negativo;humor_meme;sim;media;Ironiza que a marca vende copo comum como luxo
+TB-151;negativo;preco_valor;nao;baixa;Lembra vídeo de sabonete barato no frasco da marca
+TB-152;neutro;outro;nao;baixa;Pergunta se a marca virou estilista
+TB-153;neutro;humor_meme;nao;baixa;Menção a lançamento sem opinião clara
+TB-154;neutro;outro;nao;alta;Comenta a repercussão do assunto nas redes
+TB-155;negativo;outro;nao;media;Diz ter silenciado a palavra e chama de nojeira
+TB-156;positivo;autenticidade_fraude;nao;media;Critica quem critica a marca mas compra réplicas
+TB-157;neutro;luxo_e_classe_social;nao;media;Diz não conhecer a marca antes da polêmica
+TB-158;neutro;outro;nao;media;Diz não saber quem é a marca
+TB-159;neutro;outro;nao;baixa;Menção curta sem conteúdo avaliável
+TB-160;negativo;luxo_e_classe_social;sim;baixa;Elogio irônico a enganar ricos com falsa exclusividade
+TB-161;neutro;outro;nao;baixa;Menção curta sem conteúdo avaliável
+TB-162;positivo;outro;nao;media;Acha as louças belíssimas
+TB-163;neutro;humor_meme;nao;baixa;Referência jocosa sem conteúdo avaliável
+TB-164;negativo;origem_fabricacao;nao;alta;Acusa a marca de importação fraudulenta
+TB-165;neutro;resposta_da_marca;nao;alta;Compartilha notícia sobre encerramento de coleções
+TB-166;positivo;luxo_e_classe_social;nao;media;Exalta a marca acima de outras referências
+TB-167;negativo;humor_meme;nao;media;Piada sobre ser desmascarado como a marca foi
+TB-168;neutro;outro;nao;alta;Comenta fofocar sobre a marca no trabalho
+TB-169;positivo;outro;nao;alta;Mostra jarra da marca e a chama de linda
+TB-170;negativo;luxo_e_classe_social;nao;alta;Chama as xícaras da marca de breguíssimas
+TB-171;neutro;outro;nao;baixa;Menção curta sem conteúdo avaliável
+TB-172;neutro;resposta_da_marca;nao;alta;Notícia sobre a marca culpar fornecedores terceirizados
+TB-173;neutro;humor_meme;nao;baixa;Risada sobre a marca sem avaliação clara
+TB-174;neutro;autenticidade_fraude;nao;baixa;Diz ter visto peça igual à da loja da marca
+TB-175;neutro;humor_meme;nao;baixa;Menção jocosa sem conteúdo avaliável
+TB-176;neutro;preco_valor;nao;media;Relata busca por alternativa mais barata
+TB-177;neutro;outro;nao;alta;Diz que foi pesquisar quem é a fundadora
+TB-178;negativo;resposta_da_marca;sim;alta;Diz que culpar fornecedores é tapa na cara dos clientes
+TB-179;neutro;humor_meme;nao;baixa;Piada sem relação clara com a marca
+TB-180;positivo;outro;nao;media;Comemora a chegada de uma caneca da marca
+TB-181;neutro;humor_meme;nao;baixa;Só ri ao mencionar a marca
+TB-182;negativo;outro;nao;media;Afirma que outra marca de louças é superior
+TB-183;neutro;resposta_da_marca;nao;media;Diz ser bom não trabalhar na gestão de crise da marca
+TB-184;negativo;outro;nao;media;Afirma que outra marca é superior à Tânia Bulhões
+TB-185;negativo;autenticidade_fraude;sim;alta;Ironiza peça original da marca vendida na 25 de Março
+TB-186;neutro;humor_meme;nao;baixa;Piada sem conteúdo avaliável sobre a marca
+TB-187;neutro;luxo_e_classe_social;nao;media;Lista a marca num estereótipo de consumo sem julgar
+TB-188;negativo;outro;nao;media;Declara o fim da marca
+TB-189;neutro;humor_meme;nao;baixa;Usa a marca como gíria entre amigas
+TB-190;neutro;humor_meme;nao;baixa;Piada sobre o nome em alta na semana
+TB-191;neutro;humor_meme;nao;baixa;Menção jocosa sem conteúdo avaliável
+TB-192;negativo;autenticidade_fraude;nao;alta;Diz que a marca quis fazer as pessoas de otárias
+TB-193;neutro;origem_fabricacao;nao;alta;Notícia sobre peça da marca com etiqueta da Turquia
+TB-194;negativo;luxo_e_classe_social;nao;alta;Comemora rico feito de otário e acha as louças bregas
+TB-195;negativo;historico_da_fundadora;nao;alta;Acusa a fundadora de enriquecer com fraude
+TB-196;neutro;outro;nao;baixa;Menciona café da manhã da marca sem opinião
+TB-197;neutro;humor_meme;nao;baixa;Comparação jocosa sem avaliação clara
+TB-198;neutro;humor_meme;nao;baixa;Menção jocosa sem conteúdo avaliável
+TB-199;positivo;luxo_e_classe_social;nao;baixa;Sugere ir à loja como sinal de status
+TB-200;neutro;outro;nao;baixa;Menciona quiosque da marca no shopping
+TB-201;neutro;outro;nao;baixa;Sugere alternar com o produto da marca
+TB-202;negativo;luxo_e_classe_social;nao;media;Usa a marca como símbolo de cafonice de classe média
+TB-203;neutro;humor_meme;nao;baixa;Brinca com a sonoridade do nome da marca
+TB-204;positivo;outro;nao;media;Chama prato da marca de lindo
+TB-205;negativo;resposta_da_marca;nao;alta;Usa a marca como exemplo de negar até o fim
+TB-206;negativo;origem_fabricacao;sim;media;Ironiza a caneca da marca associando-a à China
+TB-207;negativo;autenticidade_fraude;sim;media;Ironiza comprar louça de luxo da marca no supermercado
+TB-208;neutro;outro;nao;baixa;Menção curta sem conteúdo avaliável
+TB-209;neutro;resposta_da_marca;nao;alta;Pergunta se a marca se pronunciou
+TB-210;negativo;origem_fabricacao;nao;media;Diz que a marca só troca o nome e a etiqueta
+TB-211;negativo;origem_fabricacao;nao;alta;Diz que a marca importa da China e vende como exclusiva
+TB-212;positivo;outro;nao;media;Mostra satisfação com o perfume da marca
+TB-213;negativo;humor_meme;nao;media;Ridiculariza o nome da marca
+TB-214;neutro;outro;nao;baixa;Menciona pratos da marca em loja sem opinião

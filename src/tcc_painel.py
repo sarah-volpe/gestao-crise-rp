@@ -94,6 +94,7 @@ def montar_caso(caso: str) -> dict:
         dias.append({
             "data": r.data, "fase": r.fase, "volume": n, "volume_mais_de": mais,
             "coletado": str(r.volume_estimado_no_dia) != "nao_coletado",
+            "parcial": str(r.volume_estimado_no_dia).startswith("parcial"),
             "amostra": int(r.posts_coletados),
             "sent": {s: int((sub["sentimento"] == s).sum()) for s in SENT},
         })

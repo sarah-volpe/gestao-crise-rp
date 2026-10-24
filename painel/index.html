@@ -112,6 +112,8 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
 .tbl-scroll { overflow-x: auto; }
 details { margin-top: 10px; }
 details summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
+.aviso { border-left: 3px solid var(--neu); font-size: 13.5px; color: var(--ink-2); padding: 12px 16px; }
+.aviso strong { color: var(--ink); }
 .vazio { color: var(--ink-2); padding: 28px 0; text-align: center; }
 .nota { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
 .sent-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
@@ -407,6 +409,7 @@ const desenhos = [];
 const agendar = (container, fn) => desenhos.push([container, fn]);
 
 // ---------- visão de um caso ----------
+const dias_incompletos = caso => (caso.dias || []).some(d => !d.coletado || d.parcial);
 function visaoCaso(caso) {
   const raiz = el("div");
   raiz.append(el("p", { class: "contexto" }, document.createTextNode(caso.contexto + " "), el("span", { class: "pill", text: STATUS[caso.status] || caso.status })));
@@ -418,6 +421,12 @@ function visaoCaso(caso) {
       tabela(["Data", "Evento"], caso.marcos.map(m => [ddmmaa(m.data), m.evento]))));
     return raiz;
   }
+  const avisos = [];
+  if ((caso.montagem || {}).coleta_de === "legado") avisos.push("a coleta é a anterior ao protocolo (sem os filtros de idioma e retuíte na busca, sem emojis, sem a busca complementar)");
+  if (dias_incompletos(caso)) avisos.push("há dias ainda não coletados ou coletados em parte");
+  if (((caso.classificacao || {}).modelo || "").includes("provisorio")) avisos.push("a classificação foi feita na sessão de desenvolvimento, não em conversas novas como pede o protocolo");
+  if (avisos.length) raiz.append(el("div", { class: "card aviso" }, el("strong", { text: "Resultados provisórios. " }),
+    document.createTextNode("Não usar como resultado final do trabalho: " + avisos.join("; ") + ".")));
   const dias = caso.dias, totSent = somaSent(dias), classificado = emTopico(totSent) + totSent.fora_do_tema > 0;
   const volTotal = dias.reduce((a, d) => a + (d.volume || 0), 0), amostra = dias.reduce((a, d) => a + d.amostra, 0);
   const pico = dias.reduce((a, d) => (d.volume || 0) > (a.volume || 0) ? d : a, dias[0]);

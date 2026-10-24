@@ -1,0 +1,53 @@
+{
+  "caso": "cacau_show",
+  "provider": "manual",
+  "modelo": "claude-opus-5-5_provisorio",
+  "prompt": "metodologia/prompts_gerados/cacau_show_analise.md",
+  "prompt_sha256": "91af8d5d557865813ed5342a602501798883d1700f822b8421100566b876b977",
+  "tamanho_lote": 50,
+  "semente_embaralhamento": 2025,
+  "posts": 119,
+  "classificados": 119,
+  "sem_classificacao": 0,
+  "classificados_em_retentativa": 0,
+  "justificativas_acima_de_15_palavras": 0,
+  "distribuicao_sentimento": {
+    "positivo": 45,
+    "fora_do_tema": 41,
+    "neutro": 26,
+    "negativo": 7
+  },
+  "distribuicao_eixo": {
+    "outro": 106,
+    "humor_meme": 5,
+    "exposicao_midiatica_masterchef": 3,
+    "boicote_consumo": 2,
+    "condicoes_de_trabalho_assedio": 2,
+    "relacao_com_franqueados": 1
+  },
+  "primeira_classificacao": "2026-10-24T17:35:20+00:00",
+  "ultima_classificacao": "2026-10-24T17:35:21+00:00",
+  "lotes_desta_execucao": [
+    {
+      "lote": "t0_lote001",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote002",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote003",
+      "posts": 19,
+      "validos": 19,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    }
+  ]
+}

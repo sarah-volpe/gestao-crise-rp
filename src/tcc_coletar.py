@@ -78,6 +78,10 @@ _EXTRA_JS = r"""
 """
 
 
+SEM_RESULTADOS = ("nenhum resultado", "no results for", "não encontramos resultados", "try searching for something else",
+                  "tente buscar outra coisa", "tente pesquisar outra coisa")
+
+
 def _caminhos(caso: str, b: proto.BuscaDia) -> tuple[Path, Path]:
     d = proto.raw_dir(caso, b.origem)
     return d / f"{b.since}.jsonl", d / f"{b.since}.meta.json"
@@ -116,6 +120,18 @@ def _coletar_busca(page, b: proto.BuscaDia, limite: int, scrolls: int, sem_novid
             break
         page.mouse.wheel(0, 2600)
         page.wait_for_timeout(2200)
+    if not registros:
+        # Zero posts só é aceito se o X disser que não há resultados. Sem essa
+        # mensagem, a página provavelmente não carregou a busca (sessão
+        # expirada, limite do X) e o dia NÃO pode ser registrado como vazio.
+        try:
+            corpo = page.locator("body").inner_text(timeout=5000).lower()
+        except Exception:
+            corpo = ""
+        if _is_login_page(page):
+            raise RuntimeError("login_wall")
+        if not any(m in corpo for m in SEM_RESULTADOS):
+            raise RuntimeError("vazio_suspeito")
     return list(registros.values())
 
 
@@ -144,10 +160,9 @@ def coletar(caso: str, incluir_opcionais: bool, refazer: bool, so_dia: str | Non
     delay = float(col.get("delay_entre_queries", 8.0))
     state = col.get("storage_state_path")
     if not state or not Path(state).exists():
-        sys.exit(f"Sessão do X não encontrada ({state}). Gere com: python src/session_from_cookies.py "
-                 "--auth-token ... --ct0 ...")
+        sys.exit(f"Sessão do X não encontrada ({state}). Gere com: python src\\login_x.py")
 
-    zeros = 0
+    zeros = suspeitos = 0
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=not headed, args=["--disable-dev-shm-usage", "--no-sandbox"])
         ctx = browser.new_context(
@@ -162,15 +177,33 @@ def coletar(caso: str, incluir_opcionais: bool, refazer: bool, so_dia: str | Non
             print(f"[{i}/{len(pendentes)}] {b.origem} {b.since}", flush=True)
             try:
                 regs = _coletar_busca(page, b, limite, scrolls, sem_nov)
-            except RuntimeError:
-                print("  !! X pediu login: sessão expirada. Gere de novo e rode o mesmo comando "
-                      "(retoma de onde parou).")
+            except RuntimeError as exc:
+                if str(exc) == "vazio_suspeito":
+                    suspeitos += 1
+                    Path("debug").mkdir(exist_ok=True)
+                    shot = Path("debug") / f"vazio_{caso}_{b.origem}_{b.since}.png"
+                    try:
+                        page.screenshot(path=str(shot))
+                    except Exception:
+                        pass
+                    print(f"  !! 0 posts sem a mensagem 'Nenhum resultado' do X: busca NÃO marcada como feita "
+                          f"(imagem da tela em {shot})")
+                    if suspeitos >= 3:
+                        print("  !! 3 buscas seguidas sem carregar resultados: a sessão provavelmente expirou ou o "
+                              "X está limitando a conta. Rode python src\\login_x.py, espere um pouco e rode a "
+                              "coleta de novo (retoma de onde parou).")
+                        break
+                    time.sleep(10)
+                    continue
+                print("  !! X pediu login: sessão expirada. Rode python src\\login_x.py e depois o mesmo "
+                      "comando de coleta (retoma de onde parou).")
                 break
             except Exception as exc:
                 print(f"  !! falhou ({type(exc).__name__}: {exc}); busca NÃO marcada como feita")
                 time.sleep(15)
                 continue
 
+            suspeitos = 0
             dados, meta = _caminhos(caso, b)
             with dados.open("w", encoding="utf-8") as fh:
                 for r in regs:

@@ -34,6 +34,9 @@ nota_linha_de_base: >-
   começa no dia seguinte ao Dia das Mães (11/05/2025), data forte para
   chocolates; promoções e sorteios do período tendem a cair em fora_do_tema.
 
+# Perfis da própria marca: as publicações deles saem do corpus (não são opinião do público).
+contas_oficiais: [cacaushow]
+
 busca_principal: >-
   ("Cacau Show" OR cacaushow OR @cacaushow OR "Alê Costa" OR "Ale Costa") lang:pt -filter:retweets
 
