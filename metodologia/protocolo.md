@@ -116,7 +116,24 @@ python src\tcc_classificar.py --caso tania_bulhoes --provider manual      # sem 
 python src\tcc_classificar.py --caso tania_bulhoes --provider anthropic   # via API
 python src\tcc_validar.py gerar --caso tania_bulhoes        # planilha cega
 python src\tcc_validar.py medir --caso tania_bulhoes        # kappa
+python src\tcc_painel.py                                    # atualiza o painel com o que houver em dados/
 ```
+
+### Painel
+
+`painel/index.html` mostra, para cada caso: volume por dia com os marcos,
+percentual de negativas por dia contra a linha de base da pré-crise,
+sentimento por fase, eixos temáticos, publicações com mais engajamento,
+validação humana e o registro da execução (modelo, hash do prompt, datas).
+A aba "Comparação" põe os três casos lado a lado. O painel lê só os arquivos
+públicos (sem o texto das publicações) e mostra "aguardando coleta" para
+casos sem dados.
+
+Para publicar: no GitHub, *Settings → Pages → Build and deployment →
+Deploy from a branch → main / (root)*. O endereço fica
+`https://sarah-volpe.github.io/gestao-crise-rp/`. Depois de cada etapa,
+rode `python src\tcc_painel.py`, faça commit de `painel/dados.js` e dos
+arquivos públicos de `dados/`, e envie.
 
 Saídas em `dados/<caso>/`:
 

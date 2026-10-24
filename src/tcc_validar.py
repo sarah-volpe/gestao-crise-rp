@@ -17,6 +17,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import json
 import random
 import sys
 from pathlib import Path
@@ -150,6 +151,7 @@ def medir(caso: str) -> None:
     if df.empty:
         sys.exit("Nenhum post rotulado ainda (coluna sentimento_humano vazia) ou sem classificação da IA.")
 
+    resumo: dict = {"n": len(df)}
     rel = [f"# Validação humana x IA — {caso}\n",
            f"Posts rotulados e classificados: **{len(df)}**\n"]
     for nome, ch, ci in [("Sentimento", "sentimento_humano", "sentimento"),
@@ -162,6 +164,8 @@ def medir(caso: str) -> None:
         k = kappa(h, m)
         lo, hi = ic_bootstrap(h, m)
         conc = sum(x == y for x, y in zip(h, m)) / len(h)
+        resumo[ci] = {"n": len(sub), "kappa": round(k, 3), "ic95": [round(lo, 3), round(hi, 3)],
+                      "concordancia": round(conc, 3), "interpretacao": interpretar(k)}
         rel += [f"\n## {nome} (n = {len(sub)})\n",
                 f"- Concordância simples: {conc:.1%}",
                 f"- Kappa de Cohen: **{k:.3f}** (IC 95% {lo:.3f} a {hi:.3f}) — concordância {interpretar(k)}\n"]
@@ -180,6 +184,8 @@ def medir(caso: str) -> None:
 
     texto = "\n".join(rel)
     (d / f"{caso}_validacao_resultado.md").write_text(texto, encoding="utf-8")
+    (d / f"{caso}_validacao_resultado.json").write_text(json.dumps(resumo, ensure_ascii=False, indent=2),
+                                                         encoding="utf-8")
     print(texto)
 
 

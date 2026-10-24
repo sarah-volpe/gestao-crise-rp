@@ -138,3 +138,16 @@ manual sem custo de API e a validação cega com kappa de Cohen.
 | Colgate: nova fase opcional de reinterdição (25/04–08/05) | a Anvisa voltou a interditar o produto em 30/04/2025, fora das fases da versão 1 |
 | Cacau Show: + "rituais da Cacau" na complementar | variação do termo "ritual" |
 | marcos de cada caso com fonte jornalística | datas verificáveis; as sem fonte estão marcadas "A CONFIRMAR" |
+
+## Etapa 6 — Painel (24/10/2026)
+
+**Pedido:**
+
+> e quanto ao dashboard?
+
+**Resultado:** painel estático em `painel/`, publicado pelo GitHub Pages e
+gerado por `src/tcc_painel.py` a partir dos arquivos públicos de `dados/`.
+Ele tem uma aba por caso e uma de comparação, tabela equivalente para cada
+gráfico, tema claro e escuro, e não exibe o texto das publicações. As cores
+de sentimento (vermelho, cinza e azul) foram conferidas quanto à
+distinguibilidade para daltonismo.

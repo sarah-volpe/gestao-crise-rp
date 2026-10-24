@@ -20,7 +20,8 @@ os resultados.
 | ver as datas, marcos e palavras-chave de cada caso | [`casos/`](casos/) (um arquivo por caso) |
 | ler os prompts exatamente como foram usados | [`metodologia/prompts_gerados/`](metodologia/prompts_gerados/) |
 | ver como os prompts e o código foram criados | [`metodologia/prompts_de_desenvolvimento.md`](metodologia/prompts_de_desenvolvimento.md) |
-| conferir os resultados | `dados/` e o painel (publicados após a coleta) |
+| ver os resultados em gráficos | o **painel**: https://sarah-volpe.github.io/gestao-crise-rp/ |
+| conferir os números | `dados/` (tabelas sem identificação de autores) |
 
 ## O procedimento em quatro etapas
 
@@ -50,6 +51,7 @@ metodologia/
   prompt_analise.md         modelo único do prompt de classificação
   prompts_gerados/          prompts finais de cada caso (os do apêndice)
   prompts_de_desenvolvimento.md   pedidos feitos à IA para construir o processo
+painel/                     painel de resultados (página publicada pelo GitHub Pages)
 src/                        código (ver metodologia/protocolo.md, seção "Como executar")
 dados/                      resultados publicados (tabelas sem identificação de autores)
 ```
