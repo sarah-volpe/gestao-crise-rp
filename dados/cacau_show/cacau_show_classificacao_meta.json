@@ -1,53 +1,112 @@
 {
   "caso": "cacau_show",
   "provider": "manual",
-  "modelo": "claude-opus-5-5_provisorio",
+  "modelo": "manual",
   "prompt": "metodologia/prompts_gerados/cacau_show_analise.md",
   "prompt_sha256": "91af8d5d557865813ed5342a602501798883d1700f822b8421100566b876b977",
   "tamanho_lote": 50,
   "semente_embaralhamento": 2025,
-  "posts": 119,
-  "classificados": 119,
-  "sem_classificacao": 0,
+  "posts": 216,
+  "classificados": 15,
+  "sem_classificacao": 201,
   "classificados_em_retentativa": 0,
   "justificativas_acima_de_15_palavras": 0,
   "distribuicao_sentimento": {
-    "positivo": 45,
-    "fora_do_tema": 41,
-    "neutro": 26,
-    "negativo": 7
+    "positivo": 6,
+    "fora_do_tema": 6,
+    "neutro": 2,
+    "negativo": 1
   },
   "distribuicao_eixo": {
-    "outro": 106,
-    "humor_meme": 5,
-    "exposicao_midiatica_masterchef": 3,
-    "boicote_consumo": 2,
-    "condicoes_de_trabalho_assedio": 2,
-    "relacao_com_franqueados": 1
+    "outro": 12,
+    "relacao_com_franqueados": 1,
+    "humor_meme": 1,
+    "condicoes_de_trabalho_assedio": 1
   },
-  "primeira_classificacao": "2026-10-24T17:35:20+00:00",
-  "ultima_classificacao": "2026-10-24T17:35:21+00:00",
+  "primeira_classificacao": "2026-10-24T20:31:02+00:00",
+  "ultima_classificacao": "2026-10-24T20:31:02+00:00",
   "lotes_desta_execucao": [
     {
       "lote": "t0_lote001",
       "posts": 50,
-      "validos": 50,
-      "faltando_ou_invalidos": 0,
-      "problemas": []
+      "validos": 7,
+      "faltando_ou_invalidos": 43,
+      "problemas": [
+        "id fora do lote: CS-031",
+        "id fora do lote: CS-008",
+        "id fora do lote: CS-054",
+        "id fora do lote: CS-097",
+        "id fora do lote: CS-056",
+        "id fora do lote: CS-096",
+        "id fora do lote: CS-044",
+        "id fora do lote: CS-074",
+        "id fora do lote: CS-017",
+        "id fora do lote: CS-081",
+        "id fora do lote: CS-058",
+        "id fora do lote: CS-103",
+        "id fora do lote: CS-098",
+        "id fora do lote: CS-041",
+        "id fora do lote: CS-089",
+        "id fora do lote: CS-092",
+        "id fora do lote: CS-085",
+        "id fora do lote: CS-117",
+        "id fora do lote: CS-069",
+        "id fora do lote: CS-112"
+      ]
     },
     {
       "lote": "t0_lote002",
       "posts": 50,
-      "validos": 50,
-      "faltando_ou_invalidos": 0,
-      "problemas": []
+      "validos": 7,
+      "faltando_ou_invalidos": 43,
+      "problemas": [
+        "id fora do lote: CS-037",
+        "id fora do lote: CS-109",
+        "id fora do lote: CS-045",
+        "id fora do lote: CS-080",
+        "id fora do lote: CS-087",
+        "id fora do lote: CS-060",
+        "id fora do lote: CS-105",
+        "id fora do lote: CS-035",
+        "id fora do lote: CS-029",
+        "id fora do lote: CS-034",
+        "id fora do lote: CS-042",
+        "id fora do lote: CS-114",
+        "id fora do lote: CS-057",
+        "id fora do lote: CS-036",
+        "id fora do lote: CS-012",
+        "id fora do lote: CS-111",
+        "id fora do lote: CS-018",
+        "id fora do lote: CS-095",
+        "id fora do lote: CS-005",
+        "id fora do lote: CS-032"
+      ]
     },
     {
       "lote": "t0_lote003",
-      "posts": 19,
-      "validos": 19,
-      "faltando_ou_invalidos": 0,
-      "problemas": []
+      "posts": 50,
+      "validos": 1,
+      "faltando_ou_invalidos": 49,
+      "problemas": [
+        "id fora do lote: CS-099",
+        "id fora do lote: CS-016",
+        "id fora do lote: CS-006",
+        "id fora do lote: CS-013",
+        "id fora do lote: CS-052",
+        "id fora do lote: CS-009",
+        "id fora do lote: CS-030",
+        "id fora do lote: CS-073",
+        "id fora do lote: CS-049",
+        "id fora do lote: CS-048",
+        "id fora do lote: CS-001",
+        "id fora do lote: CS-068",
+        "id fora do lote: CS-023",
+        "id fora do lote: CS-062",
+        "id fora do lote: CS-108",
+        "id fora do lote: CS-083",
+        "id fora do lote: CS-011",
+        "id fora do lote: CS-072"
+      ]
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "caso": "colgate",
+  "provider": "manual",
+  "modelo": "manual",
+  "prompt": "metodologia/prompts_gerados/colgate_analise.md",
+  "prompt_sha256": "484d6a43b500e5bb78cf819c39b74ee9bee65d3556940660c50b1f3b00f74eab",
+  "tamanho_lote": 50,
+  "semente_embaralhamento": 2025,
+  "posts": 181,
+  "classificados": 181,
+  "sem_classificacao": 0,
+  "classificados_em_retentativa": 0,
+  "justificativas_acima_de_15_palavras": 0,
+  "distribuicao_sentimento": {
+    "fora_do_tema": 89,
+    "negativo": 49,
+    "neutro": 41,
+    "positivo": 2
+  },
+  "distribuicao_eixo": {
+    "outro": 91,
+    "reacao_adversa_saude": 43,
+    "anvisa_regulacao": 21,
+    "mudanca_de_formula": 13,
+    "confianca_troca_de_marca": 7,
+    "resposta_da_empresa": 6
+  },
+  "primeira_classificacao": "2026-10-25T02:10:26+00:00",
+  "ultima_classificacao": "2026-10-25T02:10:26+00:00",
+  "lotes_desta_execucao": [
+    {
+      "lote": "t0_lote001",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote002",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote003",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote004",
+      "posts": 31,
+      "validos": 31,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    }
+  ]
+}

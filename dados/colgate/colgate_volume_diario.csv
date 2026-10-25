@@ -1,0 +1,87 @@
+﻿data;fase;posts_coletados;volume_estimado_no_dia
+2025-03-06;pre_crise;2;2
+2025-03-07;pre_crise;0;0
+2025-03-08;pre_crise;1;1
+2025-03-09;pre_crise;0;0
+2025-03-10;pre_crise;6;6
+2025-03-11;pre_crise;15;19
+2025-03-12;pre_crise;4;4
+2025-03-13;pre_crise;10;10
+2025-03-14;pre_crise;10;10
+2025-03-15;pre_crise;3;3
+2025-03-16;pre_crise;5;5
+2025-03-17;pre_crise;3;3
+2025-03-18;pre_crise;15;24
+2025-03-19;pre_crise;8;8
+2025-03-20;crise;7;parcial (7)
+2025-03-21;crise;4;parcial (4)
+2025-03-22;crise;4;parcial (4)
+2025-03-23;crise;4;parcial (4)
+2025-03-24;crise;15;parcial (20)
+2025-03-25;crise;11;parcial (11)
+2025-03-26;crise;9;parcial (9)
+2025-03-27;crise;15;parcial (126)
+2025-03-28;crise;15;parcial (85)
+2025-03-29;crise;15;parcial (22)
+2025-03-30;crise;0;nao_coletado
+2025-03-31;crise;0;nao_coletado
+2025-04-01;crise;0;nao_coletado
+2025-04-02;crise;0;nao_coletado
+2025-04-03;crise;0;nao_coletado
+2025-04-04;crise;0;nao_coletado
+2025-04-05;crise;0;nao_coletado
+2025-04-06;crise;0;nao_coletado
+2025-04-07;crise;0;nao_coletado
+2025-04-08;crise;0;nao_coletado
+2025-04-09;crise;0;nao_coletado
+2025-04-10;crise;0;nao_coletado
+2025-04-11;pos_crise;0;nao_coletado
+2025-04-12;pos_crise;0;nao_coletado
+2025-04-13;pos_crise;0;nao_coletado
+2025-04-14;pos_crise;0;nao_coletado
+2025-04-15;pos_crise;0;nao_coletado
+2025-04-16;pos_crise;0;nao_coletado
+2025-04-17;pos_crise;0;nao_coletado
+2025-04-18;pos_crise;0;nao_coletado
+2025-04-19;pos_crise;0;nao_coletado
+2025-04-20;pos_crise;0;nao_coletado
+2025-04-21;pos_crise;0;nao_coletado
+2025-04-22;pos_crise;0;nao_coletado
+2025-04-23;pos_crise;0;nao_coletado
+2025-04-24;pos_crise;0;nao_coletado
+2025-04-25;reinterdicao;0;nao_coletado
+2025-04-26;reinterdicao;0;nao_coletado
+2025-04-27;reinterdicao;0;nao_coletado
+2025-04-28;reinterdicao;0;nao_coletado
+2025-04-29;reinterdicao;0;nao_coletado
+2025-04-30;reinterdicao;0;nao_coletado
+2025-05-01;reinterdicao;0;nao_coletado
+2025-05-02;reinterdicao;0;nao_coletado
+2025-05-03;reinterdicao;0;nao_coletado
+2025-05-04;reinterdicao;0;nao_coletado
+2025-05-05;reinterdicao;0;nao_coletado
+2025-05-06;reinterdicao;0;nao_coletado
+2025-05-07;reinterdicao;0;nao_coletado
+2025-05-08;reinterdicao;0;nao_coletado
+2025-06-18;segunda_onda;0;nao_coletado
+2025-06-19;segunda_onda;0;nao_coletado
+2025-06-20;segunda_onda;0;nao_coletado
+2025-06-21;segunda_onda;0;nao_coletado
+2025-06-22;segunda_onda;0;nao_coletado
+2025-06-23;segunda_onda;0;nao_coletado
+2025-06-24;segunda_onda;0;nao_coletado
+2025-06-25;segunda_onda;0;nao_coletado
+2025-06-26;segunda_onda;0;nao_coletado
+2025-06-27;segunda_onda;0;nao_coletado
+2025-06-28;segunda_onda;0;nao_coletado
+2025-06-29;segunda_onda;0;nao_coletado
+2025-06-30;segunda_onda;0;nao_coletado
+2025-07-01;segunda_onda;0;nao_coletado
+2025-07-02;segunda_onda;0;nao_coletado
+2025-07-03;segunda_onda;0;nao_coletado
+2025-07-04;segunda_onda;0;nao_coletado
+2025-07-05;segunda_onda;0;nao_coletado
+2025-07-06;segunda_onda;0;nao_coletado
+2025-07-07;segunda_onda;0;nao_coletado
+2025-07-08;segunda_onda;0;nao_coletado
+2025-07-09;segunda_onda;0;nao_coletado

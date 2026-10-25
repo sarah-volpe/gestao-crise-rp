@@ -1,11 +1,11 @@
 ﻿data;fase;posts_coletados;volume_estimado_no_dia
-2025-05-12;pre_crise;0;nao_coletado
-2025-05-13;pre_crise;0;nao_coletado
-2025-05-14;pre_crise;0;nao_coletado
-2025-05-15;pre_crise;0;nao_coletado
-2025-05-16;pre_crise;0;nao_coletado
-2025-05-17;pre_crise;0;nao_coletado
-2025-05-18;pre_crise;0;parcial (0)
+2025-05-12;pre_crise;15;21
+2025-05-13;pre_crise;15;19
+2025-05-14;pre_crise;11;11
+2025-05-15;pre_crise;8;8
+2025-05-16;pre_crise;12;12
+2025-05-17;pre_crise;13;13
+2025-05-18;pre_crise;8;8
 2025-05-19;pre_crise;15;23
 2025-05-20;pre_crise;15;16
 2025-05-21;pre_crise;15;15
@@ -15,7 +15,7 @@
 2025-05-25;pre_crise;15;17
 2025-05-26;crise;10;parcial (10)
 2025-05-27;crise;13;parcial (13)
-2025-05-28;crise;0;nao_coletado
+2025-05-28;crise;15;parcial (20)
 2025-05-29;crise;0;nao_coletado
 2025-05-30;crise;0;nao_coletado
 2025-05-31;crise;0;nao_coletado

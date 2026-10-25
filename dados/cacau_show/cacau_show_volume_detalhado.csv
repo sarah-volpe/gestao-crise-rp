@@ -1,11 +1,11 @@
 ﻿data;fase;volume_principal;volume_complementar;amostra_principal;amostra_complementar;limite_atingido;buscas_feitas
-2025-05-12;pre_crise;0;;0;;False;principal:0/2
-2025-05-13;pre_crise;0;;0;;False;principal:0/2
-2025-05-14;pre_crise;0;;0;;False;principal:0/2
-2025-05-15;pre_crise;0;;0;;False;principal:0/2
-2025-05-16;pre_crise;0;;0;;False;principal:0/2
-2025-05-17;pre_crise;0;;0;;False;principal:0/2
-2025-05-18;pre_crise;0;;0;;False;principal:1/2
+2025-05-12;pre_crise;21;;15;;False;principal:2/2
+2025-05-13;pre_crise;19;;15;;False;principal:2/2
+2025-05-14;pre_crise;11;;11;;False;principal:2/2
+2025-05-15;pre_crise;8;;8;;False;principal:2/2
+2025-05-16;pre_crise;12;;12;;False;principal:2/2
+2025-05-17;pre_crise;13;;13;;False;principal:2/2
+2025-05-18;pre_crise;8;;8;;False;principal:2/2
 2025-05-19;pre_crise;23;;15;;False;principal:2/2
 2025-05-20;pre_crise;16;;15;;False;principal:2/2
 2025-05-21;pre_crise;15;;15;;False;principal:2/2
@@ -13,9 +13,9 @@
 2025-05-23;pre_crise;12;;12;;False;principal:2/2
 2025-05-24;pre_crise;10;;10;;False;principal:2/2
 2025-05-25;pre_crise;17;;15;;False;principal:2/2
-2025-05-26;crise;10;0;10;0;False;principal:1/2 complementar:0/2
-2025-05-27;crise;13;0;13;0;False;principal:0/2 complementar:0/2
-2025-05-28;crise;0;0;0;0;False;principal:0/2 complementar:0/2
+2025-05-26;crise;10;0;10;0;False;principal:2/2 complementar:0/2
+2025-05-27;crise;13;0;13;0;False;principal:1/2 complementar:0/2
+2025-05-28;crise;20;0;15;0;False;principal:0/2 complementar:0/2
 2025-05-29;crise;0;0;0;0;False;principal:0/2 complementar:0/2
 2025-05-30;crise;0;0;0;0;False;principal:0/2 complementar:0/2
 2025-05-31;crise;0;0;0;0;False;principal:0/2 complementar:0/2

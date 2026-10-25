@@ -96,6 +96,22 @@ python src\tcc_coletar.py --caso cacau_show
   Pare, espere algumas horas e refaça os dias afetados com
   `--refazer --so-dia AAAA-MM-DD`.
 
+### Atalho: coletar, montar e atualizar o painel de uma vez
+
+```powershell
+python src\tcc_rodar.py --casos colgate cacau_show
+```
+
+Coleta tudo o que falta dos casos indicados, usando o **seu Chrome** (com o
+perfil salvo pelo `login_x.py`). Uma janela do Chrome abre e fica fazendo as
+buscas: deixe aberta (pode minimizar). Se o X mostrar a verificação
+"Confirme que é humano", o terminal avisa e a coleta pausa até você clicar
+nela na janela do Chrome; depois continua sozinha. Se a sessão do X cair, renova
+pelo `login_x.py` e continua (até 4 rodadas). O computador não entra em
+suspensão enquanto o comando roda. No fim, monta as tabelas, atualiza o
+painel e mostra quantos dias de cada caso ficaram completos, parciais ou sem
+coleta. Com ele, os passos 4 e 7 já ficam feitos.
+
 ## 4. Montar as tabelas
 
 ```powershell

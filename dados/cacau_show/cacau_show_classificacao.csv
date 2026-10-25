@@ -1,120 +1,16 @@
 ﻿id;sentimento;eixo_tematico;ironia;confianca;justificativa
-CS-001;positivo;outro;nao;media;Coleciona itens da linha Snoopy da marca
-CS-002;neutro;exposicao_midiatica_masterchef;nao;alta;Notícia sobre patrocínio da marca no MasterChef
 CS-003;positivo;outro;nao;alta;Elogia bombom da marca com emojis
-CS-004;positivo;outro;nao;media;Queria ganhar chocolates da marca
-CS-005;neutro;exposicao_midiatica_masterchef;nao;alta;Notícia sobre patrocínio da marca no MasterChef
-CS-006;positivo;outro;nao;media;Comemora chocolate de graça na marca
-CS-007;positivo;outro;nao;baixa;Pede algo à marca com tom afetivo
-CS-008;neutro;outro;nao;baixa;Menção curta de sentido pouco claro
-CS-009;neutro;outro;nao;alta;Informa promoção de ovo da marca
-CS-010;positivo;outro;nao;baixa;Declara amor aos gerentes da marca
-CS-011;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-012;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-013;positivo;outro;nao;alta;Elogia compra vantajosa de produto da marca
 CS-014;positivo;outro;nao;alta;Elogia muito um produto e pede que não seja descontinuado
-CS-015;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-016;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-017;negativo;boicote_consumo;nao;alta;Relata larva no chocolate e diz que nunca mais come
-CS-018;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-019;negativo;boicote_consumo;sim;alta;Relata bicho no chocolate e diz que nunca mais compra
-CS-020;positivo;outro;nao;alta;Elogia trufa de pistache da marca
 CS-021;neutro;relacao_com_franqueados;nao;media;Notícia sobre programa de revendedores da marca
-CS-022;positivo;outro;nao;media;Voltou com várias trufas da marca
-CS-023;neutro;outro;nao;alta;Diz não ter entendido um meme com a marca
-CS-024;negativo;exposicao_midiatica_masterchef;nao;baixa;Incomoda-se com a filha do dono da marca nas redes
-CS-025;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-026;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-027;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-028;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-029;positivo;outro;nao;alta;Diz amar muito um ovo da marca
-CS-030;fora_do_tema;outro;nao;alta;Fala de terapia sem citar a marca
-CS-031;fora_do_tema;outro;nao;media;Fala da indústria de chocolates sem citar a marca
-CS-032;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-033;positivo;outro;nao;media;Deseja um fondue da marca
-CS-034;neutro;humor_meme;nao;baixa;Comparação jocosa sem avaliar a marca
-CS-035;neutro;outro;nao;media;Conta ter ganhado sorteio da marca
-CS-036;neutro;outro;nao;baixa;Relata episódio numa loja da marca
-CS-037;positivo;outro;nao;media;Exagera o desejo por fondue da marca
-CS-038;neutro;outro;nao;baixa;Cita a fábrica da marca sem avaliar
 CS-039;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-040;positivo;outro;nao;media;Deseja um fondue da marca
-CS-041;positivo;outro;nao;alta;Fica feliz ao ganhar barra da marca
-CS-042;positivo;outro;nao;media;Lista a marca entre seus chocolates preferidos
 CS-043;positivo;outro;nao;media;Lista a marca entre seus chocolates preferidos
-CS-044;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-045;negativo;outro;nao;media;Reclama dos preços da máquina da marca
-CS-046;positivo;outro;nao;media;Lista chocolate da marca entre seus preferidos
-CS-047;neutro;outro;nao;baixa;Comenta música tocando na loja
-CS-048;positivo;outro;nao;media;Brinca que novo produto da marca vai pesar no cartão
-CS-049;positivo;outro;nao;media;Recomenda tablete de chocolate da marca
-CS-050;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-051;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-052;neutro;outro;nao;media;Conta que comprou presentes na marca
-CS-053;positivo;outro;nao;baixa;Sonha participar do programa de fidelidade da marca
-CS-054;neutro;outro;nao;media;Cita ter comido trufa da marca sem avaliar
-CS-055;positivo;outro;nao;media;Lista a marca entre seus chocolates preferidos
-CS-056;positivo;outro;nao;alta;Chama os chocolates da marca de deliciosos
-CS-057;positivo;outro;nao;media;Lista produto da marca entre seus preferidos
-CS-058;fora_do_tema;outro;nao;media;Não fala da marca
-CS-059;positivo;outro;nao;alta;Chama a trufa de pistache de muito boa
-CS-060;neutro;outro;nao;media;Lembra trufas da marca que ganhou
-CS-061;positivo;outro;nao;alta;Diz que fondue da marca cura dores
-CS-062;positivo;outro;nao;media;Cita fondue da marca como algo que salva
-CS-063;neutro;outro;nao;baixa;Cita fondue da marca em história pessoal
 CS-064;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-065;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-066;positivo;outro;nao;media;Lista produto da marca entre seus preferidos
 CS-067;neutro;humor_meme;nao;baixa;Comparação jocosa sem avaliar a marca
-CS-068;neutro;outro;nao;media;Comenta costume de presentear com produtos da marca
-CS-069;fora_do_tema;outro;nao;alta;Alê Costa homônimo em contexto político
-CS-070;positivo;outro;nao;alta;Diz que trufa da marca marcou sua vida
-CS-071;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-072;positivo;outro;nao;baixa;Inclui doces da marca num dia perfeito
-CS-073;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-074;neutro;outro;nao;media;Diz ter comprado trufa por influência do TikTok
-CS-075;positivo;outro;nao;media;Chocolate da marca alegrou a manhã
-CS-076;neutro;humor_meme;nao;baixa;Brinca com fotos de chocolate da vendedora
 CS-077;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-078;fora_do_tema;outro;nao;alta;Propaganda de cupom sem opinião
-CS-079;positivo;outro;nao;media;Relata atendimento simpático na loja
-CS-080;neutro;outro;nao;media;Conta que gastou em chocolate da marca na TPM
-CS-081;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-082;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-083;positivo;outro;nao;media;Diz que só os produtos da marca prestam
 CS-084;positivo;outro;nao;media;Diz estar louca por fondue da marca
-CS-085;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-086;positivo;outro;nao;media;Diz precisar comer fondue da marca
-CS-087;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-088;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-089;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-090;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-091;negativo;outro;nao;media;Reclama que faltou recheio no produto
-CS-092;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-093;negativo;outro;nao;media;Reclama que ovo da marca não veio como anunciado
-CS-094;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-095;positivo;outro;nao;baixa;Funcionário da marca presenteia com chocolates
-CS-096;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-097;neutro;outro;nao;media;Cita produto da marca no almoço sem avaliar
-CS-098;neutro;outro;nao;media;Diz ter um fondue da marca
-CS-099;positivo;condicoes_de_trabalho_assedio;nao;baixa;Brinca que queria trabalhar na marca pelo desconto
 CS-100;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-101;positivo;outro;nao;media;Expressa vontade de fondue da marca
-CS-102;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-103;fora_do_tema;outro;nao;baixa;Não fala da marca
-CS-104;positivo;outro;nao;media;Brinca que loja nova perto da academia é tentação
-CS-105;positivo;outro;nao;baixa;Sonha ganhar mimo da marca
-CS-106;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-107;positivo;outro;nao;media;Deseja fondue da marca
-CS-108;neutro;outro;nao;media;Comenta promoção de estoque da Páscoa
-CS-109;positivo;outro;nao;media;Brinca sobre desejo intenso por trufa da marca
 CS-110;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-111;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro com a marca
-CS-112;positivo;outro;nao;media;Diz ser viciada no café e chocolate da marca
-CS-113;positivo;outro;nao;alta;Gosta das caixas de Dia dos Namorados da marca
-CS-114;neutro;humor_meme;nao;baixa;Piada usando a marca como comparação
-CS-115;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-116;positivo;outro;nao;media;Associa trufa da marca a algo desejável
-CS-117;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-118;neutro;outro;nao;baixa;Menção curta de sentido pouco claro
 CS-119;negativo;condicoes_de_trabalho_assedio;nao;media;Lamenta atendentes obrigados a repetir bordão da franquia

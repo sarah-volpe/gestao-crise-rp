@@ -1,0 +1,35 @@
+{
+  "caso": "colgate",
+  "fases": [
+    "pre_crise",
+    "crise",
+    "pos_crise",
+    "reinterdicao",
+    "segunda_onda"
+  ],
+  "max_por_dia_por_origem": 15,
+  "semente_sorteio": 2025,
+  "mascarar_mencoes": false,
+  "coleta_de": "2026-10-24T18:47:34+00:00",
+  "coleta_ate": "2026-10-24T20:14:08+00:00",
+  "linhas_brutas": 745,
+  "excluido_fora_das_fases": 0,
+  "excluido_anuncio": 0,
+  "excluido_retuite": 0,
+  "excluido_conta_oficial_da_marca": 0,
+  "excluido_idioma_nao_pt": 6,
+  "excluido_texto_vazio": 0,
+  "excluido_complementar_fora_da_fase": 0,
+  "duplicados_entre_buscas": 352,
+  "posts_validos": 387,
+  "posts_na_amostra": 181,
+  "autores_distintos": 110,
+  "amostra_por_fase": {
+    "crise": 99,
+    "pre_crise": 82
+  },
+  "amostra_por_origem": {
+    "principal": 181
+  },
+  "dias_com_limite_atingido": 0
+}

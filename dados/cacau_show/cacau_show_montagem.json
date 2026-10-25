@@ -9,25 +9,25 @@
   "semente_sorteio": 2025,
   "mascarar_mencoes": false,
   "coleta_de": "2026-10-24T17:22:33+00:00",
-  "coleta_ate": "2026-10-24T17:25:42+00:00",
-  "linhas_brutas": 304,
+  "coleta_ate": "2026-10-24T20:21:11+00:00",
+  "linhas_brutas": 984,
   "excluido_fora_das_fases": 0,
   "excluido_anuncio": 0,
   "excluido_retuite": 0,
-  "excluido_conta_oficial_da_marca": 80,
-  "excluido_idioma_nao_pt": 0,
+  "excluido_conta_oficial_da_marca": 540,
+  "excluido_idioma_nao_pt": 1,
   "excluido_texto_vazio": 0,
   "excluido_complementar_fora_da_fase": 0,
-  "duplicados_entre_buscas": 94,
-  "posts_validos": 130,
-  "posts_na_amostra": 119,
-  "autores_distintos": 87,
+  "duplicados_entre_buscas": 201,
+  "posts_validos": 242,
+  "posts_na_amostra": 216,
+  "autores_distintos": 151,
   "amostra_por_fase": {
-    "pre_crise": 96,
-    "crise": 23
+    "pre_crise": 178,
+    "crise": 38
   },
   "amostra_por_origem": {
-    "principal": 119
+    "principal": 216
   },
   "dias_com_limite_atingido": 0
 }
