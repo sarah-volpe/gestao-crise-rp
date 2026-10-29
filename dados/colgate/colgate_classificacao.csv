@@ -1,182 +1,182 @@
 ﻿id;sentimento;eixo_tematico;ironia;confianca;justificativa
-CG-001;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-002;fora_do_tema;outro;nao;alta;Divulgação de oferta comercial na Amazon
-CG-003;negativo;outro;nao;alta;Reclama do design da embalagem e tampa da pasta
-CG-004;neutro;outro;nao;alta;Notícia sobre campanha publicitária de enxaguante bucal
-CG-005;fora_do_tema;outro;nao;alta;Divulgação de promoção de creme dental
+CG-001;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-002;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-003;negativo;outro;nao;alta;Reclama da embalagem do creme dental
+CG-004;neutro;outro;nao;media;Notícia sobre ação de marketing da marca
+CG-005;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
 CG-006;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
-CG-007;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-008;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-009;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-010;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-011;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental na Amazon
-CG-012;fora_do_tema;outro;nao;alta;Divulgação de promoção de creme dental
-CG-013;fora_do_tema;outro;nao;alta;Anúncio promocional de creme dental
-CG-014;fora_do_tema;outro;nao;alta;Anúncio promocional de creme dental na Amazon
-CG-015;fora_do_tema;outro;nao;alta;Divulgação de desconto em pacote de cremes dentais
-CG-016;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-017;fora_do_tema;outro;nao;alta;Divulgação de kit de viagem
-CG-018;fora_do_tema;outro;nao;alta;Divulgação de kit de viagem
-CG-019;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-020;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-021;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-022;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental para sensibilidade
-CG-023;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-024;fora_do_tema;outro;nao;alta;Anúncio de promoção de creme dental
-CG-025;fora_do_tema;outro;nao;alta;Divulgação de desconto e promoção de creme dental
-CG-026;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-027;fora_do_tema;outro;nao;alta;Oferta de kit de creme dental
-CG-028;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-029;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-030;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-031;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-032;negativo;reacao_adversa_saude;nao;alta;Relata sensação de queimadura na língua e alergia generalizada
-CG-033;positivo;mudanca_de_formula;nao;alta;Afirma usar linha específica sem enfrentar nenhum problema
-CG-034;negativo;mudanca_de_formula;nao;alta;Afirma que mudança de fórmula causou problemas na mucosa
-CG-035;negativo;confianca_troca_de_marca;nao;alta;Afirma que produto destrói sua gengiva e prefere concorrentes
-CG-036;neutro;mudanca_de_formula;nao;alta;Aponta que o problema decorre da nova fórmula da linha
-CG-037;negativo;reacao_adversa_saude;nao;media;Relata surgimento de aftas após uso e questiona relação
-CG-038;negativo;reacao_adversa_saude;nao;alta;Dentista relata irritação e aftas em pacientes e suspende indicação
-CG-039;negativo;reacao_adversa_saude;nao;alta;Relata ter tido reação alérgica grave à nova fórmula
-CG-040;neutro;reacao_adversa_saude;nao;media;Mencionou uso de outra pasta da marca sem confirmar nexo causal
-CG-041;negativo;reacao_adversa_saude;nao;alta;Relata queimaduras e irritações graves pelo uso do produto
-CG-042;fora_do_tema;outro;nao;alta;Anúncio promocional de escova dental
-CG-043;negativo;reacao_adversa_saude;nao;alta;Dentista relata lesões em pacientes devido a componente da pasta
-CG-044;negativo;reacao_adversa_saude;nao;alta;Relata gengivite aguda provocada pela nova fórmula
-CG-045;negativo;reacao_adversa_saude;nao;alta;Relata reações alérgicas graves e cobra posicionamento da marca
-CG-046;negativo;mudanca_de_formula;nao;alta;Relata ardência na língua e descobre que fórmula contém estanho
-CG-047;positivo;confianca_troca_de_marca;nao;alta;Indica outras opções seguras de produtos da mesma marca
-CG-048;negativo;reacao_adversa_saude;nao;alta;Relata que feridas em pacientes eram causadas pela pasta
-CG-049;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-050;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-051;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-052;neutro;confianca_troca_de_marca;nao;alta;Sugere troca por outra marca concorrente
-CG-053;fora_do_tema;outro;nao;alta;Oferta de creme dental sensível na Amazon
-CG-054;fora_do_tema;outro;nao;alta;Divulgação de ofertas variadas de enxaguante e creme dental
-CG-055;neutro;mudanca_de_formula;nao;alta;Menciona especificação de linha de creme dental
-CG-056;negativo;reacao_adversa_saude;nao;alta;Relata feridas graves, dor e maratona médica causadas pelo produto
-CG-057;neutro;mudanca_de_formula;nao;alta;Explica função do fluoreto de estanho e cita associação a aftas
-CG-058;negativo;confianca_troca_de_marca;nao;alta;Afirma que parou de comprar produtos da marca por motivos políticos
-CG-059;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-060;negativo;reacao_adversa_saude;nao;alta;Relata boca machucada e descobre alteração de fórmula com estanho
-CG-061;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-062;fora_do_tema;outro;nao;alta;Anúncio promocional de creme dental
-CG-063;fora_do_tema;outro;nao;alta;Oferta comercial de kit de creme dental
-CG-064;fora_do_tema;outro;nao;alta;Divulgação de oferta comercial de creme dental
-CG-065;fora_do_tema;outro;nao;alta;Oferta de creme dental em promoção
-CG-066;fora_do_tema;outro;nao;alta;Divulgação de kit promocional de creme dental
-CG-067;fora_do_tema;outro;nao;alta;Anúncio de kit de creme dental
-CG-068;fora_do_tema;outro;nao;alta;Oferta comercial de kit de creme dental
-CG-069;fora_do_tema;outro;nao;alta;Anúncio promocional de creme dental
-CG-070;negativo;reacao_adversa_saude;nao;alta;Denuncia milhares de relatos de reações alérgicas e silêncio da marca
-CG-071;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-072;negativo;reacao_adversa_saude;nao;alta;Relata sintomas em colega e critica necessidade de checar composição
-CG-073;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-074;negativo;reacao_adversa_saude;sim;alta;Ironiza recomendação de dentista e problemas com produtos
-CG-075;negativo;reacao_adversa_saude;nao;alta;Descobriu que problemas de saúde eram causados pela pasta
-CG-076;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-077;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-078;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-079;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental da marca
-CG-080;fora_do_tema;outro;nao;alta;Anúncio de kit promocional de creme dental
-CG-081;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-082;negativo;confianca_troca_de_marca;nao;alta;Afirma que vai jogar fora a pasta de dente da marca
-CG-083;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-084;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental para sensibilidade
-CG-085;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental na Amazon
-CG-086;fora_do_tema;outro;nao;alta;Divulgação de kit promocional de creme dental
-CG-087;negativo;reacao_adversa_saude;nao;alta;Aponta que muitas pessoas estão tendo alergia à pasta
-CG-088;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-089;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-090;negativo;reacao_adversa_saude;nao;alta;Alerta sobre troca de fórmula sem aviso e reações alérgicas
-CG-091;neutro;mudanca_de_formula;nao;alta;Explica substituição de fluoreto e quadro alérgico gerado
-CG-092;neutro;reacao_adversa_saude;nao;alta;Compartilha notícia sobre ardência e inchaço com pasta Colgate
-CG-093;fora_do_tema;outro;nao;alta;Divulgação de oferta de produtos na Amazon
-CG-094;fora_do_tema;outro;nao;alta;Oferta comercial de enxaguante bucal
-CG-095;neutro;mudanca_de_formula;nao;alta;Informa relatos de alergia e justificativa da empresa sobre estanho
-CG-096;fora_do_tema;outro;nao;alta;Divulgação de kit de viagem
-CG-097;fora_do_tema;outro;nao;alta;Oferta comercial de escova dental
-CG-098;fora_do_tema;outro;nao;alta;Oferta comercial de enxaguante bucal
-CG-099;fora_do_tema;outro;nao;alta;Divulgação de enxaguante bucal em promoção
-CG-100;fora_do_tema;outro;nao;alta;Anúncio de promoção de creme dental
-CG-101;negativo;confianca_troca_de_marca;nao;alta;Rejeita alternativas de troca e critica custo-benefício
-CG-102;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-103;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-104;fora_do_tema;outro;nao;alta;Oferta comercial de escova dental
-CG-105;fora_do_tema;outro;nao;alta;Divulgação de escova de dente em promoção
-CG-106;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-107;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-108;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-109;neutro;reacao_adversa_saude;nao;alta;Compartilha reportagem sobre denúncias de lesões bucais
-CG-110;neutro;resposta_da_empresa;nao;alta;Compartilha recomendação da Colgate para descontinuar uso
-CG-111;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-112;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-113;neutro;mudanca_de_formula;nao;alta;Alerta sobre monitoramento da Anvisa e mudança de fórmula
-CG-114;neutro;reacao_adversa_saude;nao;alta;Informa relatos de reações alérgicas após mudança de fórmula
-CG-115;negativo;mudanca_de_formula;nao;alta;Relata alergia em amiga e questiona alteração de ingredientes
-CG-116;negativo;mudanca_de_formula;nao;alta;Relata que nova fórmula da pasta foi achada péssima
-CG-117;neutro;reacao_adversa_saude;nao;alta;Informa que Anvisa monitora lesões da nova fórmula
-CG-118;negativo;resposta_da_empresa;nao;alta;Critica postura defensiva em relação aos danos do produto
-CG-119;fora_do_tema;outro;nao;alta;Divulgação de enxaguante bucal em promoção
-CG-120;fora_do_tema;outro;nao;alta;Divulgação de oferta comercial de creme dental
-CG-121;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-122;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-123;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-124;fora_do_tema;outro;nao;alta;Divulgação de promoção de creme dental
-CG-125;fora_do_tema;outro;nao;alta;Menção irônica a itens de higiene pessoal em promoção
-CG-126;neutro;mudanca_de_formula;nao;alta;Explica alteração de fórmula e testes realizados pela empresa
-CG-127;neutro;reacao_adversa_saude;nao;alta;Informa monitoramento de lesões e inflamações pela Anvisa
-CG-128;fora_do_tema;outro;nao;alta;Anúncio promocional de creme dental
-CG-129;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-130;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-131;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-132;fora_do_tema;outro;nao;alta;Oferta comercial de creme dental
-CG-133;fora_do_tema;outro;nao;alta;Divulgação de oferta de creme dental
-CG-134;negativo;reacao_adversa_saude;nao;alta;Descobriu mudança de fórmula e danos à boca pela experiência própria
-CG-135;fora_do_tema;outro;nao;alta;Divulgação de oferta de escova elétrica
-CG-136;negativo;reacao_adversa_saude;nao;alta;Declara ter sido vítima de alergia provocada pelo produto
-CG-137;neutro;anvisa_regulacao;nao;alta;Informa interdição de linha de cremes dentais da Colgate
-CG-138;negativo;reacao_adversa_saude;nao;alta;Relata gengivas machucadas e boca seca pelo uso do produto
-CG-139;negativo;reacao_adversa_saude;nao;alta;Descobre que problemas na boca foram causados pela Colgate
-CG-140;neutro;anvisa_regulacao;nao;alta;Informa interdição da Anvisa após casos de alergia
-CG-141;neutro;anvisa_regulacao;nao;alta;Alerta sobre proibição de venda após reações alérgicas
-CG-142;neutro;anvisa_regulacao;nao;alta;Noticia proibição de venda pela Anvisa devido a eventos adversos
-CG-143;neutro;anvisa_regulacao;nao;alta;Informa proibição oficial do produto pela Anvisa
-CG-144;neutro;anvisa_regulacao;nao;alta;Explica interdição cautelar da Anvisa e reações adversas
-CG-145;neutro;anvisa_regulacao;nao;alta;Informa suspensão de venda de creme dental pela Anvisa
-CG-146;neutro;anvisa_regulacao;nao;alta;Informa cobertura jornalística sobre proibição da linha
-CG-147;negativo;reacao_adversa_saude;sim;alta;Usa ironia chamando o produto de corrosivo perigoso
-CG-148;negativo;mudanca_de_formula;nao;alta;Critica mudança de fórmula e relata queimaduras na boca
-CG-149;negativo;reacao_adversa_saude;nao;alta;Relata irritação na gengiva pelo uso de produto suspenso
-CG-150;negativo;reacao_adversa_saude;nao;alta;Sente a boca queimar após ler sobre o caso da Colgate
-CG-151;negativo;reacao_adversa_saude;nao;alta;Relata reação alérgica intensa ligada à pasta proibida
-CG-152;negativo;reacao_adversa_saude;nao;alta;Relata reação alérgica grave, boca inchada e feridas
-CG-153;neutro;anvisa_regulacao;nao;alta;Informa sobre proibição da Anvisa à Colgate por lesões
-CG-154;neutro;anvisa_regulacao;nao;alta;Informa pedido de esclarecimentos do Procon-SP à Colgate
-CG-155;negativo;confianca_troca_de_marca;nao;alta;Informa que parou de usar Colgate e mudou de marca
-CG-156;negativo;reacao_adversa_saude;nao;alta;Relata reações adversas e boca machucada pelo uso do produto
-CG-157;negativo;reacao_adversa_saude;nao;alta;Relata inchaço, ardência e necessidade de atendimento hospitalar
-CG-158;negativo;reacao_adversa_saude;nao;alta;Confirma melhora de alergia após suspender uso da pasta
-CG-159;neutro;anvisa_regulacao;nao;alta;Divulga proibição de venda de creme dental da marca
-CG-160;negativo;reacao_adversa_saude;nao;alta;Relata dormência na língua e lesões causadas por pastas da marca
-CG-161;neutro;anvisa_regulacao;nao;alta;Compartilha notícia sobre suspensão de vendas pela Anvisa
-CG-162;neutro;anvisa_regulacao;nao;alta;Noticia autuação de farmácias por venda irregular de pasta proibida
-CG-163;negativo;reacao_adversa_saude;nao;alta;Relata ter sofrido reação alérgica leve à pasta da marca
-CG-164;negativo;reacao_adversa_saude;sim;alta;Usa sátira sobre o uso da pasta associado aos problemas
-CG-165;neutro;anvisa_regulacao;nao;alta;Informa suspensão de creme dental da Colgate pela Anvisa
-CG-166;negativo;reacao_adversa_saude;nao;alta;Expressa raiva por ter estoque de pasta que destruiu sua boca
-CG-167;negativo;reacao_adversa_saude;nao;alta;Relata reações na boca e descobre notícias sobre o produto
-CG-168;neutro;anvisa_regulacao;nao;alta;Informa suspensão de interdição da pasta de dentes
-CG-169;neutro;anvisa_regulacao;nao;alta;Informa ordem da Anvisa para recolhimento de lotes
-CG-170;negativo;reacao_adversa_saude;sim;media;Usa expressão irônica comparando o estado pessoal ao produto
-CG-171;neutro;resposta_da_empresa;nao;alta;Informa que Colgate obteve recurso e voltou a vender
-CG-172;neutro;anvisa_regulacao;nao;alta;Informa alerta da Anvisa sobre produto da Colgate
-CG-173;negativo;reacao_adversa_saude;nao;alta;Reclama de ter estoque de produto proibido em casa
-CG-174;neutro;anvisa_regulacao;nao;alta;Informa liberação de venda após recurso acatado
-CG-175;neutro;anvisa_regulacao;nao;alta;Informa extensão de alerta da Anvisa para pastas com estanho
-CG-176;negativo;reacao_adversa_saude;sim;alta;Ironiza pedindo ingresso como danos morais por pasta radioativa
-CG-177;neutro;resposta_da_empresa;nao;alta;Noticia recurso da Colgate e recomendações de notificação
-CG-178;neutro;anvisa_regulacao;nao;alta;Informa andamento de análise de segurança na Anvisa
-CG-179;neutro;resposta_da_empresa;nao;alta;Informa suspensão da interdição após recurso da empresa
-CG-180;neutro;resposta_da_empresa;nao;alta;Informa liberação da venda após recurso da empresa
-CG-181;neutro;anvisa_regulacao;nao;alta;Informa suspensão de interdição de creme dental
+CG-007;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-008;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-009;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-010;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-011;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-012;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-013;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-014;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-015;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-016;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-017;fora_do_tema;outro;nao;alta;Anúncio de oferta de kit
+CG-018;fora_do_tema;outro;nao;alta;Anúncio de oferta de kit
+CG-019;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-020;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-021;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-022;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-023;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-024;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-025;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-026;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-027;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-028;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-029;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-030;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-031;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-032;negativo;reacao_adversa_saude;sim;alta;Relata língua queimada após a mudança de fórmula
+CG-033;positivo;outro;nao;media;Diz não ter problemas com outra linha da marca
+CG-034;negativo;mudanca_de_formula;nao;alta;Diz que a nova fórmula irritou a mucosa de muita gente
+CG-035;negativo;reacao_adversa_saude;nao;alta;Diz que o produto acaba com sua gengiva
+CG-036;neutro;mudanca_de_formula;nao;baixa;Menciona a nova fórmula sem avaliação clara
+CG-037;negativo;reacao_adversa_saude;nao;media;Pergunta preocupada se aftas vêm do produto
+CG-038;negativo;reacao_adversa_saude;nao;alta;Profissional deixa de recomendar a linha após queixas de pacientes
+CG-039;negativo;reacao_adversa_saude;nao;alta;Relata alergias após a mudança da fórmula
+CG-040;neutro;reacao_adversa_saude;nao;baixa;Relata sintoma sem atribuí-lo ao produto
+CG-041;negativo;reacao_adversa_saude;nao;alta;Relata queimaduras e aftas do casal com o produto
+CG-042;fora_do_tema;outro;nao;alta;Anúncio de oferta de escova
+CG-043;negativo;reacao_adversa_saude;nao;alta;Dentista relata pacientes com lesões pelo produto
+CG-044;negativo;confianca_troca_de_marca;nao;alta;Relata gengivite e troca de marca
+CG-045;neutro;reacao_adversa_saude;nao;alta;Notícia sobre relatos de reações graves
+CG-046;negativo;mudanca_de_formula;nao;alta;Relata ardência e culpa a adição de estanho
+CG-047;neutro;outro;nao;media;Indica outros produtos da própria marca
+CG-048;negativo;mudanca_de_formula;nao;alta;Dentista relata casos de feridas causadas pela nova fórmula
+CG-049;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-050;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-051;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-052;negativo;confianca_troca_de_marca;nao;media;Recomenda trocar o produto por outra marca
+CG-053;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-054;fora_do_tema;outro;nao;alta;Anúncio de oferta de produtos
+CG-055;neutro;outro;nao;baixa;Menção curta sem contexto avaliável
+CG-056;negativo;reacao_adversa_saude;nao;alta;Relata feridas graves e melhora após trocar de pasta
+CG-057;neutro;mudanca_de_formula;nao;media;Explica o fluoreto de estanho e os relatos
+CG-058;negativo;confianca_troca_de_marca;nao;alta;Diz ter parado de comprar por motivos ideológicos
+CG-059;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-060;negativo;mudanca_de_formula;sim;alta;Relata boca ferida atribuída à nova fórmula
+CG-061;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-062;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-063;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-064;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-065;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-066;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-067;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-068;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-069;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-070;negativo;resposta_da_empresa;nao;alta;Critica o silêncio da marca diante de milhares de relatos
+CG-071;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-072;negativo;confianca_troca_de_marca;nao;alta;Expressa raiva e desconfiança após sintomas de colega
+CG-073;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-074;neutro;outro;nao;media;Cita a marca em história sobre a dentista
+CG-075;negativo;reacao_adversa_saude;nao;alta;Relata problema bucal causado pela pasta da marca
+CG-076;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-077;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-078;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-079;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-080;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-081;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-082;fora_do_tema;outro;nao;media;Fala de proibição de objetos em estádio
+CG-083;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-084;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-085;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-086;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-087;negativo;reacao_adversa_saude;nao;media;Diz que muita gente está tendo alergia
+CG-088;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-089;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-090;negativo;mudanca_de_formula;nao;alta;Alerta que a troca de fórmula sem aviso causou alergia
+CG-091;negativo;mudanca_de_formula;nao;media;Explica que a nova fórmula causa alergia intensa
+CG-092;neutro;reacao_adversa_saude;nao;alta;Notícia sobre relatos de ardência e inchaço
+CG-093;fora_do_tema;outro;nao;alta;Anúncio de oferta do produto
+CG-094;fora_do_tema;outro;nao;alta;Anúncio de oferta de enxaguante
+CG-095;neutro;mudanca_de_formula;nao;alta;Notícia sobre alergias e resposta da marca
+CG-096;fora_do_tema;outro;nao;alta;Anúncio de oferta de kit
+CG-097;fora_do_tema;outro;nao;alta;Anúncio de oferta de escova
+CG-098;fora_do_tema;outro;nao;alta;Anúncio de oferta de enxaguante
+CG-099;fora_do_tema;outro;nao;alta;Anúncio de oferta de enxaguante
+CG-100;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-101;positivo;outro;nao;media;Prefere a pasta da marca pelo preço a alternativa cara
+CG-102;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-103;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-104;fora_do_tema;outro;nao;alta;Anúncio de oferta de escova
+CG-105;fora_do_tema;outro;nao;alta;Anúncio de oferta de escova
+CG-106;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-107;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-108;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-109;neutro;reacao_adversa_saude;nao;alta;Notícia sobre denúncias de lesões
+CG-110;neutro;resposta_da_empresa;nao;alta;Notícia com orientação da marca sobre o uso
+CG-111;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-112;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-113;neutro;anvisa_regulacao;nao;media;Alerta informativo sobre monitoramento da Anvisa
+CG-114;neutro;reacao_adversa_saude;nao;alta;Notícia sobre relatos de alergia
+CG-115;negativo;mudanca_de_formula;nao;media;Relata caso de alergia e desconfia da reformulação
+CG-116;negativo;mudanca_de_formula;nao;media;Relata que o pai achou a nova fórmula ruim
+CG-117;neutro;anvisa_regulacao;nao;alta;Notícia sobre monitoramento da Anvisa
+CG-118;negativo;reacao_adversa_saude;nao;media;Defende quem evita o produto por alergia
+CG-119;fora_do_tema;outro;nao;alta;Anúncio de oferta de enxaguante
+CG-120;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-121;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-122;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-123;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-124;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-125;neutro;humor_meme;nao;baixa;Lista produtos com risos sem avaliação
+CG-126;neutro;mudanca_de_formula;nao;alta;Notícia sobre mudança de fórmula e reclamações
+CG-127;neutro;anvisa_regulacao;nao;alta;Notícia sobre monitoramento da Anvisa
+CG-128;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-129;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-130;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-131;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-132;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-133;fora_do_tema;outro;nao;alta;Anúncio de oferta de creme dental
+CG-134;negativo;reacao_adversa_saude;nao;alta;Relata ter estragado a boca usando o produto
+CG-135;fora_do_tema;outro;nao;alta;Anúncio de oferta de escova
+CG-136;negativo;reacao_adversa_saude;nao;alta;Diz ter sido vítima de alergia ao produto
+CG-137;neutro;anvisa_regulacao;nao;alta;Notícia sobre interdição pela Anvisa
+CG-138;negativo;reacao_adversa_saude;sim;alta;Relata gengivas machucadas e lábios cortados pelo produto
+CG-139;negativo;reacao_adversa_saude;nao;alta;Atribui a boca machucada ao produto
+CG-140;neutro;anvisa_regulacao;nao;alta;Notícia sobre interdição
+CG-141;negativo;anvisa_regulacao;nao;media;Alerta sobre proibição por reações alérgicas
+CG-142;neutro;anvisa_regulacao;nao;alta;Notícia sobre proibição da venda
+CG-143;neutro;anvisa_regulacao;nao;alta;Informa a proibição pela Anvisa
+CG-144;neutro;anvisa_regulacao;nao;alta;Notícia descritiva sobre a interdição
+CG-145;neutro;anvisa_regulacao;nao;alta;Notícia sobre suspensão da venda
+CG-146;neutro;anvisa_regulacao;nao;alta;Notícia explicativa sobre a proibição
+CG-147;negativo;reacao_adversa_saude;sim;alta;Ironiza que o produto é corrosivo
+CG-148;negativo;mudanca_de_formula;nao;alta;Critica a troca do fluoreto e cita queimaduras
+CG-149;negativo;reacao_adversa_saude;nao;alta;Relata gengiva irritada pela pasta suspensa
+CG-150;negativo;reacao_adversa_saude;nao;media;Relata sentir a boca queimar ao escovar
+CG-151;negativo;reacao_adversa_saude;nao;alta;Relata reação alérgica após tratamento errado
+CG-152;negativo;reacao_adversa_saude;nao;alta;Relata reação alérgica grave e cogita processar
+CG-153;negativo;anvisa_regulacao;nao;media;Divulga proibição destacando lesões causadas pelo produto
+CG-154;neutro;anvisa_regulacao;nao;alta;Notícia sobre Procon pedindo esclarecimentos
+CG-155;negativo;confianca_troca_de_marca;nao;alta;Conta que trocou a marca por outra
+CG-156;negativo;reacao_adversa_saude;sim;alta;Relata ter ficado com a boca machucada ao usar o produto
+CG-157;negativo;reacao_adversa_saude;nao;alta;Relata inchaço e ida ao hospital após o uso
+CG-158;negativo;reacao_adversa_saude;nao;alta;Atribui alergia na boca ao produto
+CG-159;neutro;anvisa_regulacao;nao;alta;Compartilha notícia sobre a proibição
+CG-160;negativo;reacao_adversa_saude;nao;alta;Relata dormência e feridas com pastas da marca
+CG-161;neutro;anvisa_regulacao;nao;alta;Compartilha notícia sobre a suspensão
+CG-162;neutro;anvisa_regulacao;nao;alta;Notícia sobre farmácias autuadas
+CG-163;negativo;reacao_adversa_saude;nao;alta;Relata reação alérgica ao produto
+CG-164;negativo;reacao_adversa_saude;sim;media;Ironiza que quase todos os pacientes usam o produto
+CG-165;neutro;anvisa_regulacao;nao;alta;Notícia sobre suspensão da venda
+CG-166;negativo;reacao_adversa_saude;nao;alta;Expressa raiva porque o produto prejudicou sua boca
+CG-167;negativo;reacao_adversa_saude;nao;alta;Relata ter sido vítima de reação ao produto
+CG-168;neutro;anvisa_regulacao;nao;alta;Notícia sobre suspensão da interdição
+CG-169;neutro;anvisa_regulacao;nao;alta;Notícia sobre ordem de recolhimento
+CG-170;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro com o produto
+CG-171;neutro;anvisa_regulacao;nao;alta;Notícia sobre recurso que liberou a venda
+CG-172;neutro;anvisa_regulacao;nao;alta;Notícia sobre alerta da Anvisa
+CG-173;negativo;anvisa_regulacao;nao;media;Chama o produto de diabólico após a retirada
+CG-174;neutro;anvisa_regulacao;nao;alta;Notícia sobre liberação após recurso
+CG-175;neutro;anvisa_regulacao;nao;alta;Notícia sobre alerta ampliado da Anvisa
+CG-176;negativo;reacao_adversa_saude;sim;alta;Pede danos morais por pasta radioativa em tom irônico
+CG-177;neutro;anvisa_regulacao;nao;alta;Notícia sobre o recurso obtido pela marca
+CG-178;neutro;anvisa_regulacao;nao;alta;Informa que o caso segue em análise
+CG-179;neutro;anvisa_regulacao;nao;alta;Notícia sobre orientação da Anvisa e recurso
+CG-180;neutro;anvisa_regulacao;nao;alta;Notícia sobre liberação da venda após recurso
+CG-181;neutro;anvisa_regulacao;nao;alta;Notícia sobre suspensão da interdição

@@ -373,8 +373,9 @@ def coletar(caso: str, incluir_opcionais: bool, refazer: bool, so_dia: str | Non
                         page.screenshot(path=str(shot))
                     except Exception:
                         pass
-                    print(f"  !! 0 posts sem a mensagem 'Nenhum resultado' do X: busca NÃO marcada como feita "
-                          f"(imagem da tela em {shot})")
+                    limite_x = "something went wrong" in _texto(page) or "algo deu errado" in _texto(page)
+                    print(f"  !! 0 posts {'(limite de buscas do X)' if limite_x else 'sem a mensagem Nenhum resultado do X'}: "
+                          f"busca NÃO marcada como feita (imagem da tela em {shot})")
                     if suspeitos >= 3:
                         print("  !! 3 buscas seguidas sem carregar resultados: o X pode estar limitando a conta. "
                               "Espere um pouco e rode o mesmo comando (retoma de onde parou).")

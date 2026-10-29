@@ -202,6 +202,15 @@ def classificar(caso: str, provider: str, modelo: str | None, estimar: bool) -> 
         man_path.write_text(json.dumps(manifesto, ensure_ascii=False, indent=1), encoding="utf-8")
 
     if not manifesto["lotes"]:
+        # lotes novos: arquivos de prompt/resposta de outro sorteio (outro modelo, prompt ou base)
+        # não podem ser lidos como se fossem deste; vão para uma pasta de arquivo
+        antigos = list(pasta.glob("t*_lote*.txt"))
+        if antigos:
+            arq = pasta / f"arquivado_{datetime.now():%Y%m%d_%H%M%S}"
+            arq.mkdir()
+            for f in antigos:
+                f.rename(arq / f.name)
+            print(f"{len(antigos)} arquivos de lotes anteriores movidos para {arq}.")
         novos_lotes(0)
 
     lidos: set[str] = set()
@@ -281,12 +290,14 @@ def classificar(caso: str, provider: str, modelo: str | None, estimar: bool) -> 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Classificação de sentimento do protocolo do TCC.")
-    ap.add_argument("--caso", required=True, choices=proto.casos_disponiveis())
+    ap.add_argument("--caso", "--casos", dest="casos", nargs="+", required=True, choices=proto.casos_disponiveis())
     ap.add_argument("--provider", choices=["anthropic", "zai", "manual"], default="manual")
     ap.add_argument("--modelo")
     ap.add_argument("--estimar", action="store_true", help="só mostra nº de lotes e tokens estimados")
     a = ap.parse_args()
-    classificar(a.caso, a.provider, a.modelo, a.estimar)
+    for caso in a.casos:
+        print(f"\n=== {caso} ===")
+        classificar(caso, a.provider, a.modelo, a.estimar)
 
 
 if __name__ == "__main__":

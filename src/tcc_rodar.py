@@ -65,7 +65,8 @@ def main() -> None:
     ap.add_argument("--casos", nargs="+", required=True, choices=proto.casos_disponiveis())
     ap.add_argument("--sem-opcionais", action="store_true", help="não coleta fases opcionais")
     ap.add_argument("--so-montar", action="store_true", help="pula a coleta")
-    ap.add_argument("--rodadas", type=int, default=4)
+    ap.add_argument("--rodadas", type=int, default=10)
+    ap.add_argument("--pausa", type=int, default=15, help="minutos de espera entre rodadas (limite do X)")
     a = ap.parse_args()
     opc = not a.sem_opcionais
 
@@ -77,6 +78,7 @@ def main() -> None:
             antes = {c: pendentes(c, opc) for c in a.casos}
             print("Buscas pendentes: " + ", ".join(f"{c} {n}" for c, n in antes.items()), flush=True)
             parado = False
+            sem_progresso = 0
             for rodada in range(1, a.rodadas + 1):
                 for caso in a.casos:
                     if pendentes(caso, opc):
@@ -98,11 +100,17 @@ def main() -> None:
                 if not any(agora.values()):
                     break
                 if sum(agora.values()) >= sum(antes.values()):
-                    print("\n!! Nenhum progresso nesta rodada: o X pode estar limitando a conta. "
-                          "Espere algumas horas e rode o mesmo comando (retoma de onde parou).")
-                    break
+                    sem_progresso += 1
+                    if sem_progresso >= 2:
+                        print("\n!! Duas rodadas seguidas sem progresso: o X está limitando a conta. "
+                              "Espere algumas horas e rode o mesmo comando (retoma de onde parou).")
+                        break
+                else:
+                    sem_progresso = 0
                 antes = agora
-                time.sleep(30)
+                print(f"\n... O X costuma limitar as buscas por uns 15 minutos. Esperando {a.pausa} min antes "
+                      f"da rodada {rodada + 1} (pode deixar o computador sozinho).", flush=True)
+                time.sleep(a.pausa * 60)
         finally:
             manter_acordado(False)
         print(f"\nColeta encerrada em {(time.time() - inicio) / 60:.0f} min.")
