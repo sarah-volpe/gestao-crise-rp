@@ -23,13 +23,16 @@ marcos:
   - {data: "2025-02-12", evento: "Imprensa noticia oferta de troca ou devolução das porcelanas", fonte: "O Povo, 12/02/2025"}
 
 fases:
-  - {nome: pre_crise, inicio: "2025-01-15", fim: "2025-01-28"}
-  - {nome: crise,     inicio: "2025-01-29", fim: "2025-02-14"}
+  - {nome: pre_crise, inicio: "2025-01-01", fim: "2025-01-12"}
+  - {nome: crise,     inicio: "2025-01-13", fim: "2025-02-14"}
   - {nome: pos_crise, inicio: "2025-02-15", fim: "2025-02-28"}
 
 nota_linha_de_base: >-
-  A pré-crise (15 a 28/01) é a linha de base: mostra como se falava da marca
-  antes da repercussão do vídeo.
+  A pré-crise (01 a 12/01) é a linha de base: mostra como se falava da marca
+  antes da repercussão do vídeo. A crise começa em 13/01 porque a coleta
+  mostrou as primeiras publicações sobre a xícara da Tailândia entre 13 e
+  16/01, antes dos marcos oficiais de fevereiro. Na linha de base a marca
+  quase não aparece no X (poucas publicações por dia).
 
 # Perfis da própria marca: as publicações deles saem do corpus (não são opinião do público).
 contas_oficiais: [taniabulhoes]

@@ -18,19 +18,29 @@ de cada um, como pede o estudo de casos múltiplos (Yin, 2005).
 
 ## 2. Fases e linha de base
 
-Cada caso tem uma **pré-crise** de 14 dias, que serve de linha de base (como
-se falava da marca antes), uma **crise** que começa poucos dias antes do
-primeiro marco e uma **pós-crise** de 14 dias.
+Cada caso tem uma **pré-crise**, que serve de linha de base (como se falava
+da marca antes), uma **crise** que começa quando a repercussão aparece na
+coleta (às vezes antes do primeiro marco oficial) e uma **pós-crise** de 14
+dias.
 
 | caso | pré-crise | crise | pós-crise | fases extras (opcionais) |
 |---|---|---|---|---|
-| Tânia Bulhões | 15–28/01/2025 | 29/01–14/02 | 15–28/02 | — |
+| Tânia Bulhões | 01–12/01/2025 | 13/01–14/02 | 15–28/02 | — |
 | Colgate | 06–19/03/2025 | 20/03–10/04 | 11–24/04 | reinterdição 25/04–08/05; segunda onda 18/06–09/07 |
 | Cacau Show | 12–25/05/2025 | 26/05–12/06 | 13–26/06 | — |
 
 Cuidados de leitura:
+- **Tânia Bulhões:** na primeira versão a pré-crise era 15–28/01, mas a
+  coleta mostrou as primeiras publicações sobre a xícara da Tailândia entre
+  13 e 16/01, o que contaminava a linha de base (40% de negativas). As fases
+  foram redefinidas para pré-crise 01–12/01 e crise 13/01–14/02, antes da
+  classificação final. Na nova pré-crise a marca quase não aparece no X:
+  a linha de base tem poucas publicações e deve ser lida com cautela.
 - **Colgate:** a pré-crise não é um período "normal", porque as queixas
-  começaram em 2024. Na pós-crise o produto estava de volta à venda por
+  começaram em 2024 (68% das publicações sobre a marca nessa fase já são
+  negativas). As fases foram mantidas, porque recuar a pré-crise não
+  encontraria um período sem queixas; ela deve ser lida como "crise latente"
+  anterior à interdição, e não como linha de base neutra. Na pós-crise o produto estava de volta à venda por
   causa do recurso. Em 30/04 a Anvisa voltou a interditar o produto, daí a
   fase de reinterdição.
 - **Cacau Show:** a pré-crise começa logo depois do Dia das Mães, com mais
@@ -102,6 +112,8 @@ perfeita.
   tinha os filtros `lang:pt` e `-filter:retweets` na busca (aplicados depois),
   perdeu emojis e tinha limite de 200 posts por dia. Esses registros ficam
   marcados como `coleta_legada`.
+  Na versão final, a Tânia Bulhões foi coletada de novo com o protocolo atual;
+  a coleta antiga ficou guardada em `data/raw/x_tcc_legado/` e não entra nas tabelas.
 
 ## 7. Como executar
 

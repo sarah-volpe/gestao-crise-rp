@@ -185,3 +185,6 @@ Com o perfil salvo, a renovação da sessão é automática.
   a cada lote, essa classificação serve para testar o método e o painel, não como resultado final.
 - **Achado de método:** na Tânia Bulhões, a repercussão da xícara da Tailândia já aparece entre 13 e
   17/01/2025, dentro da fase chamada de pré-crise. Por isso a "linha de base" tem 40% de negativas.
+  **Decisão:** as fases foram redefinidas para pré-crise 01–12/01, crise 13/01–14/02 e pós-crise
+  15–28/02 (mesma coleta, só a montagem foi refeita). Na Colgate as fases ficaram como estavam, e a
+  pré-crise passou a ser descrita como "crise latente".

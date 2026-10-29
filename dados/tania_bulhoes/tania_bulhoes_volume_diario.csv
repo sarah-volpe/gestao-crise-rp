@@ -1,46 +1,60 @@
 ﻿data;fase;posts_coletados;volume_estimado_no_dia
-2025-01-15;pre_crise;0;0
-2025-01-16;pre_crise;15;21
-2025-01-17;pre_crise;12;12
-2025-01-18;pre_crise;3;3
-2025-01-19;pre_crise;1;1
-2025-01-20;pre_crise;1;1
-2025-01-21;pre_crise;2;2
-2025-01-22;pre_crise;3;3
-2025-01-23;pre_crise;0;0
-2025-01-24;pre_crise;0;0
-2025-01-25;pre_crise;0;0
-2025-01-26;pre_crise;2;2
-2025-01-27;pre_crise;0;0
-2025-01-28;pre_crise;6;6
-2025-01-29;crise;4;parcial (4)
-2025-01-30;crise;1;parcial (1)
-2025-01-31;crise;0;parcial (0)
-2025-02-01;crise;1;parcial (1)
-2025-02-02;crise;3;parcial (3)
-2025-02-03;crise;3;parcial (3)
-2025-02-04;crise;6;parcial (6)
-2025-02-05;crise;13;parcial (13)
-2025-02-06;crise;9;parcial (9)
-2025-02-07;crise;15;parcial (18)
-2025-02-08;crise;15;parcial (40)
-2025-02-09;crise;15;parcial (48)
-2025-02-10;crise;15;parcial (20)
-2025-02-11;crise;15;parcial (93)
-2025-02-12;crise;15;parcial (74)
-2025-02-13;crise;15;parcial (46)
-2025-02-14;crise;15;parcial (29)
-2025-02-15;pos_crise;9;9
-2025-02-16;pos_crise;0;0
-2025-02-17;pos_crise;0;0
-2025-02-18;pos_crise;0;0
-2025-02-19;pos_crise;0;0
-2025-02-20;pos_crise;0;0
-2025-02-21;pos_crise;0;0
-2025-02-22;pos_crise;0;0
-2025-02-23;pos_crise;0;0
-2025-02-24;pos_crise;0;0
-2025-02-25;pos_crise;0;0
-2025-02-26;pos_crise;0;0
-2025-02-27;pos_crise;0;0
-2025-02-28;pos_crise;0;0
+2025-01-01;pre_crise;0;0
+2025-01-02;pre_crise;0;0
+2025-01-03;pre_crise;2;2
+2025-01-04;pre_crise;1;1
+2025-01-05;pre_crise;0;0
+2025-01-06;pre_crise;0;0
+2025-01-07;pre_crise;0;0
+2025-01-08;pre_crise;0;0
+2025-01-09;pre_crise;0;0
+2025-01-10;pre_crise;1;1
+2025-01-11;pre_crise;0;0
+2025-01-12;pre_crise;3;3
+2025-01-13;crise;3;3
+2025-01-14;crise;15;27
+2025-01-15;crise;15;60
+2025-01-16;crise;15;19
+2025-01-17;crise;11;11
+2025-01-18;crise;3;3
+2025-01-19;crise;1;1
+2025-01-20;crise;1;1
+2025-01-21;crise;2;2
+2025-01-22;crise;3;3
+2025-01-23;crise;0;0
+2025-01-24;crise;0;0
+2025-01-25;crise;0;0
+2025-01-26;crise;2;2
+2025-01-27;crise;0;0
+2025-01-28;crise;2;2
+2025-01-29;crise;5;5
+2025-01-30;crise;1;1
+2025-01-31;crise;0;0
+2025-02-01;crise;1;1
+2025-02-02;crise;2;2
+2025-02-03;crise;3;3
+2025-02-04;crise;6;6
+2025-02-05;crise;12;12
+2025-02-06;crise;9;9
+2025-02-07;crise;15;17
+2025-02-08;crise;15;37
+2025-02-09;crise;15;mais de 50
+2025-02-10;crise;15;mais de 168
+2025-02-11;crise;15;mais de 245
+2025-02-12;crise;15;129
+2025-02-13;crise;15;56
+2025-02-14;crise;15;35
+2025-02-15;pos_crise;14;14
+2025-02-16;pos_crise;13;13
+2025-02-17;pos_crise;15;20
+2025-02-18;pos_crise;14;14
+2025-02-19;pos_crise;15;16
+2025-02-20;pos_crise;11;11
+2025-02-21;pos_crise;12;12
+2025-02-22;pos_crise;15;16
+2025-02-23;pos_crise;6;6
+2025-02-24;pos_crise;10;10
+2025-02-25;pos_crise;15;17
+2025-02-26;pos_crise;7;7
+2025-02-27;pos_crise;7;7
+2025-02-28;pos_crise;8;8

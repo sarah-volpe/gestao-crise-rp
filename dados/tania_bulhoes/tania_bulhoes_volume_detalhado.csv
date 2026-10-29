@@ -1,46 +1,60 @@
 ﻿data;fase;volume_principal;volume_complementar;amostra_principal;amostra_complementar;limite_atingido;buscas_feitas
-2025-01-15;pre_crise;0;;0;;False;principal:2/2
-2025-01-16;pre_crise;21;;15;;False;principal:2/2
-2025-01-17;pre_crise;12;;12;;False;principal:2/2
-2025-01-18;pre_crise;3;;3;;False;principal:2/2
-2025-01-19;pre_crise;1;;1;;False;principal:2/2
-2025-01-20;pre_crise;1;;1;;False;principal:2/2
-2025-01-21;pre_crise;2;;2;;False;principal:2/2
-2025-01-22;pre_crise;3;;3;;False;principal:2/2
-2025-01-23;pre_crise;0;;0;;False;principal:2/2
-2025-01-24;pre_crise;0;;0;;False;principal:2/2
-2025-01-25;pre_crise;0;;0;;False;principal:2/2
-2025-01-26;pre_crise;2;;2;;False;principal:2/2
-2025-01-27;pre_crise;0;;0;;False;principal:2/2
-2025-01-28;pre_crise;6;;6;;False;principal:2/2
-2025-01-29;crise;4;0;4;0;False;principal:2/2 complementar:0/2
-2025-01-30;crise;1;0;1;0;False;principal:2/2 complementar:0/2
-2025-01-31;crise;0;0;0;0;False;principal:2/2 complementar:0/2
-2025-02-01;crise;1;0;1;0;False;principal:2/2 complementar:0/2
-2025-02-02;crise;3;0;3;0;False;principal:2/2 complementar:0/2
-2025-02-03;crise;3;0;3;0;False;principal:2/2 complementar:0/2
-2025-02-04;crise;6;0;6;0;False;principal:2/2 complementar:0/2
-2025-02-05;crise;13;0;13;0;False;principal:2/2 complementar:0/2
-2025-02-06;crise;9;0;9;0;False;principal:2/2 complementar:0/2
-2025-02-07;crise;18;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-08;crise;40;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-09;crise;48;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-10;crise;20;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-11;crise;93;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-12;crise;74;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-13;crise;46;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-14;crise;29;0;15;0;False;principal:2/2 complementar:0/2
-2025-02-15;pos_crise;9;;9;;False;principal:2/2
-2025-02-16;pos_crise;0;;0;;False;principal:2/2
-2025-02-17;pos_crise;0;;0;;False;principal:2/2
-2025-02-18;pos_crise;0;;0;;False;principal:2/2
-2025-02-19;pos_crise;0;;0;;False;principal:2/2
-2025-02-20;pos_crise;0;;0;;False;principal:2/2
-2025-02-21;pos_crise;0;;0;;False;principal:2/2
-2025-02-22;pos_crise;0;;0;;False;principal:2/2
-2025-02-23;pos_crise;0;;0;;False;principal:2/2
-2025-02-24;pos_crise;0;;0;;False;principal:2/2
-2025-02-25;pos_crise;0;;0;;False;principal:2/2
-2025-02-26;pos_crise;0;;0;;False;principal:2/2
-2025-02-27;pos_crise;0;;0;;False;principal:2/2
-2025-02-28;pos_crise;0;;0;;False;principal:2/2
+2025-01-01;pre_crise;0;;0;;False;principal:2/2
+2025-01-02;pre_crise;0;;0;;False;principal:2/2
+2025-01-03;pre_crise;2;;2;;False;principal:2/2
+2025-01-04;pre_crise;1;;1;;False;principal:2/2
+2025-01-05;pre_crise;0;;0;;False;principal:2/2
+2025-01-06;pre_crise;0;;0;;False;principal:2/2
+2025-01-07;pre_crise;0;;0;;False;principal:2/2
+2025-01-08;pre_crise;0;;0;;False;principal:2/2
+2025-01-09;pre_crise;0;;0;;False;principal:2/2
+2025-01-10;pre_crise;1;;1;;False;principal:2/2
+2025-01-11;pre_crise;0;;0;;False;principal:2/2
+2025-01-12;pre_crise;3;;3;;False;principal:2/2
+2025-01-13;crise;3;0;3;0;False;principal:2/2 complementar:2/2
+2025-01-14;crise;27;0;15;0;False;principal:2/2 complementar:2/2
+2025-01-15;crise;60;0;15;0;False;principal:2/2 complementar:2/2
+2025-01-16;crise;19;0;15;0;False;principal:2/2 complementar:2/2
+2025-01-17;crise;11;0;11;0;False;principal:2/2 complementar:2/2
+2025-01-18;crise;3;0;3;0;False;principal:2/2 complementar:2/2
+2025-01-19;crise;1;0;1;0;False;principal:2/2 complementar:2/2
+2025-01-20;crise;1;0;1;0;False;principal:2/2 complementar:2/2
+2025-01-21;crise;2;0;2;0;False;principal:2/2 complementar:2/2
+2025-01-22;crise;3;0;3;0;False;principal:2/2 complementar:2/2
+2025-01-23;crise;0;0;0;0;False;principal:2/2 complementar:2/2
+2025-01-24;crise;0;0;0;0;False;principal:2/2 complementar:2/2
+2025-01-25;crise;0;0;0;0;False;principal:2/2 complementar:2/2
+2025-01-26;crise;2;0;2;0;False;principal:2/2 complementar:2/2
+2025-01-27;crise;0;0;0;0;False;principal:2/2 complementar:2/2
+2025-01-28;crise;2;0;2;0;False;principal:2/2 complementar:2/2
+2025-01-29;crise;5;0;5;0;False;principal:2/2 complementar:2/2
+2025-01-30;crise;1;0;1;0;False;principal:2/2 complementar:2/2
+2025-01-31;crise;0;0;0;0;False;principal:2/2 complementar:2/2
+2025-02-01;crise;1;0;1;0;False;principal:2/2 complementar:2/2
+2025-02-02;crise;2;0;2;0;False;principal:2/2 complementar:2/2
+2025-02-03;crise;3;0;3;0;False;principal:2/2 complementar:2/2
+2025-02-04;crise;6;0;6;0;False;principal:2/2 complementar:2/2
+2025-02-05;crise;12;0;12;0;False;principal:2/2 complementar:2/2
+2025-02-06;crise;9;0;9;0;False;principal:2/2 complementar:2/2
+2025-02-07;crise;17;0;15;0;False;principal:2/2 complementar:2/2
+2025-02-08;crise;37;0;15;0;False;principal:2/2 complementar:2/2
+2025-02-09;crise;50;0;15;0;True;principal:2/2 complementar:2/2
+2025-02-10;crise;168;0;15;0;True;principal:2/2 complementar:2/2
+2025-02-11;crise;245;0;15;0;True;principal:2/2 complementar:2/2
+2025-02-12;crise;129;0;15;0;False;principal:2/2 complementar:2/2
+2025-02-13;crise;56;0;15;0;False;principal:2/2 complementar:2/2
+2025-02-14;crise;35;0;15;0;False;principal:2/2 complementar:2/2
+2025-02-15;pos_crise;14;;14;;False;principal:2/2
+2025-02-16;pos_crise;13;;13;;False;principal:2/2
+2025-02-17;pos_crise;20;;15;;False;principal:2/2
+2025-02-18;pos_crise;14;;14;;False;principal:2/2
+2025-02-19;pos_crise;16;;15;;False;principal:2/2
+2025-02-20;pos_crise;11;;11;;False;principal:2/2
+2025-02-21;pos_crise;12;;12;;False;principal:2/2
+2025-02-22;pos_crise;16;;15;;False;principal:2/2
+2025-02-23;pos_crise;6;;6;;False;principal:2/2
+2025-02-24;pos_crise;10;;10;;False;principal:2/2
+2025-02-25;pos_crise;17;;15;;False;principal:2/2
+2025-02-26;pos_crise;7;;7;;False;principal:2/2
+2025-02-27;pos_crise;7;;7;;False;principal:2/2
+2025-02-28;pos_crise;8;;8;;False;principal:2/2

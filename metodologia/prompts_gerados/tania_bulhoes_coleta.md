@@ -9,10 +9,10 @@ MARCOS DO CASO (só para situar as fases; não use para escolher posts)
 - 12/02/2025: Imprensa noticia oferta de troca ou devolução das porcelanas
 
 PERÍODO E FASES (horário de Brasília; o último dia de cada fase está incluído)
-- pre_crise: 15/01/2025 a 28/01/2025
-- crise: 29/01/2025 a 14/02/2025
+- pre_crise: 01/01/2025 a 12/01/2025
+- crise: 13/01/2025 a 14/02/2025
 - pos_crise: 15/02/2025 a 28/02/2025
-A pré-crise (15 a 28/01) é a linha de base: mostra como se falava da marca antes da repercussão do vídeo.
+A pré-crise (01 a 12/01) é a linha de base: mostra como se falava da marca antes da repercussão do vídeo. A crise começa em 13/01 porque a coleta mostrou as primeiras publicações sobre a xícara da Tailândia entre 13 e 16/01, antes dos marcos oficiais de fevereiro. Na linha de base a marca quase não aparece no X (poucas publicações por dia).
 
 BUSCA PRINCIPAL (a mesma em todas as fases, para que a comparação entre fases seja válida):
 ("Tânia Bulhões" OR "Tania Bulhões" OR "Tânia Bulhoes" OR "Tania Bulhoes" OR taniabulhoes OR @taniabulhoes) lang:pt -filter:retweets
