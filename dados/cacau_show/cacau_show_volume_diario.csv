@@ -13,35 +13,35 @@
 2025-05-23;pre_crise;12;12
 2025-05-24;pre_crise;10;10
 2025-05-25;pre_crise;15;17
-2025-05-26;crise;10;parcial (10)
-2025-05-27;crise;13;parcial (13)
-2025-05-28;crise;15;parcial (20)
-2025-05-29;crise;0;nao_coletado
-2025-05-30;crise;0;nao_coletado
-2025-05-31;crise;0;nao_coletado
-2025-06-01;crise;0;nao_coletado
-2025-06-02;crise;0;nao_coletado
-2025-06-03;crise;0;nao_coletado
-2025-06-04;crise;0;nao_coletado
-2025-06-05;crise;0;nao_coletado
-2025-06-06;crise;0;nao_coletado
-2025-06-07;crise;0;nao_coletado
-2025-06-08;crise;0;nao_coletado
-2025-06-09;crise;0;nao_coletado
-2025-06-10;crise;0;nao_coletado
-2025-06-11;crise;0;nao_coletado
-2025-06-12;crise;0;nao_coletado
-2025-06-13;pos_crise;0;nao_coletado
-2025-06-14;pos_crise;0;nao_coletado
-2025-06-15;pos_crise;0;nao_coletado
-2025-06-16;pos_crise;0;nao_coletado
-2025-06-17;pos_crise;0;nao_coletado
-2025-06-18;pos_crise;0;nao_coletado
-2025-06-19;pos_crise;0;nao_coletado
-2025-06-20;pos_crise;0;nao_coletado
-2025-06-21;pos_crise;0;nao_coletado
-2025-06-22;pos_crise;0;nao_coletado
-2025-06-23;pos_crise;0;nao_coletado
-2025-06-24;pos_crise;0;nao_coletado
-2025-06-25;pos_crise;0;nao_coletado
-2025-06-26;pos_crise;0;nao_coletado
+2025-05-26;crise;16;16
+2025-05-27;crise;19;19
+2025-05-28;crise;16;21
+2025-05-29;crise;18;40
+2025-05-30;crise;18;mais de 38
+2025-05-31;crise;22;mais de 254
+2025-06-01;crise;23;87
+2025-06-02;crise;21;74
+2025-06-03;crise;18;145
+2025-06-04;crise;22;62
+2025-06-05;crise;18;33
+2025-06-06;crise;20;23
+2025-06-07;crise;16;16
+2025-06-08;crise;28;28
+2025-06-09;crise;15;20
+2025-06-10;crise;19;22
+2025-06-11;crise;18;42
+2025-06-12;crise;21;74
+2025-06-13;pos_crise;15;22
+2025-06-14;pos_crise;15;19
+2025-06-15;pos_crise;10;10
+2025-06-16;pos_crise;12;12
+2025-06-17;pos_crise;15;16
+2025-06-18;pos_crise;15;16
+2025-06-19;pos_crise;11;11
+2025-06-20;pos_crise;9;9
+2025-06-21;pos_crise;7;7
+2025-06-22;pos_crise;12;12
+2025-06-23;pos_crise;10;10
+2025-06-24;pos_crise;15;22
+2025-06-25;pos_crise;10;10
+2025-06-26;pos_crise;10;10

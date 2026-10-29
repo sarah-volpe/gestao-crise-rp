@@ -6,28 +6,29 @@
   "prompt_sha256": "484d6a43b500e5bb78cf819c39b74ee9bee65d3556940660c50b1f3b00f74eab",
   "tamanho_lote": 50,
   "semente_embaralhamento": 2025,
-  "posts": 181,
-  "classificados": 181,
+  "posts": 492,
+  "classificados": 492,
   "sem_classificacao": 0,
   "classificados_em_retentativa": 0,
   "justificativas_acima_de_15_palavras": 0,
   "distribuicao_sentimento": {
-    "fora_do_tema": 89,
-    "negativo": 48,
-    "neutro": 42,
-    "positivo": 2
+    "fora_do_tema": 231,
+    "neutro": 158,
+    "negativo": 87,
+    "positivo": 16
   },
   "distribuicao_eixo": {
-    "outro": 96,
-    "reacao_adversa_saude": 34,
-    "anvisa_regulacao": 29,
-    "mudanca_de_formula": 13,
-    "confianca_troca_de_marca": 5,
-    "resposta_da_empresa": 2,
-    "humor_meme": 2
+    "outro": 263,
+    "anvisa_regulacao": 75,
+    "reacao_adversa_saude": 65,
+    "resposta_da_empresa": 38,
+    "mudanca_de_formula": 17,
+    "confianca_troca_de_marca": 14,
+    "atendimento_reembolso": 12,
+    "humor_meme": 8
   },
   "primeira_classificacao": "2026-10-29T01:49:08+00:00",
-  "ultima_classificacao": "2026-10-29T01:49:08+00:00",
+  "ultima_classificacao": "2026-10-29T12:47:55+00:00",
   "lotes_desta_execucao": [
     {
       "lote": "t0_lote001",
@@ -52,8 +53,29 @@
     },
     {
       "lote": "t0_lote004",
-      "posts": 31,
-      "validos": 31,
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote005",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote006",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote007",
+      "posts": 11,
+      "validos": 11,
       "faltando_ou_invalidos": 0,
       "problemas": []
     }

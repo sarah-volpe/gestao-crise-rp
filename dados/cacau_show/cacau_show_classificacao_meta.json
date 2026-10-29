@@ -6,28 +6,30 @@
   "prompt_sha256": "91af8d5d557865813ed5342a602501798883d1700f822b8421100566b876b977",
   "tamanho_lote": 50,
   "semente_embaralhamento": 2025,
-  "posts": 216,
-  "classificados": 216,
+  "posts": 692,
+  "classificados": 692,
   "sem_classificacao": 0,
   "classificados_em_retentativa": 0,
   "justificativas_acima_de_15_palavras": 0,
   "distribuicao_sentimento": {
-    "fora_do_tema": 75,
-    "positivo": 75,
-    "neutro": 46,
-    "negativo": 20
+    "fora_do_tema": 240,
+    "positivo": 171,
+    "neutro": 164,
+    "negativo": 117
   },
   "distribuicao_eixo": {
-    "outro": 193,
-    "humor_meme": 9,
-    "condicoes_de_trabalho_assedio": 5,
-    "exposicao_midiatica_masterchef": 5,
-    "boicote_consumo": 2,
-    "resposta_da_empresa_ceo": 1,
-    "relacao_com_franqueados": 1
+    "outro": 523,
+    "seita_rituais": 43,
+    "relacao_com_franqueados": 31,
+    "exposicao_midiatica_masterchef": 27,
+    "humor_meme": 21,
+    "condicoes_de_trabalho_assedio": 17,
+    "defesa_da_marca": 13,
+    "resposta_da_empresa_ceo": 10,
+    "boicote_consumo": 7
   },
   "primeira_classificacao": "2026-10-29T01:50:28+00:00",
-  "ultima_classificacao": "2026-10-29T01:50:28+00:00",
+  "ultima_classificacao": "2026-10-29T12:52:25+00:00",
   "lotes_desta_execucao": [
     {
       "lote": "t0_lote001",
@@ -59,8 +61,43 @@
     },
     {
       "lote": "t0_lote005",
-      "posts": 16,
-      "validos": 16,
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote006",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote007",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote008",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote009",
+      "posts": 50,
+      "validos": 50,
+      "faltando_ou_invalidos": 0,
+      "problemas": []
+    },
+    {
+      "lote": "t0_lote010",
+      "posts": 26,
+      "validos": 26,
       "faltando_ou_invalidos": 0,
       "problemas": []
     }

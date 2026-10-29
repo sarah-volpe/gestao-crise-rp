@@ -177,41 +177,517 @@ CS-175;negativo;outro;nao;media;Reclama que ovo da marca não veio como anunciad
 CS-176;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-177;positivo;outro;nao;baixa;Funcionário da marca presenteia com chocolates
 CS-178;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-179;neutro;outro;nao;media;Cita produto da marca no almoço
-CS-180;neutro;outro;nao;media;Diz ter um fondue da marca
-CS-181;positivo;condicoes_de_trabalho_assedio;nao;baixa;Brinca que queria trabalhar na marca pelo desconto
-CS-182;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-183;positivo;outro;nao;media;Expressa vontade de fondue da marca
-CS-184;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-185;fora_do_tema;outro;nao;baixa;Não fala da marca
-CS-186;positivo;outro;nao;media;Brinca que loja nova é tentação
-CS-187;positivo;outro;nao;baixa;Sonha ganhar mimo da marca
+CS-179;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-180;neutro;outro;nao;media;Cita produto da marca no almoço
+CS-181;neutro;outro;nao;media;Diz ter um fondue da marca
+CS-182;positivo;condicoes_de_trabalho_assedio;nao;baixa;Brinca que queria trabalhar na marca pelo desconto
+CS-183;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-184;positivo;outro;nao;media;Expressa vontade de fondue da marca
+CS-185;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-186;fora_do_tema;outro;nao;baixa;Não fala da marca
+CS-187;positivo;outro;nao;media;Brinca que loja nova é tentação
 CS-188;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-189;positivo;outro;nao;media;Deseja fondue da marca
-CS-190;neutro;outro;nao;media;Comenta promoção de estoque da Páscoa
-CS-191;positivo;outro;nao;media;Brinca sobre desejo intenso por trufa da marca
+CS-189;positivo;outro;nao;baixa;Sonha ganhar mimo da marca
+CS-190;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-191;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-192;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-193;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro com a marca
-CS-194;positivo;outro;nao;media;Diz ser viciada no café e chocolate da marca
-CS-195;positivo;outro;nao;alta;Gosta das caixas de Dia dos Namorados
-CS-196;neutro;humor_meme;nao;baixa;Piada usando a marca como comparação
-CS-197;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-198;positivo;outro;nao;media;Associa trufa da marca a algo desejável
+CS-193;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-194;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-195;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-196;positivo;outro;nao;media;Deseja fondue da marca
+CS-197;neutro;outro;nao;media;Comenta promoção de estoque da Páscoa
+CS-198;positivo;outro;nao;media;Brinca sobre desejo intenso por trufa da marca
 CS-199;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-200;neutro;outro;nao;baixa;Menção curta de sentido pouco claro
-CS-201;negativo;condicoes_de_trabalho_assedio;nao;media;Lamenta atendentes obrigados a repetir bordão
-CS-202;positivo;exposicao_midiatica_masterchef;nao;baixa;Comemora o dono da marca fantasiado no MasterChef
-CS-203;negativo;exposicao_midiatica_masterchef;nao;media;Chama o representante da marca no MasterChef de chato
+CS-200;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro com a marca
+CS-201;positivo;outro;nao;media;Diz ser viciada no café e chocolate da marca
+CS-202;positivo;outro;nao;alta;Gosta das caixas de Dia dos Namorados
+CS-203;neutro;humor_meme;nao;baixa;Piada usando a marca como comparação
 CS-204;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-205;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-206;positivo;outro;nao;media;Deseja muitas trufas da marca
-CS-207;positivo;outro;nao;alta;Diz amar o fondue da marca
-CS-208;negativo;outro;nao;media;Reclama de trufas da marca vencidas
+CS-205;positivo;outro;nao;media;Associa trufa da marca a algo desejável
+CS-206;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-207;neutro;outro;nao;baixa;Menção curta de sentido pouco claro
+CS-208;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-209;fora_do_tema;outro;nao;alta;Não fala da marca
 CS-210;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-211;positivo;outro;nao;baixa;Mostra itens colecionáveis da marca
-CS-212;positivo;outro;nao;media;Declara que gastaria tudo na marca
-CS-213;neutro;humor_meme;nao;baixa;Brinca sobre patrocínio esportivo da marca
-CS-214;neutro;outro;nao;alta;Notícia sobre obras do parque da marca
-CS-215;fora_do_tema;outro;nao;alta;Não fala da marca
-CS-216;neutro;outro;nao;baixa;Planeja levar produto da marca à escola
+CS-211;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-212;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-213;negativo;condicoes_de_trabalho_assedio;nao;media;Lamenta atendentes obrigados a repetir bordão
+CS-214;positivo;exposicao_midiatica_masterchef;nao;baixa;Comemora o dono da marca fantasiado no MasterChef
+CS-215;negativo;exposicao_midiatica_masterchef;nao;media;Chama o representante da marca no MasterChef de chato
+CS-216;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-217;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-218;positivo;outro;nao;media;Deseja muitas trufas da marca
+CS-219;positivo;outro;nao;alta;Diz amar o fondue da marca
+CS-220;negativo;outro;nao;media;Reclama de trufas da marca vencidas
+CS-221;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-222;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-223;positivo;outro;nao;baixa;Mostra itens colecionáveis da marca
+CS-224;positivo;outro;nao;media;Declara que gastaria tudo na marca
+CS-225;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-226;neutro;humor_meme;nao;baixa;Brinca sobre patrocínio esportivo da marca
+CS-227;neutro;outro;nao;alta;Notícia sobre obras do parque da marca
+CS-228;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-229;neutro;outro;nao;baixa;Planeja levar produto da marca à escola
+CS-230;neutro;relacao_com_franqueados;nao;alta;Notícia sobre franqueados e seita
+CS-231;neutro;relacao_com_franqueados;nao;alta;Notícia sobre franqueados e seita
+CS-232;neutro;relacao_com_franqueados;nao;alta;Compartilha matéria sobre perseguição a franqueados
+CS-233;neutro;relacao_com_franqueados;nao;alta;Notícia sobre denúncias de franqueados
+CS-234;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre relatos de maus-tratos
+CS-235;neutro;relacao_com_franqueados;nao;alta;Notícia sobre denúncias de franqueados
+CS-236;positivo;outro;nao;media;Lista trufa da marca entre desejos
+CS-237;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-238;neutro;seita_rituais;nao;alta;Notícia sobre franqueados chamarem a rede de seita
+CS-239;positivo;outro;nao;media;Inclui a marca entre doces desejados
+CS-240;neutro;seita_rituais;nao;alta;Notícia sobre ritual comandado pelo CEO
+CS-241;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-242;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-243;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-244;negativo;seita_rituais;nao;media;Descreve eventos motivacionais e falta de espaço crítico
+CS-245;negativo;seita_rituais;sim;alta;Ironiza viver na época da seita ocultista da marca
+CS-246;positivo;outro;nao;alta;Diz que chocolate da marca é o mais gostoso
+CS-247;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-248;positivo;outro;nao;media;Deseja trufa da marca
+CS-249;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-250;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-251;negativo;condicoes_de_trabalho_assedio;nao;media;Consumidora decepcionada com o relato de ritual
+CS-252;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-253;positivo;outro;nao;media;Elogia produtos de Dia dos Namorados
+CS-254;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre denúncias de rituais e assédio
+CS-255;neutro;outro;nao;media;Diz estar curiosa com a fofoca
+CS-256;positivo;outro;nao;media;Deseja bombom da marca
+CS-257;negativo;relacao_com_franqueados;nao;alta;Diz que só ouve coisas horríveis sobre a franquia
+CS-258;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-259;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-260;neutro;seita_rituais;nao;alta;Notícia sobre tatuagens incentivadas pelo CEO
+CS-261;negativo;seita_rituais;sim;alta;Ironiza medo de ser recrutado para seita
+CS-262;negativo;seita_rituais;sim;media;Trocadilho chamando a marca de show de horrores
+CS-263;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-264;negativo;resposta_da_empresa_ceo;nao;alta;Diz que o jeito de bom moço do CEO engana
+CS-265;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-266;negativo;seita_rituais;nao;alta;Critica o CEO por obrigar funcionários a rituais
+CS-267;neutro;relacao_com_franqueados;nao;alta;Manchete sobre medo e dívidas de franqueados
+CS-268;positivo;defesa_da_marca;nao;media;Desqualifica quem reclama da marca
+CS-269;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-270;positivo;defesa_da_marca;nao;alta;Diz que as denúncias são ataque patrocinado
+CS-271;neutro;humor_meme;nao;baixa;Comentário jocoso sobre a marca
+CS-272;positivo;outro;nao;media;Diz que a marca está mais estilosa e vai comprar
+CS-273;fora_do_tema;seita_rituais;nao;alta;Publicidade de afiliado usando o escândalo
+CS-274;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre denúncias de assédio e rituais
+CS-275;negativo;resposta_da_empresa_ceo;nao;alta;Relata comparação do CEO a acusado de crimes
+CS-276;negativo;seita_rituais;sim;alta;Ironiza o ritual do cacau
+CS-277;positivo;defesa_da_marca;nao;alta;Relata boa experiência de conhecido e segue consumindo
+CS-278;negativo;outro;nao;media;Diz que a marca também não é grande coisa
+CS-279;negativo;relacao_com_franqueados;nao;alta;Choca-se com contrato abusivo aos franqueados
+CS-280;negativo;relacao_com_franqueados;nao;alta;Divulga denúncias de abusos dos franqueados
+CS-281;negativo;seita_rituais;sim;alta;Ironiza rituais da empresa
+CS-282;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-283;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-284;positivo;defesa_da_marca;nao;alta;Chama as acusações de seita de bobagem
+CS-285;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-286;neutro;outro;nao;media;Comenta o escândalo sem posição clara
+CS-287;negativo;resposta_da_empresa_ceo;nao;alta;Compara o CEO a acusado de crimes
+CS-288;negativo;resposta_da_empresa_ceo;sim;media;Ironiza que problemas do dono são antigos
+CS-289;positivo;defesa_da_marca;nao;alta;Diz que querem acabar com a marca por crescer
+CS-290;negativo;relacao_com_franqueados;nao;media;Usa o caso para criticar o empresariado
+CS-291;neutro;relacao_com_franqueados;nao;alta;Notícia com relatos de franqueados
+CS-292;positivo;defesa_da_marca;nao;alta;Desacredita o veículo que publicou as denúncias
+CS-293;positivo;defesa_da_marca;nao;alta;Diz que reportagens são campanha coordenada
+CS-294;negativo;resposta_da_empresa_ceo;nao;alta;Acha o chocolate medíocre e o CEO patético
+CS-295;negativo;relacao_com_franqueados;nao;alta;Usa o caso para criticar o modelo de franquia
+CS-296;negativo;seita_rituais;sim;media;Ironiza a marca associando a orgia e preconceito
+CS-297;negativo;seita_rituais;nao;media;Piada dizendo que a marca era uma seita
+CS-298;neutro;seita_rituais;nao;media;Comenta os boatos de seita
+CS-299;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-300;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-301;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-302;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-303;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-304;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-305;negativo;seita_rituais;sim;media;Comenta com espanto a marca como iluminati
+CS-306;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-307;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-308;negativo;seita_rituais;sim;baixa;Meme sobre festa da empresa
+CS-309;neutro;exposicao_midiatica_masterchef;nao;media;Comenta o CEO no MasterChef
+CS-310;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-311;negativo;seita_rituais;sim;baixa;Ironiza o ritual do cacau
+CS-312;neutro;humor_meme;nao;baixa;Compara a marca a outra em tom jocoso
+CS-313;neutro;outro;nao;baixa;Pergunta sobre reunião da marca
+CS-314;negativo;seita_rituais;sim;media;Piada sobre o dono da marca e rituais satânicos
+CS-315;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-316;negativo;outro;nao;alta;Chama os produtos da marca de porcaria
+CS-317;neutro;outro;nao;alta;Notícia sobre lançamento da marca
+CS-318;negativo;relacao_com_franqueados;nao;alta;Usa o caso para chamar franquia de pirâmide
+CS-319;negativo;seita_rituais;sim;baixa;Piada sobre a festa da empresa como ritual
+CS-320;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-321;neutro;outro;nao;alta;Notícia sobre lançamento da marca
+CS-322;negativo;seita_rituais;sim;baixa;Piada sobre culto da marca
+CS-323;positivo;defesa_da_marca;nao;alta;Declara apoio irrestrito à marca
+CS-324;negativo;seita_rituais;sim;media;Ironiza não ter tido franquia ou seita da marca
+CS-325;neutro;outro;nao;baixa;Compara embalagem sem avaliar claramente
+CS-326;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-327;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-328;neutro;humor_meme;nao;baixa;Piada com fondue da marca
+CS-329;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-330;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-331;negativo;exposicao_midiatica_masterchef;nao;alta;Acusa emissoras de silêncio por patrocínio da marca
+CS-332;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-333;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre investigação do Ministério Público
+CS-334;negativo;relacao_com_franqueados;nao;alta;Chama o caso de falcatrua da marca
+CS-335;negativo;seita_rituais;nao;media;Chama a marca de máfia
+CS-336;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre inquérito do MPT
+CS-337;fora_do_tema;outro;nao;media;Não avalia a marca
+CS-338;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-339;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-340;neutro;exposicao_midiatica_masterchef;nao;media;Comenta timing do CEO no MasterChef
+CS-341;neutro;exposicao_midiatica_masterchef;nao;alta;Aponta timing ruim do episódio com o presidente
+CS-342;neutro;exposicao_midiatica_masterchef;sim;media;Ironiza o timing do CEO no MasterChef
+CS-343;neutro;exposicao_midiatica_masterchef;nao;media;Comenta timing ruim da prova no MasterChef
+CS-344;neutro;exposicao_midiatica_masterchef;nao;baixa;Brinca com aparições do CEO
+CS-345;negativo;seita_rituais;sim;alta;Ironiza a seita da marca no MasterChef
+CS-346;neutro;exposicao_midiatica_masterchef;nao;baixa;Ri da prova da marca no MasterChef
+CS-347;neutro;exposicao_midiatica_masterchef;nao;alta;Nota a coincidência entre MasterChef e polêmica
+CS-348;neutro;exposicao_midiatica_masterchef;sim;media;Comenta o timing do CEO no MasterChef
+CS-349;negativo;exposicao_midiatica_masterchef;nao;alta;Chama o CEO de carrasco no MasterChef
+CS-350;neutro;exposicao_midiatica_masterchef;nao;media;Nota o dono no MasterChef após o exposed
+CS-351;neutro;relacao_com_franqueados;nao;alta;Notícia sobre loja de franqueada fechada
+CS-352;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-353;negativo;relacao_com_franqueados;nao;alta;Notícia crítica sobre fechamento de loja de denunciante
+CS-354;neutro;exposicao_midiatica_masterchef;sim;media;Aponta ironia do CEO no MasterChef
+CS-355;neutro;exposicao_midiatica_masterchef;sim;media;Ironiza o timing do CEO no MasterChef
+CS-356;neutro;exposicao_midiatica_masterchef;nao;media;Comenta o timing do episódio do MasterChef
+CS-357;neutro;outro;nao;baixa;Menção curta sem avaliação
+CS-358;neutro;exposicao_midiatica_masterchef;sim;media;Ironiza o timing do episódio patrocinado
+CS-359;negativo;seita_rituais;nao;media;Compara o dono a um caso criminal notório
+CS-360;negativo;seita_rituais;nao;media;Lista a seita da marca entre escândalos
+CS-361;positivo;outro;nao;baixa;Fica feliz ao ganhar produtos da marca
+CS-362;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-363;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-364;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-365;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-366;positivo;outro;nao;media;Exagera o desejo pelos produtos
+CS-367;neutro;outro;nao;baixa;Cita a marca em debate cultural
+CS-368;negativo;seita_rituais;nao;media;Ironiza o CEO vendendo a alma pela marca
+CS-369;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-370;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-371;negativo;seita_rituais;nao;media;Espera comentário de especialista em seitas sobre o caso
+CS-372;neutro;exposicao_midiatica_masterchef;sim;media;Ri do CEO no MasterChef em meio às acusações
+CS-373;neutro;exposicao_midiatica_masterchef;sim;media;Ironiza o timing do CEO no MasterChef
+CS-374;neutro;relacao_com_franqueados;nao;alta;Notícia sobre reclamações de franqueados e resposta
+CS-375;neutro;relacao_com_franqueados;nao;alta;Notícia sobre a polêmica e redes de franquias
+CS-376;negativo;boicote_consumo;nao;alta;Decide trocar a marca pela concorrente após a treta
+CS-377;positivo;outro;nao;baixa;Deseja fondue da marca
+CS-378;positivo;outro;nao;alta;Diz que barra da marca é a melhor coisa que comeu
+CS-379;negativo;relacao_com_franqueados;nao;alta;Diz que contrato de franquia foi feito para prejudicar
+CS-380;neutro;resposta_da_empresa_ceo;nao;alta;Notícia com resposta da marca e investigação
+CS-381;positivo;outro;nao;baixa;Usa a marca como elogio a outra pessoa
+CS-382;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-383;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-384;neutro;outro;nao;baixa;Recebeu presente da marca sem identificação
+CS-385;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-386;positivo;outro;nao;baixa;Emociona-se com comercial da marca
+CS-387;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-388;negativo;seita_rituais;nao;media;Inclui a seita da marca entre assuntos do momento
+CS-389;neutro;outro;nao;baixa;Comenta música tocando na loja
+CS-390;positivo;defesa_da_marca;nao;alta;Diz que as denúncias são assassinato de reputação
+CS-391;positivo;outro;nao;baixa;Valoriza quem presenteia com cesta da marca
+CS-392;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-393;positivo;outro;nao;media;Comemora cards de produto da marca
+CS-394;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-395;positivo;outro;nao;alta;Comemora cesta da marca recebida
+CS-396;positivo;outro;nao;media;Quer comprar licor da marca
+CS-397;negativo;seita_rituais;sim;baixa;Conta brincadeira com atendente sobre a seita
+CS-398;positivo;outro;nao;media;Relato afetivo com cesta da marca
+CS-399;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia explicando as denúncias
+CS-400;negativo;outro;nao;media;Achou ruim uma trufa da marca
+CS-401;positivo;outro;nao;alta;Chama a trufa da marca de maravilha
+CS-402;neutro;outro;nao;baixa;Cita a marca como gasto
+CS-403;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-404;neutro;resposta_da_empresa_ceo;nao;alta;Notícia sobre pronunciamento após denúncias
+CS-405;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-406;neutro;outro;nao;baixa;Comenta movimento de Dia dos Namorados
+CS-407;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-408;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-409;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-410;negativo;outro;nao;alta;Chama promoção da marca de enganação
+CS-411;negativo;seita_rituais;sim;media;Ironiza o CEO no MasterChef em meio à seita
+CS-412;negativo;outro;nao;alta;Acha os bonecos caros e decepcionantes
+CS-413;negativo;outro;nao;alta;Diz que produto da marca não vale o preço
+CS-414;fora_do_tema;outro;nao;media;Cita acessório da marca sem avaliar
+CS-415;negativo;exposicao_midiatica_masterchef;nao;baixa;Chama de mico ação da marca
+CS-416;negativo;resposta_da_empresa_ceo;nao;media;Associa a marca a corrupção
+CS-417;positivo;defesa_da_marca;nao;alta;Defende a marca e quer visitar o parque
+CS-418;positivo;defesa_da_marca;nao;media;Desacredita quem denunciou citando condenação
+CS-419;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-420;fora_do_tema;outro;nao;alta;Divulgação de cupom e links
+CS-421;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-422;fora_do_tema;outro;sim;media;Piada política citando a marca de passagem
+CS-423;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-424;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre investigação do MPT
+CS-425;negativo;condicoes_de_trabalho_assedio;nao;media;Estranha o bordão imposto aos atendentes
+CS-426;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-427;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-428;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-429;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-430;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-431;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-432;positivo;outro;nao;alta;Recomenda a casquinha da marca
+CS-433;positivo;defesa_da_marca;nao;alta;Diz que o ataque à marca tem método
+CS-434;negativo;outro;nao;alta;Chama lançamento da marca de vergonha e caro
+CS-435;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-436;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-437;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-438;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-439;fora_do_tema;outro;nao;media;Cita propaganda antiga sem avaliar a marca
+CS-440;neutro;humor_meme;nao;baixa;Referência jocosa sem avaliação clara
+CS-441;positivo;outro;nao;media;Diz ser fã dos produtos de pistache
+CS-442;negativo;seita_rituais;sim;media;Piada sobre rituais da empresa
+CS-443;neutro;relacao_com_franqueados;nao;alta;Notícia sobre cláusulas que prendem franqueados
+CS-444;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre denúncias e investigação
+CS-445;fora_do_tema;outro;nao;media;Flerte com atendente, sem avaliar a marca
+CS-446;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-447;negativo;outro;nao;media;Reclama de cobrança duplicada na loja
+CS-448;negativo;outro;nao;media;Chama algo da marca de horrível
+CS-449;neutro;humor_meme;nao;baixa;Piada sobre lançamento da marca
+CS-450;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-451;fora_do_tema;outro;nao;media;Não fala da marca
+CS-452;negativo;outro;nao;alta;Critica a qualidade dos bonecos
+CS-453;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-454;neutro;outro;nao;baixa;Cita loja da marca em história pessoal
+CS-455;positivo;exposicao_midiatica_masterchef;nao;baixa;Elogia o CEO
+CS-456;negativo;outro;nao;alta;Chama miniaturas da marca de horríveis
+CS-457;fora_do_tema;outro;nao;media;Relata imprevisto sem avaliar a marca
+CS-458;negativo;outro;nao;media;Critica produto da marca como castigo
+CS-459;neutro;humor_meme;nao;baixa;Piada com produto da marca
+CS-460;negativo;boicote_consumo;nao;alta;Diz não querer nem ganhar chocolate após as denúncias
+CS-461;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-462;neutro;humor_meme;nao;baixa;Piada de sentido pouco claro com a marca
+CS-463;positivo;outro;nao;media;Deseja fondue da marca
+CS-464;neutro;outro;nao;baixa;Conta compra na marca sem avaliar
+CS-465;neutro;outro;nao;baixa;Diz ter um produto da marca
+CS-466;positivo;outro;nao;baixa;Planeja se presentear com cesta da marca
+CS-467;positivo;outro;nao;media;Queria levar tudo da loja
+CS-468;negativo;exposicao_midiatica_masterchef;nao;alta;Diz sentir ranço do CEO no MasterChef após denúncias
+CS-469;negativo;boicote_consumo;nao;alta;Critica quem compra na marca após saber das denúncias
+CS-470;neutro;resposta_da_empresa_ceo;nao;media;Análise sobre autopromoção citando a marca
+CS-471;positivo;outro;nao;alta;Diz que produto da marca é muito gostoso
+CS-472;neutro;seita_rituais;nao;media;Conta que a aula tratou da suposta seita
+CS-473;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-474;negativo;outro;nao;alta;Critica os bonecos lançados pela marca
+CS-475;neutro;outro;nao;baixa;Menciona parceria da marca
+CS-476;positivo;outro;nao;media;Gostou dos bonecos ao ver pessoalmente
+CS-477;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-478;negativo;outro;sim;alta;Ironiza a qualidade dos bonecos
+CS-479;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-480;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-481;neutro;outro;nao;baixa;Cita bombom da marca em rotina de escritório
+CS-482;negativo;seita_rituais;sim;media;Chama a marca de seita ao cogitar comprar
+CS-483;positivo;outro;nao;alta;Implora por chocolate da marca de presente
+CS-484;negativo;seita_rituais;sim;baixa;Piada se dizendo parte da seita
+CS-485;negativo;outro;nao;media;Reclama do preço do chocolate
+CS-486;neutro;outro;nao;baixa;Cita presente da marca num encontro
+CS-487;neutro;outro;sim;baixa;Comparação bem-humorada com outro produto
+CS-488;fora_do_tema;outro;nao;media;Não fala da marca de forma identificável
+CS-489;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-490;negativo;outro;nao;media;Diz que a marca errou em coleção nova
+CS-491;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-492;neutro;relacao_com_franqueados;nao;media;Notícia sobre empresas e boas práticas
+CS-493;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-494;neutro;outro;nao;baixa;Cita produto da marca em piada
+CS-495;neutro;outro;nao;baixa;Cita miniaturas da marca
+CS-496;neutro;relacao_com_franqueados;nao;media;Pondera sobre riscos de franquia citando o caso
+CS-497;negativo;outro;nao;alta;Diz ter raiva dos bonecos feios da marca
+CS-498;positivo;outro;nao;baixa;Brinca que loja da marca atrapalha a dieta
+CS-499;neutro;outro;nao;baixa;Comenta que o caso da marca é babado
+CS-500;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-501;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-502;neutro;outro;nao;media;Relata presente recebido sem avaliar a marca
+CS-503;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-504;neutro;outro;nao;alta;Pergunta sobre lojas da marca
+CS-505;positivo;outro;nao;alta;Chama barra da marca de deliciosa
+CS-506;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-507;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-508;positivo;outro;nao;baixa;Passou na loja para comprar chocolate
+CS-509;neutro;outro;nao;baixa;Reclama da fila na loja
+CS-510;positivo;outro;nao;alta;Elogia o custo-benefício dos chocolates da marca
+CS-511;negativo;outro;nao;baixa;Entregador irritado com pedido da marca
+CS-512;neutro;outro;nao;media;Comenta tamanho das redes de chocolate
+CS-513;negativo;outro;nao;alta;Diz que a trufa da marca é péssima
+CS-514;negativo;outro;nao;media;Não gosta dos recheios dos bombons
+CS-515;positivo;outro;nao;alta;Defende que os chocolates da marca são ótimos
+CS-516;neutro;outro;nao;baixa;Pergunta curta sem contexto
+CS-517;neutro;outro;sim;media;Anedota humorística na loja sem avaliar a marca
+CS-518;negativo;outro;nao;alta;Lamenta queda de qualidade do chocolate
+CS-519;neutro;outro;nao;baixa;Comenta movimento na loja
+CS-520;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-521;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-522;positivo;outro;nao;media;Diz estar gostando do chocolate da marca
+CS-523;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-524;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-525;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-526;negativo;outro;nao;media;Diz que a marca não se compara à concorrente
+CS-527;positivo;outro;nao;media;Quer voltar à loja por um sabor
+CS-528;neutro;outro;nao;baixa;Ri de comparação entre marcas
+CS-529;neutro;outro;nao;baixa;Cita compra na marca em lista pessoal
+CS-530;positivo;outro;nao;media;Usa produto da marca como presente de sucesso
+CS-531;positivo;outro;nao;baixa;Comemora ter ganhado chocolate da marca
+CS-532;neutro;outro;nao;baixa;Descreve fila na loja no Dia dos Namorados
+CS-533;neutro;seita_rituais;sim;baixa;Brinca com as denúncias enquanto come trufa
+CS-534;positivo;outro;nao;baixa;Valoriza ganhar chocolate da marca
+CS-535;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-536;positivo;outro;nao;alta;Diz ser cliente fiel da cafeteria
+CS-537;neutro;outro;nao;baixa;Brinca que gastou demais na marca
+CS-538;positivo;outro;nao;media;Deseja fondue da marca
+CS-539;neutro;relacao_com_franqueados;nao;media;Comenta a repercussão das denúncias
+CS-540;negativo;seita_rituais;nao;alta;Chama a seita de doideira e o CEO de podre
+CS-541;neutro;outro;nao;baixa;Comenta compra na loja sem avaliar
+CS-542;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-543;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-544;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-545;neutro;outro;nao;baixa;Lista a marca numa enquete
+CS-546;positivo;outro;nao;media;Lembra com carinho da trufa de paçoca
+CS-547;positivo;outro;nao;alta;Elogia o chocolate de pistache
+CS-548;positivo;outro;nao;baixa;Aguarda promoção de produto da marca
+CS-549;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-550;neutro;outro;nao;media;Reclama do iFood em pedido da marca
+CS-551;negativo;outro;nao;alta;Reclama de pedido não entregue e ameaça processar
+CS-552;neutro;condicoes_de_trabalho_assedio;nao;alta;Notícia sobre denúncias e investigação
+CS-553;positivo;outro;nao;media;Deseja fondue da marca
+CS-554;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-555;neutro;outro;nao;baixa;Menção curta sem avaliação
+CS-556;neutro;humor_meme;nao;baixa;Comparação jocosa entre marcas
+CS-557;neutro;outro;nao;baixa;Piada sobre programa de fidelidade
+CS-558;positivo;outro;nao;media;Exagera o desejo por trufas da marca
+CS-559;negativo;relacao_com_franqueados;sim;baixa;Ironiza abrir franquia da marca
+CS-560;positivo;outro;nao;baixa;Dá bombom da marca como gentileza
+CS-561;fora_do_tema;outro;nao;media;Cita propaganda em programa sem avaliar a marca
+CS-562;fora_do_tema;outro;nao;media;Conta episódio sem avaliar a marca
+CS-563;neutro;outro;nao;baixa;Comenta música tocando na loja
+CS-564;positivo;outro;nao;media;Comeu fondue da marca como sobremesa
+CS-565;positivo;outro;nao;baixa;Ganhou presente da marca
+CS-566;positivo;outro;nao;media;Inclui bombom da marca num momento de paz
+CS-567;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-568;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-569;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-570;positivo;outro;nao;media;Leva trufa da marca com satisfação
+CS-571;positivo;outro;nao;alta;Elogia as trufas zero açúcar da marca
+CS-572;negativo;outro;nao;alta;Critica atendentes mal-educados da marca
+CS-573;negativo;seita_rituais;sim;baixa;Meme sobre portas da sede da empresa
+CS-574;neutro;humor_meme;nao;baixa;Meme sobre contrato com a marca sem avaliação clara
+CS-575;positivo;outro;nao;media;Ganhou sacola de chocolates da marca
+CS-576;negativo;outro;nao;alta;Chama a marca de incompetente
+CS-577;positivo;outro;nao;media;Achou o licor da marca gostoso
+CS-578;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-579;neutro;seita_rituais;sim;baixa;Brinca com vontade de ir ao ritual
+CS-580;fora_do_tema;outro;nao;alta;Fala de política sem avaliar a marca
+CS-581;negativo;seita_rituais;sim;media;Ironiza boatos de sacrifícios do dono
+CS-582;neutro;outro;nao;alta;Notícia sobre lançamento da marca
+CS-583;positivo;outro;nao;media;Diz estar viciado em trufa da marca
+CS-584;positivo;outro;nao;alta;Diz amar a marca
+CS-585;neutro;relacao_com_franqueados;nao;media;Critica quem investiu em franquia da marca
+CS-586;positivo;outro;nao;media;Planeja comer fondue da marca
+CS-587;positivo;outro;nao;media;Exagera o desejo por fondue da marca
+CS-588;positivo;outro;nao;media;Sonha com biscoito da marca
+CS-589;neutro;outro;nao;baixa;Conta episódio com atendente
+CS-590;negativo;outro;sim;media;Usa a marca como sinônimo de produto ruim
+CS-591;positivo;seita_rituais;sim;media;Elogia produto brincando com os rituais
+CS-592;fora_do_tema;outro;nao;media;Propaganda de outro produto usando a marca
+CS-593;negativo;outro;nao;baixa;Reclama de só encontrar trufa pequena
+CS-594;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-595;neutro;relacao_com_franqueados;nao;alta;Notícia sobre ex-franqueado acusando fraude
+CS-596;neutro;relacao_com_franqueados;nao;alta;Notícia sobre ex-franqueados acusarem golpe
+CS-597;positivo;outro;nao;media;Compra produtos da marca para se consolar
+CS-598;fora_do_tema;outro;nao;media;Usa a marca como exemplo em crítica política
+CS-599;fora_do_tema;outro;nao;media;Relato de sonho sem avaliar a marca
+CS-600;neutro;outro;nao;baixa;Usa a marca em comparação esportiva
+CS-601;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-602;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-603;fora_do_tema;outro;nao;media;Ficção jocosa sem avaliar a marca
+CS-604;fora_do_tema;outro;nao;alta;Publicidade de afiliado de outra marca
+CS-605;neutro;outro;nao;alta;Notícia sobre parque da marca
+CS-606;positivo;outro;nao;alta;Diz que o chocolate da marca é o melhor
+CS-607;negativo;seita_rituais;sim;baixa;Piada sobre o dono com base nas fofocas
+CS-608;positivo;outro;nao;media;Inclui barra da marca como sobremesa desejada
+CS-609;positivo;outro;nao;baixa;Menção afetuosa à trufa
+CS-610;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-611;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-612;negativo;outro;nao;media;Chama bonecos da marca de delírio coletivo
+CS-613;positivo;outro;nao;media;Deseja fondue da marca
+CS-614;negativo;outro;nao;alta;Denuncia inseto em chocolate da marca
+CS-615;positivo;outro;sim;media;Elogia waffle brincando com a seita
+CS-616;fora_do_tema;outro;nao;media;Comentário sobre vendedora sem avaliar a marca
+CS-617;fora_do_tema;outro;nao;media;Cita a marca de passagem num jogo
+CS-618;negativo;outro;nao;media;Reclama do preço das trufas
+CS-619;negativo;exposicao_midiatica_masterchef;nao;media;Critica postura do dono no MasterChef
+CS-620;neutro;outro;nao;baixa;Cita fone da marca sem avaliar
+CS-621;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-622;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-623;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-624;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-625;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-626;positivo;outro;nao;alta;Diz amar produto da marca
+CS-627;negativo;outro;nao;alta;Reclama de chocolate que veio mordido
+CS-628;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-629;neutro;outro;nao;baixa;Relata sonho com produto da marca
+CS-630;negativo;condicoes_de_trabalho_assedio;sim;media;Ex-funcionária insinua conhecer os abusos
+CS-631;neutro;outro;nao;baixa;Cita trabalho na marca sem avaliar
+CS-632;neutro;outro;nao;baixa;Conta episódio com fondue da marca
+CS-633;positivo;outro;nao;baixa;Lembra com carinho de fila na loja
+CS-634;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-635;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-636;fora_do_tema;outro;nao;alta;Propaganda de cupons
+CS-637;neutro;outro;nao;alta;Notícia sobre parque da marca
+CS-638;fora_do_tema;outro;nao;media;Alê Costa em outro contexto
+CS-639;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-640;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-641;neutro;boicote_consumo;nao;media;Comenta promoções após o cancelamento
+CS-642;negativo;seita_rituais;nao;alta;Chama a empresa de seita em tom de piada
+CS-643;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-644;negativo;outro;nao;alta;Reclama de frete caro no site da marca
+CS-645;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-646;positivo;outro;nao;baixa;Comeu uma barra inteira da marca
+CS-647;neutro;humor_meme;nao;baixa;Comparação jocosa sem avaliar a marca
+CS-648;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-649;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-650;neutro;outro;nao;media;Conta compra na marca
+CS-651;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-652;positivo;outro;nao;alta;Deseja muito o fondue da marca
+CS-653;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-654;positivo;outro;nao;media;Acha presente de chocolates da marca um sonho
+CS-655;positivo;defesa_da_marca;nao;alta;Declara apoio ao CEO
+CS-656;positivo;outro;nao;media;Feliz por ganhar chocolates da marca
+CS-657;positivo;outro;nao;alta;Diz não resistir ao chocolate da marca
+CS-658;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-659;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-660;negativo;outro;nao;baixa;Inclui a marca numa lista de gostos criticados
+CS-661;neutro;humor_meme;nao;baixa;Piada sobre a marca após as notícias
+CS-662;negativo;boicote_consumo;sim;media;Conta boicote prometido e quebrado com humor
+CS-663;positivo;outro;nao;media;Deseja fondue da marca
+CS-664;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-665;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-666;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-667;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-668;negativo;relacao_com_franqueados;nao;alta;Lista ser franqueado da marca entre coisas a evitar
+CS-669;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-670;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-671;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-672;neutro;relacao_com_franqueados;nao;alta;Notícia sobre alerta a candidatos a franquia
+CS-673;neutro;relacao_com_franqueados;nao;alta;Notícia sobre o caso e franquias
+CS-674;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-675;negativo;outro;nao;media;Considera presente da marca ruim
+CS-676;positivo;outro;nao;media;Deseja café da marca
+CS-677;neutro;outro;nao;baixa;Menciona a loja sem avaliar
+CS-678;positivo;outro;nao;alta;Diz amar o fondue da marca
+CS-679;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-680;neutro;outro;nao;baixa;Conta que resistiu a comprar na loja
+CS-681;positivo;outro;nao;media;Deseja fondue da marca
+CS-682;positivo;outro;nao;alta;Diz que os chocolates da marca são bons
+CS-683;positivo;outro;nao;media;Valoriza bombom da marca como brinde
+CS-684;fora_do_tema;outro;nao;alta;Não fala da marca
+CS-685;positivo;outro;nao;alta;Chama a trufa da marca de deliciosa
+CS-686;negativo;seita_rituais;sim;alta;Ironiza a seita para criar sabores
+CS-687;neutro;humor_meme;nao;baixa;Piada sobre estereótipo de consumo
+CS-688;positivo;outro;nao;media;Diz que o chocolate da marca é gostoso
+CS-689;positivo;outro;nao;media;Deseja fondue da marca
+CS-690;positivo;outro;nao;media;Elogia ajuda de funcionária da loja
+CS-691;fora_do_tema;outro;nao;media;Usa a marca como metáfora sem avaliá-la
+CS-692;positivo;outro;nao;baixa;Comemora certificado da marca

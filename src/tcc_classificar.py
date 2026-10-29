@@ -158,13 +158,25 @@ def classificar(caso: str, provider: str, modelo: str | None, estimar: bool) -> 
     posts["texto_sha1"] = posts["texto_integral"].fillna("").map(
         lambda t: hashlib.sha1(" ".join(t.split()).encode("utf-8")).hexdigest())
     sha_por_id = dict(zip(posts["id"], posts["texto_sha1"]))
+    # O cache é indexado pelo TEXTO do post (hash), não pelo id: quando a montagem é refeita e os
+    # ids mudam (TB-077 vira TB-081), o post continua reconhecido e não é classificado de novo.
     cache: dict[str, dict] = {}
+    por_texto: dict[str, dict] = {}
     if cache_path.exists():
         for ln in cache_path.read_text(encoding="utf-8").splitlines():
             r = json.loads(ln)
-            if (r["prompt_sha256"] == sha and r["modelo"] == modelo
-                    and sha_por_id.get(r["id"]) == r.get("texto_sha1")):
-                cache[r["id"]] = r
+            if r["prompt_sha256"] == sha and r["modelo"] == modelo and r.get("texto_sha1"):
+                por_texto.setdefault(r["texto_sha1"], r)
+    reaproveitados = 0
+    for pid, tsha in sha_por_id.items():
+        if tsha in por_texto:
+            r = dict(por_texto[tsha])
+            if r["id"] != pid:
+                reaproveitados += 1
+            r["id"] = pid
+            cache[pid] = r
+    if reaproveitados:
+        print(f"{reaproveitados} posts reconhecidos pelo texto (id mudou na nova montagem); classificação reaproveitada.")
 
     if estimar:
         n_lotes = -(-len(posts) // tam)
@@ -181,9 +193,9 @@ def classificar(caso: str, provider: str, modelo: str | None, estimar: bool) -> 
     # execuções (essencial no modo manual, em que as respostas chegam aos poucos).
     man_path = pasta / f"lotes_{modelo}_{sha[:8]}.json"
     manifesto = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {"lotes": []}
-    no_manifesto = {i for l in manifesto["lotes"] for i in l["ids"]}
-    if manifesto["lotes"] and (no_manifesto != set(posts["id"])
-                               or manifesto.get("texto_sha1") != sha_por_id):
+    # a base mudou se o conjunto de posts (com seus textos) não é o mesmo do sorteio dos lotes;
+    # os lotes guardam só os pendentes, por isso a comparação usa o retrato completo da base
+    if manifesto["lotes"] and manifesto.get("texto_sha1") != sha_por_id:
         arq = pasta / f"arquivado_{datetime.now():%Y%m%d_%H%M%S}"
         arq.mkdir()
         for f in list(pasta.glob("t*_lote*.txt")) + [man_path]:
