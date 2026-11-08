@@ -11,6 +11,7 @@ medir  compara com a classificação da IA: concordância, kappa de Cohen com
 Uso:
   python src/tcc_validar.py gerar --caso tania_bulhoes
   # preencha dados/<caso>/validacao/<caso>_validacao_cega.xlsx
+  #   ou a planilha única dados/validacao_cega_sarah.xlsx (uma aba por caso)
   python src/tcc_validar.py medir --caso tania_bulhoes
 """
 
@@ -66,6 +67,10 @@ def interpretar(k: float) -> str:  # Landis & Koch (1977)
         if k <= lim:
             return txt
     return "quase perfeita"
+
+
+# Se existir, `medir` lê desta planilha única (uma aba por caso, com o nome do caso) em vez da do caso.
+ARQUIVO_UNICO = "validacao_cega_sarah.xlsx"
 
 
 def _paths(caso: str) -> tuple[Path, Path]:
@@ -141,7 +146,19 @@ def _tabela_metricas(h: list[str], m: list[str]) -> pd.DataFrame:
 def medir(caso: str) -> None:
     out = proto.tcc_dir(caso)
     d, xlsx = _paths(caso)
-    hum = pd.read_excel(xlsx, sheet_name="rotular", dtype=str).fillna("")
+    unico = proto.TCC_ROOT / ARQUIVO_UNICO
+    if unico.exists():  # planilha única para a pesquisadora, uma aba por caso
+        nome = proto.carregar(caso)["nome"]
+        abas = pd.ExcelFile(unico).sheet_names
+        # a aba usa o nome curto do caso ("Colgate" para "Colgate Total Clean Mint")
+        aba = nome if nome in abas else next((a for a in abas if not a.startswith("Crit")
+                                               and nome.startswith(a)), None)
+        if aba is None:
+            sys.exit(f"Não achei a aba de {nome} em {unico} (abas: {', '.join(abas)})")
+        print(f"Lendo a aba \"{aba}\" de {unico}")
+        hum = pd.read_excel(unico, sheet_name=aba, dtype=str).fillna("")
+    else:
+        hum = pd.read_excel(xlsx, sheet_name="rotular", dtype=str).fillna("")
     ia = pd.read_csv(out / f"{caso}_classificacao.csv", sep=";", encoding="utf-8-sig", dtype=str)
     fases = pd.read_csv(d / f"{caso}_validacao_ids.csv", sep=";", encoding="utf-8-sig", dtype=str)
     for c in ["sentimento_humano", "eixo_humano", "ironia_humano"]:

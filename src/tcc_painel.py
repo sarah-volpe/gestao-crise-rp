@@ -5,6 +5,7 @@ Lê, para cada caso em casos/:
   dados/<caso>/<caso>_posts_publico.csv     publicações SEM texto
   dados/<caso>/<caso>_volume_diario.csv     volume por dia
   dados/<caso>/<caso>_classificacao.csv     classificação da IA
+  dados/<caso>/<caso>_revisao.csv           correções da pesquisadora (se houver)
   dados/<caso>/<caso>_classificacao_meta.json, <caso>_montagem.json
   dados/<caso>/validacao/<caso>_validacao_resultado.json (se houver)
 
@@ -52,6 +53,37 @@ def _volume(v: str) -> tuple[int | None, bool]:
     return (int(v), False) if v.isdigit() else (None, False)
 
 
+REVISAO_COLS = ["sentimento", "eixo_tematico", "ironia"]
+
+
+def aplicar_revisao(posts: pd.DataFrame, arq: Path) -> tuple[pd.DataFrame, int]:
+    """Aplica as correções da pesquisadora (<caso>_revisao.csv) sobre a classificação da IA.
+
+    A revisão é identificada pelo link do post (x.com/i/status/<id>), que não muda quando a base é
+    remontada. O arquivo de classificação da IA não é alterado: o kappa da validação continua
+    medindo a IA, e o painel mostra o resultado já revisado.
+    """
+    rev = _ler_csv(arq)
+    if rev is None or rev.empty:
+        return posts, 0
+    rev["status"] = rev["link"].str.extract(r"status/(\d+)")[0]
+    posts = posts.copy()
+    posts["_status"] = posts["link"].str.extract(r"status/(\d+)")[0]
+    n = 0
+    for r in rev.dropna(subset=["status"]).itertuples():
+        alvo = posts["_status"] == r.status
+        if not alvo.any():
+            print(f"  revisão sem post correspondente na amostra: {r.link}")
+            continue
+        for c in REVISAO_COLS:
+            v = str(getattr(r, c, "") or "").strip()
+            if v and v != "nan":
+                posts.loc[alvo, c] = v
+        posts.loc[alvo, "justificativa"] = "Revisão da pesquisadora: " + str(r.motivo)
+        n += 1
+    return posts.drop(columns="_status"), n
+
+
 def montar_caso(caso: str) -> dict:
     cfg = proto.carregar(caso)
     d = proto.TCC_ROOT / caso
@@ -74,6 +106,7 @@ def montar_caso(caso: str) -> dict:
     cla = _ler_csv(d / f"{caso}_classificacao.csv")
     if cla is not None:
         posts = posts.merge(cla, on="id", how="left")
+        posts, base["revisoes"] = aplicar_revisao(posts, d / f"{caso}_revisao.csv")
         base["status"] = "classificado" if posts["sentimento"].notna().all() else "classificacao_parcial"
         base["classificacao"] = _ler_json(d / f"{caso}_classificacao_meta.json")
         if base["classificacao"]:
@@ -117,6 +150,10 @@ def montar_caso(caso: str) -> dict:
             for r in cl[cl["sentimento"] != "fora_do_tema"].nlargest(8, "eng").itertuples()
         ]
     base["validacao"] = _ler_json(d / "validacao" / f"{caso}_validacao_resultado.json")
+    # validação feita mas desconsiderada (ex.: critérios diferentes do livro de códigos)
+    nota = _ler_json(d / "validacao" / f"{caso}_validacao_desconsiderada.json")
+    if nota and not base["validacao"]:
+        base["validacao_desconsiderada"] = nota.get("motivo")
     return base
 
 

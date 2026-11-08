@@ -483,11 +483,14 @@ function visaoCaso(caso) {
     [["Sentimento", "sentimento"], ["Eixo temático", "eixo_tematico"], ["Ironia", "ironia"]].filter(([, c]) => v[c]).map(([nome, c]) => [
       nome, v[c].kappa.toFixed(2).replace(".", ","), `${v[c].ic95[0].toFixed(2)} a ${v[c].ic95[1].toFixed(2)}`.replaceAll(".", ","),
       fmtPct(v[c].concordancia * 100), v[c].interpretacao, fmtN(v[c].n)]), [1, 3, 5])
-    : el("p", { class: "vazio", text: "A pesquisadora ainda não classificou a amostra de validação." });
+    : el("p", { class: "vazio", text: caso.validacao_desconsiderada
+        ? "Validação desconsiderada neste caso: " + caso.validacao_desconsiderada
+        : "A pesquisadora ainda não classificou a amostra de validação." });
   const meta = caso.classificacao || {}, mont = caso.montagem || {};
   const reg = [
     ["Modelo de IA", meta.modelo || "–"],
     ["Prompt (SHA-256)", meta.prompt_sha256 ? meta.prompt_sha256.slice(0, 16) + "…" : "–"],
+    ["Revisões da pesquisadora", caso.revisoes ? `${fmtN(caso.revisoes)} publicações corrigidas` : "nenhuma"],
     ["Classificação em", meta.ultima_classificacao ? ddmmaa(meta.ultima_classificacao.slice(0, 10)) : "–"],
     ["Coleta em", mont.coleta_ate && mont.coleta_ate !== "legado" ? ddmmaa(String(mont.coleta_ate).slice(0, 10)) : (mont.coleta_ate || "–")],
     ["Publicações excluídas", mont.posts_validos != null ? `${fmtN((mont.excluido_anuncio || 0) + (mont.excluido_retuite || 0) + (mont.excluido_idioma_nao_pt || 0))} (anúncio, retuíte, outro idioma)` : "–"],

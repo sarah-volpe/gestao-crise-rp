@@ -1,0 +1,33 @@
+{
+  "n": 59,
+  "sentimento": {
+    "n": 59,
+    "kappa": 0.865,
+    "ic95": [
+      0.739,
+      0.971
+    ],
+    "concordancia": 0.915,
+    "interpretacao": "quase perfeita"
+  },
+  "eixo_tematico": {
+    "n": 30,
+    "kappa": 0.457,
+    "ic95": [
+      0.288,
+      0.631
+    ],
+    "concordancia": 0.567,
+    "interpretacao": "moderada"
+  },
+  "ironia": {
+    "n": 30,
+    "kappa": 0.0,
+    "ic95": [
+      0.0,
+      1.0
+    ],
+    "concordancia": 0.933,
+    "interpretacao": "pobre"
+  }
+}

@@ -93,9 +93,48 @@ script calcula:
 - matriz de confusão e precisão e recall por classe;
 - kappa por fase e lista das divergências.
 
+### Resultado da validação (07/11/2026)
+
+| caso | n | concordância | kappa de sentimento (IC 95%) | leitura |
+|---|---|---|---|---|
+| Colgate | 59 | 91,5% | 0,865 (0,739 a 0,971) | quase perfeita |
+| Cacau Show | 83 | 73,5% | 0,628 (0,492 a 0,749) | substancial |
+| Colgate + Cacau Show | 142 | 81,0% | 0,725 (0,633 a 0,811) | substancial |
+| Tânia Bulhões | 50 | — | desconsiderada | — |
+
+- **Tânia Bulhões desconsiderada:** a pesquisadora usou "fora do tema" para menções
+  de passagem e piadas com o nome da marca, que o livro de códigos define como
+  `neutro`. Com regras diferentes, o kappa não mede concordância entre leituras
+  comparáveis. A planilha preenchida fica guardada, fora do repositório.
+- **Onde as leituras divergiram (Cacau Show, 22 posts):** principalmente menções de
+  passagem que a pesquisadora leu como fora do tema e a IA como neutras ou
+  positivas, e comentários sobre o caso que ela leu como negativos e a IA como
+  neutros.
+- **Ironia na Colgate:** concordância de 93,3% com kappa 0,000. Quase nenhum post
+  é irônico, e com uma classe tão rara o kappa fica instável (paradoxo do kappa);
+  vale relatar a concordância simples junto.
+- A classificação da IA comparada aqui é a provisória
+  (`claude-opus-5-5_provisorio`). Se ela for refeita, rode o `medir` de novo.
+
 Interpretação do kappa (Landis; Koch, 1977): até 0,20 leve; 0,21–0,40
 razoável; 0,41–0,60 moderada; 0,61–0,80 substancial; acima de 0,80 quase
 perfeita.
+
+### Revisão de publicações pela pesquisadora
+
+Quando a pesquisadora encontra um erro da IA ao conferir o painel, a correção
+vai para `dados/<caso>/<caso>_revisao.csv` (link do post, classe correta e
+motivo). O painel mostra o resultado já revisado e o número de revisões. O
+arquivo da IA (`<caso>_classificacao.csv`) não muda, porque o kappa mede a
+concordância com a IA antes de qualquer correção.
+
+Decisões de leitura tomadas na revisão (valem para os três casos e para a
+validação):
+- **Fala da marca, mas não da crise** (ex.: crítica a um produto sem relação
+  com as denúncias): continua com o sentimento sobre a marca. `fora_do_tema`
+  é só para o que não fala da marca.
+- **Notícia que apenas informa** continua `neutro`, mesmo que a notícia seja
+  ruim para a marca: a classificação mede a opinião de quem publica.
 
 ## 6. Limitações a declarar
 
