@@ -97,19 +97,24 @@ script calcula:
 
 | caso | n | concordância | kappa de sentimento (IC 95%) | leitura |
 |---|---|---|---|---|
+| Tânia Bulhões | 50 | 78,0% | 0,664 (0,474 a 0,826) | substancial |
 | Colgate | 59 | 91,5% | 0,865 (0,739 a 0,971) | quase perfeita |
 | Cacau Show | 83 | 73,5% | 0,628 (0,492 a 0,749) | substancial |
-| Colgate + Cacau Show | 142 | 81,0% | 0,725 (0,633 a 0,811) | substancial |
-| Tânia Bulhões | 50 | — | desconsiderada | — |
+| **Três casos** | **192** | **80,2%** | **0,728 (0,649 a 0,800)** | **substancial** |
 
-- **Tânia Bulhões desconsiderada:** a pesquisadora usou "fora do tema" para menções
-  de passagem e piadas com o nome da marca, que o livro de códigos define como
-  `neutro`. Com regras diferentes, o kappa não mede concordância entre leituras
-  comparáveis. A planilha preenchida fica guardada, fora do repositório.
-- **Onde as leituras divergiram (Cacau Show, 22 posts):** principalmente menções de
-  passagem que a pesquisadora leu como fora do tema e a IA como neutras ou
-  positivas, e comentários sobre o caso que ela leu como negativos e a IA como
-  neutros.
+- **Tânia Bulhões refeita:** na primeira rodada, a pesquisadora usou "fora do
+  tema" para menções de passagem e piadas com o nome da marca, que o livro de
+  códigos define como `neutro` (24% da amostra como fora do tema, contra cerca de
+  4% da IA). Como as duas leituras não seguiam as mesmas regras, essa rodada foi
+  descartada e a amostra foi classificada de novo pelo livro de códigos, ainda sem
+  ver a resposta da IA. Limitação a declarar: na segunda rodada a pesquisadora já
+  conhecia a amostra.
+- **Kappa por fase com poucos posts não tem leitura:** a pré-crise da Tânia
+  Bulhões tem 1 post na amostra (kappa 1,000 sem significado).
+- **Onde as leituras divergiram:** na Cacau Show, menções de passagem que a
+  pesquisadora leu como fora do tema e a IA como neutras ou positivas, e
+  comentários sobre o caso que ela leu como negativos e a IA como neutros; na Tânia
+  Bulhões, a fronteira entre negativo e neutro (8 dos 11 casos).
 - **Ironia na Colgate:** concordância de 93,3% com kappa 0,000. Quase nenhum post
   é irônico, e com uma classe tão rara o kappa fica instável (paradoxo do kappa);
   vale relatar a concordância simples junto.
