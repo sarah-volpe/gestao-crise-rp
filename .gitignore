@@ -18,9 +18,12 @@ dados/*/*_posts.csv
 dados/*/classificacao/
 dados/*/validacao/*.xlsx
 dados/*/validacao/*_divergencias.csv
+# revisões apontam o link do post (reidentifica o autor)
+dados/*/*_revisao.csv
 
 # --- local, não versionar ---
 _to_delete/
 .claude/
 logs_*.txt
 .sessao_x/
+dados/validacao_cega_sarah.xlsx

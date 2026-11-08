@@ -160,6 +160,8 @@ python src\tcc_validar.py gerar --caso tania_bulhoes
 ```
 
 1. Abra `dados\tania_bulhoes\validacao\tania_bulhoes_validacao_cega.xlsx`.
+   Para mandar tudo de uma vez, use `dados\validacao_cega_sarah.xlsx`: uma aba por caso, com
+   as instruções e os critérios. Se esse arquivo existir, o `medir` lê dele (aba com o nome do caso).
 2. A pesquisadora preenche sentimento, eixo e ironia de cada linha,
    seguindo a aba "critérios". **Não abra a classificação da IA antes de
    terminar**: ver a resposta da IA influencia o julgamento e invalida o
@@ -172,6 +174,20 @@ python src\tcc_validar.py medir --caso tania_bulhoes
 
 O resultado (kappa, matriz de confusão e divergências) fica em
 `dados\tania_bulhoes\validacao\`.
+
+### Corrigir uma publicação classificada errado
+
+Abra `dados\<caso>\<caso>_revisao.csv` (crie se não existir) e acrescente
+uma linha por correção:
+
+```
+link;sentimento;eixo_tematico;ironia;motivo;data_revisao
+https://x.com/i/status/1879945590592926201;neutro;humor_meme;nao;Só reage ao meme;2026-10-30
+```
+
+Deixe vazio o que não muda. Depois rode o passo 7. A classificação da IA não
+é alterada (o kappa continua medindo a IA); o painel mostra o resultado
+revisado.
 
 ## 7. Atualizar o painel
 

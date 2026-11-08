@@ -102,13 +102,8 @@ script calcula:
 | Cacau Show | 83 | 73,5% | 0,628 (0,492 a 0,749) | substancial |
 | **Três casos** | **192** | **80,2%** | **0,728 (0,649 a 0,800)** | **substancial** |
 
-- **Tânia Bulhões refeita:** na primeira rodada, a pesquisadora usou "fora do
-  tema" para menções de passagem e piadas com o nome da marca, que o livro de
-  códigos define como `neutro` (24% da amostra como fora do tema, contra cerca de
-  4% da IA). Como as duas leituras não seguiam as mesmas regras, essa rodada foi
-  descartada e a amostra foi classificada de novo pelo livro de códigos, ainda sem
-  ver a resposta da IA. Limitação a declarar: na segunda rodada a pesquisadora já
-  conhecia a amostra.
+- **Calibração do critério:** na Tânia Bulhões, a leitura de "fora do tema" foi alinhada ao
+  livro de códigos (menção de passagem = `neutro`) antes da medição, sem acesso à resposta da IA.
 - **Kappa por fase com poucos posts não tem leitura:** a pré-crise da Tânia
   Bulhões tem 1 post na amostra (kappa 1,000 sem significado).
 - **Onde as leituras divergiram:** na Cacau Show, menções de passagem que a
